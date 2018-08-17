@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemTimeOfDayQuarter" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.ImageOrGlyphView android:id="@id/imgTimeOfDay" polar:drawable="?exeIconTimeOfDay" polar:glyph="@string/glyph_time_of_day" style="@style/DisplayItemStyle.Image.WithMargin" />
+    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+        <TextView android:id="@id/textTimeOfDay" style="@style/ItemTextStyle.Primary.Quarter" />
+    </FrameLayout>
+    <TextView android:id="@id/textAmPm" style="@style/ItemTextStyle.Units" />
+</LinearLayout>

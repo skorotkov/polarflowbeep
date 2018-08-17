@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemFatConsumption" android:background="?colorItemFatConsumptionBackground" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/imgFatConsumption" polar:glyph="@string/glyph_fat_consumption" polar:glyphSize="@dimen/item_quarter_image_view_size" style="@style/DisplayItemStyle.Image.WithMargin" />
+    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+        <TextView android:id="@id/textFatConsumption" android:text="@string/exe_view_fat_consumption_unknown" style="@style/ItemTextStyle.Primary.Quarter" />
+    </FrameLayout>
+    <TextView android:id="@id/textUnitsFatConsumption" android:text="@string/exe_view_percentage_of_max_1_row" style="@style/ItemTextStyle.Units" />
+</LinearLayout>

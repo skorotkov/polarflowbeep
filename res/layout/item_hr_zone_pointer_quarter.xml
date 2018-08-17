@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/itemHrZonePointerQuarter" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/hr_zone_pointer_levels" />
+    <include layout="@layout/hr_zone_pointer_hearts" />
+</FrameLayout>

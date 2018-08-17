@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemCadenceHalf" style="@style/DisplayItemStyle.Layout.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textCadenceTitle" android:text="@string/exe_view_running_cadence_1_row" style="@style/ItemTextStyle.Title.Half.WithMargins" />
+    <LinearLayout style="@style/DisplayItemStyle.Layout.Horizontal">
+        <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+            <TextView android:id="@id/textCadence" android:text="@string/exe_view_one_digit_default" style="@style/ItemTextStyle.Primary.Half" />
+        </FrameLayout>
+        <TextView android:id="@id/textCadenceUnits" style="@style/ItemTextStyle.Units" />
+    </LinearLayout>
+</LinearLayout>

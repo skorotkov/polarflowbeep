@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/itemPhaseTargetName" android:background="?colorPhaseTargetNameItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/phased_training_target_name_name_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/targetGlyph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/phased_training_target_name_glyph_margin" polar:glyph="@string/glyph_phased_training" polar:glyphSize="@dimen/phased_training_target_name_glyph_size" />
+    <TextView android:id="@id/phaseTargetName" style="@style/ItemTextStyle.TrainingTargetText.PhaseTargetName" />
+</LinearLayout>

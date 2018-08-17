@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fi.polar.polarflow.ui.custom.ScrollGravityListItemLayout android:id="@id/mydaySleepRating" polar:forwardScrollGravity="end" polar:backwardScrollGravity="start" style="@style/MyDayItemStyle.CardContainerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.myday.item.sleeprating.SleepRatingGlyphsView android:id="@id/sleepRatingGlyphs" android:backgroundTint="@color/myday_item_sleep_result_card_color" style="@style/MyDayItemStyle.CardLayout.SleepRating" />
+</fi.polar.polarflow.ui.custom.ScrollGravityListItemLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_01" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_03" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_05" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_07" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_09" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_11" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_13" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_15" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_17" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_19" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_21" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_23" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_25" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_27" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_29" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_31" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_33" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_35" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_37" />
+    <item android:duration="50" android:drawable="@drawable/search_animation_green_39" />
+</animation-list>

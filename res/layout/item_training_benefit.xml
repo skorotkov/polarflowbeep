@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemTrainingBenefit" style="@style/DisplayItemStyle.Layout.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textTrainingBenefit" style="@style/ItemTextStyle.SummaryTrainingBenefit" />
+    <TextView android:id="@id/textTrainingBenefitDescription" style="@style/ItemTextStyle.SummaryTrainingBenefitDescription" />
+</LinearLayout>

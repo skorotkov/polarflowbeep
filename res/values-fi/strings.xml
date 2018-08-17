@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Siirry etusivulle</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Siirry ylös</string>
+    <string name="abc_action_menu_overflow_description">Lisää</string>
+    <string name="abc_action_mode_done">Valmis</string>
+    <string name="abc_activity_chooser_view_see_all">Näytä kaikki</string>
+    <string name="abc_activitychooserview_choose_application">Valitse sovellus</string>
+    <string name="abc_capital_off">POIS KÄYTÖSTÄ</string>
+    <string name="abc_capital_on">KÄYTÖSSÄ</string>
+    <string name="abc_search_hint">Haku…</string>
+    <string name="abc_searchview_description_clear">Tyhjennä kysely</string>
+    <string name="abc_searchview_description_query">Hakulauseke</string>
+    <string name="abc_searchview_description_search">Haku</string>
+    <string name="abc_searchview_description_submit">Lähetä kysely</string>
+    <string name="abc_searchview_description_voice">Puhehaku</string>
+    <string name="abc_shareactionprovider_share_with">Jakaminen:</string>
+    <string name="abc_shareactionprovider_share_with_application">Jakaminen: %s</string>
+    <string name="abc_toolbar_collapse_description">Kutista</string>
+    <string name="common_google_play_services_enable_button">Ota käyttöön</string>
+    <string name="common_google_play_services_enable_text">%1$s ei toimi, ellet ota Google Play Palveluita käyttöön.</string>
+    <string name="common_google_play_services_enable_title">Ota Google Play Palvelut käyttöön</string>
+    <string name="common_google_play_services_install_button">Asenna</string>
+    <string name="common_google_play_services_install_text">%1$s ei toimi ilman Google Play Palveluita, jotka puuttuvat laitteeltasi.</string>
+    <string name="common_google_play_services_install_title">Asenna Google Play Palvelut</string>
+    <string name="common_google_play_services_notification_ticker">Virhe Google Play -palveluissa</string>
+    <string name="common_google_play_services_unknown_issue">Sovelluksella %1$s on ongelmia Google Play Palveluiden kanssa. Yritä uudelleen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ei toimi ilman Google Play Palveluita, joita laitteesi ei tue.</string>
+    <string name="common_google_play_services_update_button">Päivitä</string>
+    <string name="common_google_play_services_update_text">%1$s ei toimi, ellet päivitä Google Play Palveluita.</string>
+    <string name="common_google_play_services_update_title">Päivitä Google Play Palvelut</string>
+    <string name="common_google_play_services_updating_text">%1$s ei toimi ilman Google Play Palveluita, joita päivitetään tällä hetkellä.</string>
+    <string name="common_google_play_services_wear_update_text">Uusi Google Play Palveluiden versio tarvitaan. Se päivittyy pian.</string>
+    <string name="common_open_on_phone">Avaa puhelimessa</string>
+    <string name="common_signin_button_text">Kirjaudu sisään</string>
+    <string name="common_signin_button_text_long">Kirjaudu Google-tilille</string>
+    <string name="search_menu_title">Haku</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="buttons_rect_bottom_center">Alareunassa</string>
+    <string name="buttons_rect_bottom_left">Alavasemmalla</string>
+    <string name="buttons_rect_bottom_right">Alaoikealla</string>
+    <string name="buttons_rect_left_bottom">Vasemmalla alhaalla</string>
+    <string name="buttons_rect_left_center">Keskellä vasemmalla</string>
+    <string name="buttons_rect_left_top">Vasemmalla ylhäällä</string>
+    <string name="buttons_rect_right_bottom">Oikealla alhaalla</string>
+    <string name="buttons_rect_right_center">Keskellä oikealla</string>
+    <string name="buttons_rect_right_top">Oikealla ylhäällä</string>
+    <string name="buttons_rect_top_center">Yläreunassa</string>
+    <string name="buttons_rect_top_left">Ylävasemmalla</string>
+    <string name="buttons_rect_top_right">Yläoikealla</string>
+    <string name="buttons_round_bottom_center">Alhaalla</string>
+    <string name="buttons_round_bottom_left">Alavasemmalla</string>
+    <string name="buttons_round_bottom_left_lower">Alavasemmalla alempana</string>
+    <string name="buttons_round_bottom_left_upper">Alavasemmalla ylempänä</string>
+    <string name="buttons_round_bottom_right">Alaoikealla</string>
+    <string name="buttons_round_bottom_right_lower">Alaoikealla alempana</string>
+    <string name="buttons_round_bottom_right_upper">Alaoikealla ylempänä</string>
+    <string name="buttons_round_center_left">Keskellä vasemmalla</string>
+    <string name="buttons_round_center_right">Keskellä oikealla</string>
+    <string name="buttons_round_top_center">Ylhäällä</string>
+    <string name="buttons_round_top_left">Ylävasemmalla</string>
+    <string name="buttons_round_top_left_lower">Ylävasemmalla alempana</string>
+    <string name="buttons_round_top_left_upper">Ylävasemmalla oikealla</string>
+    <string name="buttons_round_top_right">Yläoikealla</string>
+    <string name="buttons_round_top_right_lower">Yläoikealla alempana</string>
+    <string name="buttons_round_top_right_upper">Yläoikealla ylempänä</string>
+    <string name="dismiss_overlay_button_label">Lopeta</string>
+    <string name="generic_cancel">Peruuta</string>
+    <string name="generic_yes">Kyllä</string>
+    <string name="navigation_drawer_content_description">Navigoinnin vetopaneeli</string>
+    <string name="time_difference_now">Nyt</string>
+    <string name="time_difference_short_days_and_hours">%1$s %2$s</string>
+    <string name="time_difference_short_hours_and_minutes">%1$s %2$s</string>
+    <string name="battery_saver_on_card_3_rows">Virran­säästö on päällä. Sijainnin seuranta pysäytetty.</string>
+    <string name="battery_saver_on_toast_2_rows">Virran­säästö on päällä. Sijainnin seuranta pysäytetty.</string>
+    <string name="ble_sensor_connected_1_row">%1$s yhdistetty</string>
+    <string name="ble_sensor_pairing_confirmation_2_rows">"Yhdistä
+%1$s?"</string>
+    <string name="exe_summary_feedback_names__01_3_rows">Maksimiharjoitus +</string>
+    <string name="exe_summary_feedback_names__02_3_rows">Maksimiharjoitus</string>
+    <string name="exe_summary_feedback_names__03_3_rows">Maksimi- ja kova­tehoinen harjoitus</string>
+    <string name="exe_summary_feedback_names__04_3_rows">Kovatehoi­nen ja maksimi­harjoitus</string>
+    <string name="exe_summary_feedback_names__05_3_rows">Kovatehoinen harjoitus +</string>
+    <string name="exe_summary_feedback_names__06_3_rows">Kovatehoinen harjoitus</string>
+    <string name="exe_summary_feedback_names__07_3_rows">Kova- ja keski­tehoinen harjoitus</string>
+    <string name="exe_summary_feedback_names__08_3_rows">Keski- ja kova­tehoi­nen harjoitus</string>
+    <string name="exe_summary_feedback_names__09_3_rows">Keskitehoinen harjoitus+</string>
+    <string name="exe_summary_feedback_names__10_3_rows">Keskitehoinen harjoitus</string>
+    <string name="exe_summary_feedback_names__11_3_rows">Keskitehoi­nen ja perus­harjoitus, pitkä</string>
+    <string name="exe_summary_feedback_names__12_3_rows">Keskitehoi­nen ja perus­harjoitus</string>
+    <string name="exe_summary_feedback_names__13_3_rows">Perus- ja keski­tehoinen harjoitus, pitkä</string>
+    <string name="exe_summary_feedback_names__14_3_rows">Perus- ja keski­tehoinen harjoitus</string>
+    <string name="exe_summary_feedback_names__15_3_rows">Perusharjoitus, pitkä</string>
+    <string name="exe_summary_feedback_names__16_3_rows">Perusharjoitus</string>
+    <string name="exe_summary_feedback_names__17_3_rows">Palauttava harjoitus</string>
+    <string name="exe_summary_start_date_and_time_1_row">%1$s %2$s</string>
+    <string name="exe_summary_styles_backstrocke">Selkäuinti</string>
+    <string name="exe_summary_styles_breaststroke">Rintauinti</string>
+    <string name="exe_summary_styles_butterfly">Perhosuinti</string>
+    <string name="exe_summary_styles_freestyle">Vapaauinti</string>
+    <string name="exe_summary_styles_other">Muu tyyli</string>
+    <string name="exe_summary_swimming_rest_time">Lepoaika</string>
+    <string name="exe_summary_swimming_styles">Tyylit</string>
+    <string name="exe_target_calorie_cal_reached_4_rows">Olet saavuttanut tavoitteen %1$s cal!</string>
+    <string name="exe_target_calorie_kcal_reached_4_rows">Olet saavuttanut tavoitteen %1$s kcal!</string>
+    <string name="exe_target_distance_km_reached_4_rows">Olet saavuttanut tavoitteen %1$s km!</string>
+    <string name="exe_target_distance_mi_reached_4_rows">Olet saavuttanut tavoitteen %1$s mi!</string>
+    <string name="exe_target_doubled_4_rows">Hienoa! Tavoitteesi kaksin­kertaistui!</string>
+    <string name="exe_target_duration_reached_4_rows">Olet saavuttanut tavoitteen %1$s!</string>
+    <string name="exe_target_phase_multi_zone_1_row">Alueet %1$d-%2$d</string>
+    <string name="exe_target_phase_no_limits_1_row">Ei rajoja</string>
+    <string name="exe_target_phase_single_zone_1_row">Alue %1$d</string>
+    <string name="exe_target_phased_training_completed_2_rows">%1$s suoritettu</string>
+    <string name="exe_target_reached_already_1_row">Saavutettu</string>
+    <string name="exe_target_select_favorite_1_row">Valitse suosikki</string>
+    <string name="exe_target_select_target_1_row">Valitse tavoite</string>
+    <string name="exe_target_your_target_1_row">Tavoitteesi</string>
+    <string name="exe_view_Altitude_1_row">Korkeus</string>
+    <string name="exe_view_alap_ascent">A.kierr. nousu</string>
+    <string name="exe_view_alap_avg_heartrate_1_row">A.kierr. ka.syke</string>
+    <string name="exe_view_alap_avg_pace_1_row">A.kierr.ka.vauhti</string>
+    <string name="exe_view_alap_avg_speed_1_row">A.kierr.keskinop.</string>
+    <string name="exe_view_alap_descent">A.kierr. lasku</string>
+    <string name="exe_view_alap_distance_1_row">A.kierr. pituus</string>
+    <string name="exe_view_alap_max_heartrate_1_row">A.kierr.maks.syke</string>
+    <string name="exe_view_alap_max_pace_1_row">A.kier.maks.vauh</string>
+    <string name="exe_view_alap_max_speed_1_row">A.kierr.maks.nop</string>
+    <string name="exe_view_ascent">Nousu</string>
+    <string name="exe_view_automatic_lap_1_row">Autom.kierros %1$d</string>
+    <string name="exe_view_automatic_lap_header_1_row">Autom. kierros %1$d</string>
+    <string name="exe_view_automatic_lap_running_cadence_avg_1_row">A.kierr.ka.ask.tih.</string>
+    <string name="exe_view_automatic_lap_running_cadence_max_1_row">A.kier.maks.ask.tih.</string>
+    <string name="exe_view_avg_1_row">KA.</string>
+    <string name="exe_view_avg_heartrate_1_row">Keskisyke</string>
+    <string name="exe_view_avg_pace_1_row">Keskivauhti</string>
+    <string name="exe_view_avg_running_cadence_1_row">Ka. askeltiheys</string>
+    <string name="exe_view_avg_speed_1_row">Keskinopeus</string>
+    <string name="exe_view_bpm_1_row">bpm</string>
+    <string name="exe_view_current_lap_running_cadence_avg_1_row">Kierr.ka.askeltih.</string>
+    <string name="exe_view_descent">Lasku</string>
+    <string name="exe_view_distance_1_row">Matka</string>
+    <string name="exe_view_distance_unit_km_1_row">km</string>
+    <string name="exe_view_distance_unit_m_1_row">m</string>
+    <string name="exe_view_duration_1_row">Kesto</string>
+    <string name="exe_view_feedback_1_row">Training Benefit</string>
+    <string name="exe_view_heartrate_1_row">Syke</string>
+    <string name="exe_view_heartrate_zones_1_row">Sykealueet</string>
+    <string name="exe_view_hr_not_in_zone_1_row">Alueiden ulkopuol.</string>
+    <string name="exe_view_item_label_calories_1_row">Kalorit</string>
+    <string name="exe_view_lap_ascent">Kierroks. nousu</string>
+    <string name="exe_view_lap_average_heart_rate_1_row">Kierr. keskisyke</string>
+    <string name="exe_view_lap_descent">Kierroks. lasku</string>
+    <string name="exe_view_lap_distance">Kierroks. pituus</string>
+    <string name="exe_view_lap_maximum_heart_rate_1_row">Kierr. maks.syke</string>
+    <string name="exe_view_lap_pace">Kierr. ka.vauhti</string>
+    <string name="exe_view_lap_pace_max">Kier.maks.vauhti</string>
+    <string name="exe_view_lap_running_cadence_max_1_row">Kierr.maks.ask.tih.</string>
+    <string name="exe_view_lap_speed">Kierr. keskinop.</string>
+    <string name="exe_view_lap_speed_max">Kierr. maks.nop.</string>
+    <string name="exe_view_lap_time">Kierrosaika %1$s</string>
+    <string name="exe_view_last_a_lap_time">Edel.aut.kier.aika</string>
+    <string name="exe_view_last_alap_HR_avg">Ed. A. kierr. ka.</string>
+    <string name="exe_view_last_alap_HR_max">Ed. A.kierr.maks.</string>
+    <string name="exe_view_last_alap_speed_avg">Ed. A. kierr. ka.</string>
+    <string name="exe_view_last_alap_speed_max">Ed. A.kierr.maks.</string>
+    <string name="exe_view_last_automatic_lap_distance_1_row">Ed.A.kierrospituus</string>
+    <string name="exe_view_last_lap_HR_avg">Ed.kierr.ka.syke</string>
+    <string name="exe_view_last_lap_distance">Ed. kierr. pituus</string>
+    <string name="exe_view_last_lap_maximum_heart_rate_1_row">Ed.kier.maks.syke</string>
+    <string name="exe_view_last_lap_maximum_speed_or_pace_1_row">Ed. kierr. maks.</string>
+    <string name="exe_view_last_lap_running_cadence_avg_1_row">Ed.kier.ka.ask.tih.</string>
+    <string name="exe_view_last_lap_speed_avg">Edell. kierr. ka.</string>
+    <string name="exe_view_last_lap_time">Edell. kierrosaika</string>
+    <string name="exe_view_manual_lap_header_1_row">Kierros %1$d</string>
+    <string name="exe_view_max_1_row">MAKS.</string>
+    <string name="exe_view_max_heartrate_1_row">Maksimisyke</string>
+    <string name="exe_view_max_pace_1_row">Maksimivauhti</string>
+    <string name="exe_view_max_running_cadence_1_row">Maks.askeltiheys</string>
+    <string name="exe_view_max_speed_1_row">Maksiminopeus</string>
+    <string name="exe_view_pace_1_row">Vauhti</string>
+    <string name="exe_view_pause">Keskeytä</string>
+    <string name="exe_view_rest_time">Lepoaika</string>
+    <string name="exe_view_running_cadence_1_row">Askeltiheys</string>
+    <string name="exe_view_running_index_2_rows">Running Index</string>
+    <string name="exe_view_running_index_name_01_1_row">Huippu</string>
+    <string name="exe_view_running_index_name_02_1_row">Erittäin hyvä</string>
+    <string name="exe_view_running_index_name_03_1_row">Hyvä</string>
+    <string name="exe_view_running_index_name_04_1_row">Keskitaso</string>
+    <string name="exe_view_running_index_name_05_1_row">Tyydyttävä</string>
+    <string name="exe_view_running_index_name_06_1_row">Matala</string>
+    <string name="exe_view_running_index_name_07_1_row">Heikko</string>
+    <string name="exe_view_save_short_session">Lyhyt harjoitus. Tallenna?</string>
+    <string name="exe_view_speed_1_row">Nopeus</string>
+    <string name="exe_view_swimming">Uinti</string>
+    <string name="exe_view_time_in_zone_1_row">Aika alueella %1$s</string>
+    <string name="exe_view_time_of_day_1_row">Kellonaika</string>
+    <string name="exe_view_training_load_01_1_row">Äärimmäinen</string>
+    <string name="exe_view_training_load_02_1_row">Erittäin rankka</string>
+    <string name="exe_view_training_load_03_1_row">Rankka</string>
+    <string name="exe_view_training_load_04_1_row">Kohtalainen</string>
+    <string name="exe_view_training_load_05_1_row">Kevyt</string>
+    <string name="exe_view_training_load_2_rows">Tämän har­joi­tuk­sen kuormitus</string>
+    <string name="exe_view_unit_cal_1_row">cal</string>
+    <string name="exe_view_unit_kcal_1_row">kcal</string>
+    <string name="exe_view_unit_min">min</string>
+    <string name="exe_view_unit_pace_min_per_km_1_row">min/km</string>
+    <string name="exe_view_unit_speed_km_per_hour_1_row">km/h</string>
+    <string name="exe_wait_activate_gopro_3_rows">Käytetään­kö GoPro-laitetta har­joi­tuk­sen aikana?</string>
+    <string name="exe_wait_activate_scheduled_training">"Käynnistetäänkö
+%1$s
+klo %2$s?"</string>
+    <string name="exe_wait_bluetooth_connection_device_with_friendly_name_5_rows">%1$s-yhteys ei on­nis­tu, koska M600 on yh­dis­tet­ty lait­tee­seen %2$s.</string>
+    <string name="exe_wait_bluetooth_connection_iOS_5_rows">%1$s-yhteys ei on­nis­tu, koska M600 on yh­dis­tet­ty mobiili­laitteeseen.</string>
+    <string name="exe_wait_bluetooth_connection_other_device_5_rows">%1$s-yhteys ei on­nis­tu, koska M600 on yh­dis­tet­ty toi­seen lait­tee­seen.</string>
+    <string name="exe_wait_choose_poollength_unit_m_1_row">Metrit</string>
+    <string name="exe_wait_choose_poollength_unit_yd_1_row">Jaardit</string>
+    <string name="exe_wait_enable_body_sensor_permission">Otetaanko sensorit käyttöön sovelluksessa?</string>
+    <string name="exe_wait_enable_location_permission">Otetaanko GPS käyttöön sovelluksessa?</string>
+    <string name="exe_wait_enable_location_service_1_row">Otetaanko sijaintipalvelut käyttöön?</string>
+    <string name="exe_wait_hr_sensor_off_3_rows">"%1$s
+ pois päältä."</string>
+    <string name="exe_wait_pool_length_heading_1_row">Altaan pituus</string>
+    <string name="exe_wait_pool_length_m">%1$d m</string>
+    <string name="exe_wait_pool_length_m_heading_1_row">Altaan pituus (m)</string>
+    <string name="exe_wait_pool_length_options_customize_1_row">Muokkaa</string>
+    <string name="exe_wait_pool_length_options_m_1_row">%1$d metriä</string>
+    <string name="exe_wait_pool_length_options_yd_1_row">%1$d jaardia</string>
+    <string name="exe_wait_pool_length_unit_yd">yd</string>
+    <string name="exe_wait_pool_length_yd">%1$d yd</string>
+    <string name="exe_wait_pool_length_yd_heading_1_row">Altaan pituus (yd)</string>
+    <string name="exe_wait_target_select_favorite_1_row">Valitse suosikki</string>
+    <string name="exe_wait_target_select_target_1_row">Valitse tavoite</string>
+    <string name="exercise_feedback_values__00">Saat harjoituk­ses­ta­si palaut­teen, kun harjoit­telet vähintään 10 minuut­tia niin, että sykkeesi on yli 50% maksi­mis­ta­si.</string>
+    <string name="exercise_feedback_values__01">"Hieno harjoitus!
+Kehitit sprintti­nopeuttasi ja lihastesi hermotusta, mikä parantaa suoritus­kykyäsi. Tämä harjoitus myös kehitti väsymyksen sietokykyäsi."</string>
+    <string name="exercise_feedback_values__02">"Hieno harjoitus!
+Kehitit sprintti­nopeuttasi ja lihastesi hermotusta, mikä parantaa suoritus­kykyäsi."</string>
+    <string name="exercise_feedback_values__03">"Hieno harjoitus!
+Kehitit nopeuttasi ja suorituskykyäsi. Tämä harjoitus kehitti myös huomattavasti aerobista kun­toasi ja kykyäsi harjoitella kovalla intensiteetil­lä pidempään."</string>
+    <string name="exercise_feedback_values__04">"Hieno harjoitus!
+Kehitit huomat­tavasti aerobis­ta kuntoasi ja kykyäsi harjoi­tella kovalla intensitee­tillä pidempään. Tämä harjoitus kehitti myös nopeuttasi ja suorituskykyäsi."</string>
+    <string name="exercise_feedback_values__05">"Mahtava vauhti pitkälle harjoitukselle!
+Kehitit aerobista kuntoasi, nopeuttasi ja kykyäsi harjoi­tella kovalla intensi­teetillä pidempään. Tämä harjoitus myös kehitti väsymyksen sietokykyäsi."</string>
+    <string name="exercise_feedback_values__06">"Mahtava vauhti!
+Kehitit aerobista kuntoasi, nope­uttasi ja kykyäsi harjoitella kovalla intensi­teetil­lä pidempään."</string>
+    <string name="exercise_feedback_values__07">"Hyvä vauhti!
+Kehitit kykyäsi harjoitella kovalla intensitee­tillä pidempään. Tämä harjoitus myös kehitti aerobista kun­toasi ja lihas­kestävyyttäsi."</string>
+    <string name="exercise_feedback_values__08">"Hyvä vauhti!
+Kehitit aerobista kuntoasi ja lihas­kestävyyttäsi. Tämä harjoitus myös kehitti kykyäsi harjoitella kovalla intensiteetillä pidempään."</string>
+    <string name="exercise_feedback_values__09">"Erinomaista!
+Tämä pitkä harjoitus kehitti lihas­kestävyyttäsi sekä aerobista kuntoasi. Se kehitti myös väsymyksen sietokykyäsi."</string>
+    <string name="exercise_feedback_values__10">"Erinomaista!
+Kehitit lihas­kestävyyttäsi sekä aerobista kuntoasi."</string>
+    <string name="exercise_feedback_values__11">"Erinomaista!
+Tämä pitkä harjoitus kehitti lihas­kestävyyttäsi sekä aerobista kuntoasi. Se myös kehitti perus­kestävyyttäsi ja kehosi kykyä polttaa rasvaa harjoituksen aikana."</string>
+    <string name="exercise_feedback_values__12">"Erinomaista!
+Kehitit lihas­kestävyyttäsi sekä aerobista kuntoasi. Tämä harjoitus myös kehitti perus­kestävyyttäsi ja kehosi kykyä polttaa rasvaa harjoituksen aikana."</string>
+    <string name="exercise_feedback_values__13">"Hienoa!
+Tämä pitkä harjoitus kehitti perus­kestävyyttäsi ja kehosi kykyä polttaa rasvaa harjoituksen aikana. Se myös kehitti lihas­kestävyyttäsi sekä aerobista kuntoasi."</string>
+    <string name="exercise_feedback_values__14">"Hienoa!
+Kehitit perus­kestävyyttäsi ja kehosi kykyä polttaa rasvaa harjoituksen aikana. Tämä harjoitus kehit­ti myös lihas­kes­tävyyt­täsi sekä ae­ro­bis­ta kun­to­a­si."</string>
+    <string name="exercise_feedback_values__15">"Hienoa!
+Tämä pitkä, alhaisen intensi­teetin harjoitus kehitti perus­kestävyyttäsi ja kehosi kykyä polttaa rasvaa harjoituksen aikana."</string>
+    <string name="exercise_feedback_values__16">"Hyvä!
+Tämä alhaisen intensiteetin harjoitus kehitti perus­kestävyyttäsi ja kehosi kykyä polttaa rasvaa harjoi­tuksen aikana."</string>
+    <string name="exercise_feedback_values__17">Oikein hyvä palautumis­harjoitus. Tällainen kevyt harjoittelu auttaa kehoasi sopeutumaan harjoitteluusi.</string>
+    <string name="fitnesstest_completed_1_row">"Testi suoritettu
+Kuntotaso: %1$
+Arvioitu VO2max:%2$"</string>
+    <string name="fitnesstest_failed_1_row">Testi epä­onnis­tui</string>
+    <string name="fitnesstest_failed_hr_notification">Tarkista, että syke­kiinn.­vyön muovi­pin­nat ovat kos­tu­tet­tu.</string>
+    <string name="fitnesstest_failed_ohr_notification">Tarkista, että M600 on napa­kas­ti ran­ne­luun ta­ka­na.</string>
+    <string name="fitnesstest_lie_down_2_rows">Asetu makuulle &amp; rentoudu</string>
+    <string name="fitnesstest_result_1_1_row">Huippu</string>
+    <string name="fitnesstest_result_2_1_row">Erittäin hyvä</string>
+    <string name="fitnesstest_result_3_1_row">Hyvä</string>
+    <string name="fitnesstest_result_4_1_row">Keskitaso</string>
+    <string name="fitnesstest_result_5_1_row">Tyydyttävä</string>
+    <string name="fitnesstest_result_6_1_row">Matala</string>
+    <string name="ftu_finish_installation">"Jatka
+Polar Flow’n käyttöä
+mobiili­laitteella."</string>
+    <string name="ftu_get_flow_app">Lataa Polar Flow -sovellus</string>
+    <string name="ftu_get_started_message">Lataa Polar Flow -sovel­lus mo­bii­li­lait­tee­seen pyyh­käi­se­mäl­lä va­sem­mal­le.</string>
+    <string name="ftu_get_started_message_iOS">"Lataa Polar Flow -sovellus
+mobiili­laitteeseen App Storesta."</string>
+    <string name="ftu_get_started_title">Aloita nyt</string>
+    <string name="ftu_installation_in_progress_3_rows">"Asennetaan
+Polar-sovellusta..."</string>
+    <string name="ftu_login_message">"Jatka
+Polar Flow’n käyttöä
+mobiili­laitteella."</string>
+    <string name="ftu_login_message_iOS">"Jatka
+Polar Flow’n käyttöä
+mobiili­laitteella."</string>
+    <string name="ftu_setting_up_3_rows">Otetaan käyttöön Polar M600...</string>
+    <string name="ftu_setup_complete_3_rows">Asetukset määritetty!</string>
+    <string name="gps_sensor_connected">GPS-signaali löydetty</string>
+    <string name="gps_sensor_not_connected">Odota paikallasi GPS-signaalia</string>
+    <string name="gps_sensor_signal_lost">GPS-signaali puuttuu</string>
+    <string name="main_menu_fitness_test_1_row">Kuntotesti</string>
+    <string name="main_menu_iOS_cancel_sync_3_rows">Peru synkronointi?</string>
+    <string name="main_menu_iOS_enable_BLE_3_rows">Ota Bluetooth käyttöön?</string>
+    <string name="main_menu_iOS_not_connected_2_rows">Mobiili­laite ei yhdistetty</string>
+    <string name="main_menu_iOS_reopen_flowapp_2_rows">Avaa Polar Flow -sovellus mobiili­laitteessa.</string>
+    <string name="main_menu_iOS_searching_2_rows">Etsitään</string>
+    <string name="main_menu_iOS_sync_failed_2_rows">Epäonnistui</string>
+    <string name="main_menu_iOS_sync_ok_2_rows">Suoritettu</string>
+    <string name="main_menu_iOS_synchronize_1_row">Synkronoi</string>
+    <string name="main_menu_iOS_syncing_2_rows">Synkronoidaan</string>
+    <string name="main_menu_my_heart_rate_1_row">Sykkeeni</string>
+    <string name="main_menu_settings_1_row">Asetukset</string>
+    <string name="main_menu_today_1_row">Päiväni</string>
+    <string name="main_menu_training_1_row">Harjoittelu</string>
+    <string name="main_menu_version_1_row">"Versio:
+%1$s"</string>
+    <string name="myday_item_HR_max_1_row">Maks.</string>
+    <string name="myday_item_HR_min_1_row">Min.</string>
+    <string name="myday_item_ToGo_01_2_rows">"%1$d h %2$d min
+kävelyä"</string>
+    <string name="myday_item_ToGo_02_2_rows">"%1$d h %2$d min
+jalkeilla"</string>
+    <string name="myday_item_ToGo_03_2_rows">"%1$d h %2$d min
+hölkkää"</string>
+    <string name="myday_item_ToGo_heading_1_row">Jäljellä</string>
+    <string name="myday_item_text_time_1_row">NYT</string>
+    <string name="myday_item_unit_cal_1_row">cal</string>
+    <string name="myday_item_unit_kcal_1_row">kcal</string>
+    <string name="myday_sleep_breakdown_1_row">Uni</string>
+    <string name="myday_sleep_card_3_rows">Avaa uni­yhteenveto?</string>
+    <string name="myday_sleep_continuity_scale1_2_rows">Katkonainen</string>
+    <string name="myday_sleep_continuity_scale2_2_rows">"Melko
+katkonainen"</string>
+    <string name="myday_sleep_continuity_scale3_2_rows">"Melko
+yhtenäinen"</string>
+    <string name="myday_sleep_continuity_scale4_2_rows">Yhtenäi­nen</string>
+    <string name="myday_sleep_continuity_scale5_2_rows">"Hyvin
+yhtenäinen"</string>
+    <string name="myday_sleep_duration_hours_mins_1_row">%1$dh%2$dmin</string>
+    <string name="myday_sleep_duration_unit_hours_1_row">h</string>
+    <string name="myday_sleep_duration_unit_minutes_1_row">min</string>
+    <string name="myday_sleep_failed_3_rows">Unen yhteen­veto epä­on­nis­tui</string>
+    <string name="myday_sleep_feedback_heading_2_rows">Unipalaute</string>
+    <string name="myday_sleep_feedback_short1_6_rows">Tarpeek­si unta, hy­vä laa­tu</string>
+    <string name="myday_sleep_feedback_short2_6_rows">Tarpeek­si unta, usei­ta kes­key­tyk­siä</string>
+    <string name="myday_sleep_feedback_short3_6_rows">Tarpeek­si unta, pal­jon val­veil­la­oloa</string>
+    <string name="myday_sleep_feedback_short4_6_rows">Tarpeek­si unta, heik­ko laa­tu</string>
+    <string name="myday_sleep_feedback_short5_6_rows">Tavoitetta­si ly­hy­em­pi uni, hy­vä ko­konais­laat­u</string>
+    <string name="myday_sleep_feedback_short6_6_rows">Tavoitetta­si ly­hy­em­pi uni, pal­jon kes­key­tyk­siä</string>
+    <string name="myday_sleep_feedback_short7_6_rows">Tavoitetta­si ly­hy­em­pi uni, pal­jon val­veil­la­oloa</string>
+    <string name="myday_sleep_feedback_short8_6_rows">Tavoitetta­si ly­hy­em­pi uni, heik­ko laa­tu</string>
+    <string name="myday_sleep_manual_interruption_bodytext_4_rows">Tämä pysäyt­tää unen seu­ran­nan.</string>
+    <string name="myday_sleep_manual_interruption_heading_1_row">Avaa yhteenveto?</string>
+    <string name="myday_sleep_pie_heading_asleep_1_row">Unessa</string>
+    <string name="myday_sleep_pie_heading_interruptions_2_rows">Keskeytykset</string>
+    <string name="myday_sleep_preferred_sleep_time_hours_mins_1_row">%1$dh%2$dmin</string>
+    <string name="myday_sleep_rating_heading_2_rows">Kuinka hy­vin nu­kuit?</string>
+    <string name="myday_sleep_rating_option1_1_row">Erittäin hyvin</string>
+    <string name="myday_sleep_rating_option2_1_row">Hyvin</string>
+    <string name="myday_sleep_rating_option3_1_row">Ihan hyvin</string>
+    <string name="myday_sleep_rating_option4_1_row">Huonosti</string>
+    <string name="myday_sleep_rating_option5_1_row">Erittäin huonosti</string>
+    <string name="notification_activity_goal_reached_5_rows">Saavutit tavoitteesi!</string>
+    <string name="notification_app_updated_2_rows">Polar-sovellus on päivitetty.</string>
+    <string name="notification_fitnesstest_expired_3_rows">Kuntotestin tulos on yli kuukauden vanha. Tee testi uudelleen?</string>
+    <string name="notification_happy_birthday_2_rows">Hyvää syntymäpäivää %1$s!</string>
+    <string name="notification_happy_birthday_second_2_rows">Onnellista juhla­päivää, %1$s!</string>
+    <string name="notification_happy_birthday_third_2_rows">Mahtavaa syntymä­päivää, %1$s!</string>
+    <string name="notification_inactivity_content">Liikuta jalkojasi, nouse ylös, kävele ympäriinsä.</string>
+    <string name="notification_inactivity_title_1_row">Aika lähteä liikkeelle!</string>
+    <string name="notification_phased_training_completed_5_rows">%1$s suoritettu</string>
+    <string name="notification_sleep_ready_1_row">Avaa yhteenveto?</string>
+    <string name="notification_sleep_ready_heading_2_rows">"Uniaika
+%1$dh%2$dmin"</string>
+    <string name="notification_training_paused_1_row">Keskeytetty</string>
+    <string name="notification_training_recording_on_1_row">Tallennus päällä</string>
+    <string name="notification_trainingname_at_3_rows">Sinulla on harjoitus klo %1$s</string>
+    <string name="notification_trainingname_today_at_3_rows">Sinulla on harjoitus tänään klo %1$s</string>
+    <string name="percentage_value">%1$d %%</string>
+    <string name="screen_lock_heading_1_row">Näytönlukitus</string>
+    <string name="screen_lock_off_1_row">POIS PÄÄLTÄ</string>
+    <string name="screen_lock_on_1_row">PÄÄLLÄ</string>
+    <string name="settings_item_1_row">Asetukset</string>
+    <string name="settings_item_247_HR_tracking_1_row">Jatkuva sykkeen seuranta</string>
+    <string name="settings_item_about_app_1_row">Tietoja Polar sovelluksesta</string>
+    <string name="settings_item_about_app_account_2_rows">Polar-tili</string>
+    <string name="settings_item_about_app_heading_1_row">Tietoja Polar sovelluksesta</string>
+    <string name="settings_item_about_app_version_1_row">Versio</string>
+    <string name="shader_backlight">Taustavalo</string>
+    <string name="shader_off">POIS PÄÄLTÄ</string>
+    <string name="shader_on">PÄÄLLÄ</string>
+    <string name="swipe_down_1_row">Pyyhkäise alas</string>
+    <string name="wf_data_activity_1_row">Aktiivisuus</string>
+    <string name="wf_data_hr_1_row">Syke</string>
+</resources>

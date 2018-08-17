@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/resumeStopLayout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/upperBtnLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/pause_progressbar_stub" android:layout="@layout/pause_item_progress_bar" android:inflatedId="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DisplayItemStyle.PauseButtonWithElevation" />
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/resumeButton" android:background="@drawable/round_button_green" polar:glyph="@string/glyph_play" polar:glyphSize="@dimen/round_button_medium_text_size" style="@style/DisplayItemStyle.PauseButtonWithElevation" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/stopButtonLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/stopButton" android:background="@drawable/round_button" polar:glyph="@string/glyph_stop" polar:glyphSize="@dimen/round_button_medium_text_size" style="@style/DisplayItemStyle.PauseButtonWithElevation" />
+    </FrameLayout>
+</LinearLayout>

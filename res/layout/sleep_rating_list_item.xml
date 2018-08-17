@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/sleep_rating_list_item_background" android:paddingTop="@dimen/sleep_rating_list_item_paddingBottom" android:paddingBottom="@dimen/sleep_rating_list_item_paddingBottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/sleepRatingGlyph" style="@style/SleepRatingDialogTextStyle.Glyph" />
+    <TextView android:id="@id/sleepRatingText" style="@style/SleepRatingDialogTextStyle.Rating" />
+</LinearLayout>

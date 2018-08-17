@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/itemHrZonePointerFull" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/hr_zone_pointer_levels" />
+    <LinearLayout android:id="@id/timeInZonesContainer" android:layout_marginTop="@dimen/hr_zone_pointer_full_top_margin" style="@style/DisplayItemStyle.TimeInHrZoneLevelContainer">
+        <include layout="@layout/time_in_hr_zone_levels" />
+    </LinearLayout>
+    <include layout="@layout/hr_zone_pointer_hearts" />
+    <TextView android:textSize="@dimen/hr_zone_indicator_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/timeInZone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/exe_view_hr_not_in_zone_1_row" android:layout_marginStart="@dimen/hr_zone_side_margin" android:layout_marginEnd="@dimen/hr_zone_side_margin" />
+</FrameLayout>

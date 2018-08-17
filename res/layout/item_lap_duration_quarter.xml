@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemAlapDurationQuarter" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/viewAlapDuration" style="@style/DisplayItemStyle.ImageContainer">
+        <fi.polar.polarflow.ui.custom.ImageOrGlyphView android:id="@id/imgLap" polar:drawable="?exeIconLap" polar:glyph="@string/glyph_lap" style="@style/DisplayItemStyle.Image.InContainer" />
+        <TextView android:textSize="@dimen/item_quarter_alap_small_label_text_size" android:textColor="@color/item_quarter_alap_small_label_text" android:layout_gravity="bottom|center" android:id="@id/textLapNumber" android:layout_marginBottom="@dimen/item_quarter_alap_small_label_marginBottom" android:text="@string/exe_view_lap_number_undefined" android:fontFamily="sans-serif-condensed" android:layout_marginStart="@dimen/item_quarter_alap_number_marginStart" style="@style/ItemTextStyle.SmallLabel" />
+    </FrameLayout>
+    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+        <TextView android:id="@id/textHoursMinutes" android:text="@string/exe_view_lap_duration_default" style="@style/ItemTextStyle.Primary.Quarter" />
+    </FrameLayout>
+    <TextView android:id="@id/textSeconds" style="@style/ItemTextStyle.Secondary.Quarter" />
+</LinearLayout>

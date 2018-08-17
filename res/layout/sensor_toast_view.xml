@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fi.polar.polarflow.ui.custom.SensorToastView android:gravity="end" android:orientation="horizontal" android:background="@drawable/sensor_toast_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:gravity="center" android:id="@id/sensor_toast_text" android:layout_width="0.0dip" android:layout_height="@dimen/exe_wait_indicator_diameter" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="9.0dip" style="@style/FlowTextStyle.SensorToast" />
+    <fi.polar.polarflow.ui.custom.PolarGlyphViewInFrame android:id="@id/sensor_toast_icon" android:layout_width="@dimen/exe_wait_indicator_diameter" android:layout_height="@dimen/exe_wait_indicator_diameter" polar:glyph="@string/glyph_heartrate" polar:glyphSize="@dimen/exe_wait_indicator_icon_size" />
+</fi.polar.polarflow.ui.custom.SensorToastView>

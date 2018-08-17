@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fi.polar.polarflow.ui.custom.CircularProgressBar android:layout_gravity="center" android:id="@id/circularProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DisplayStyle.ItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fi.polar.polarflow.ui.custom.PieView android:layout_gravity="center" android:id="@id/pieProgress" android:layout_width="@dimen/round_button_medium_diameter" android:layout_height="@dimen/round_button_medium_diameter" />
+    <TextView android:textSize="@dimen/pause_progress_bar_text_size" android:layout_gravity="center" android:id="@id/progressText" android:textAlignment="center" style="@style/ItemTextStyle.PauseProgress" />
+</fi.polar.polarflow.ui.custom.CircularProgressBar>

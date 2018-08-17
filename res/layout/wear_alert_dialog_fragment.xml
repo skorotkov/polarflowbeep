@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/scrollView" android:background="@color/polar_dialog_background" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/dialogTop" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_top_view_min_height" android:layout_alignParentTop="true">
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/FlowTextStyle.WearAlertDialog.Title" />
+            <TextView android:ellipsize="end" android:gravity="center" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/FlowTextStyle.WearAlertDialog.Message" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/dialogBottom" android:background="@color/polar_dialog_background" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_bottom_view_height" android:layout_alignParentBottom="true">
+            <ImageButton android:id="@id/negative_button" android:background="@drawable/wear_alert_dialog_negative_button" android:layout_width="@dimen/dialog_button_total_size" android:layout_height="@dimen/dialog_button_total_size" android:src="@drawable/ic_clear_white" android:layout_alignParentStart="true" />
+            <ImageButton android:id="@id/positive_button" android:background="@drawable/wear_alert_dialog_positive_button" android:layout_width="@dimen/dialog_button_total_size" android:layout_height="@dimen/dialog_button_total_size" android:src="@drawable/ic_done_white" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

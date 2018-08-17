@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/time_in_zone_level_indicator_width" android:layout_marginTop="@dimen/summary_time_in_hr_zone_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/time_in_zone_level_indicator_width">
+        <TextView android:id="@id/zoneText" style="@style/DisplayItemStyle.SummaryTimeInHrZoneId" />
+        <ProgressBar android:id="@id/zoneGraph" style="@style/DisplayItemStyle.SummaryTimeInHrZoneGraph" />
+    </LinearLayout>
+    <TextView android:id="@id/zoneTime" style="@style/DisplayItemStyle.SummaryTimeInHrZoneTime" />
+</FrameLayout>

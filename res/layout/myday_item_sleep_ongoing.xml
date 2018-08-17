@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/MyDayItemStyle.CardContainerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/myday_item_includable_timestamp" />
+    <View android:background="@color/myday_item_sleep_ongoing_card_color" style="@style/MyDayItemStyle.HandleView" />
+    <LinearLayout android:backgroundTint="@color/myday_item_sleep_ongoing_card_color" style="@style/MyDayItemStyle.CardLayout">
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/sleepOngoingGlyph" polar:glyph="@string/glyph_sleeping" style="@style/MyDayItemTextStyle.Glyph.Medium" />
+        <TextView android:id="@id/sleepOngoingText" android:text="@string/myday_sleep_card_3_rows" style="@style/MyDayItemTextStyle.Small.SleepOngoing" />
+    </LinearLayout>
+</FrameLayout>

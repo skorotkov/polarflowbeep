@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemCaloriesQuarter" android:background="?colorItemCaloriesBackground" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.ImageOrGlyphView android:id="@id/imgCalories" polar:drawable="?exeIconCalories" polar:glyph="@string/glyph_calories" style="@style/DisplayItemStyle.Image.WithMargin" />
+    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+        <TextView android:id="@id/textCalories" android:text="@string/exe_view_one_digit_default" style="@style/ItemTextStyle.Primary.Quarter" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="@dimen/item_quarter_secondary_text_zone_width" android:layout_height="fill_parent">
+        <TextView android:id="@id/textUnitsCalories" android:text="@string/exe_view_unit_kcal_1_row" style="@style/ItemTextStyle.Units" />
+        <TextView android:textSize="@dimen/item_quarter_calories_secondary_text_size" android:id="@id/textCaloriesSecondary" android:visibility="gone" android:layout_marginTop="6.0dip" android:text="@string/exe_view_calories_secondary_default" android:paddingStart="0.0dip" style="@style/ItemTextStyle.Secondary.Quarter" />
+    </FrameLayout>
+</LinearLayout>

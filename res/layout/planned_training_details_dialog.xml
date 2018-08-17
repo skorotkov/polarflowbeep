@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/myday_item_planned_training_card_color" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/myday_item_card_container_marginEnd" android:layout_marginEnd="@dimen/myday_item_card_container_marginEnd">
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:layout_gravity="center" android:id="@id/trainingTargetGlyph" style="@style/MyDayItemTextStyle.Glyph.TrainingTargetNoSport" />
+        <include layout="@layout/myday_item_includable_planned_training_text" />
+        <TextView android:id="@id/descriptionText" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FlowTextStyle.WearAlertDialog.Message" />
+    </LinearLayout>
+</ScrollView>

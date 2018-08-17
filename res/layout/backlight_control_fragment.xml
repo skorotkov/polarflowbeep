@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center" android:id="@id/clickAnimationView" android:background="@drawable/shader_click_bg" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/titleText" android:layout_marginTop="3.0dip" android:text="@string/shader_backlight" style="@style/ShaderStyle.Title" />
+        <TextView android:id="@id/detailText" android:layout_marginTop="-2.0dip" style="@style/ShaderStyle.Description" />
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:gravity="center" android:id="@id/button" android:background="@drawable/shader_button_bg" android:visibility="gone" android:layout_marginTop="8.0dip" polar:glyph="@string/glyph_back_light_on" polar:glyphSize="44.0dip" style="@style/DisplayItemStyle.PauseButtonWithElevation" />
+    </LinearLayout>
+</FrameLayout>

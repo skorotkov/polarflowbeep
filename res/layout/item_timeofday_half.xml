@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemTimeOfDayHalf" style="@style/DisplayItemStyle.Layout.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textTimeOfDayTitle" android:text="@string/exe_view_time_of_day_1_row" style="@style/ItemTextStyle.Title.Half.WithMargins" />
+    <LinearLayout style="@style/DisplayItemStyle.Layout.Horizontal">
+        <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+            <TextView android:id="@id/textTimeOfDay" style="@style/ItemTextStyle.Primary.Half" />
+        </FrameLayout>
+        <TextView android:id="@id/textAmPm" style="@style/ItemTextStyle.Units" />
+    </LinearLayout>
+</LinearLayout>

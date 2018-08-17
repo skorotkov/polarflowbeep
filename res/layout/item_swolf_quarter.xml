@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemSwolfConsumption" android:background="?colorItemSwolfBackground" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swolf" />
+    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+        <TextView android:id="@id/swolfText" android:text="@string/exe_view_swolf_unknown" style="@style/ItemTextStyle.Primary.Quarter" />
+    </FrameLayout>
+    <TextView style="@style/ItemTextStyle.Units" />
+</LinearLayout>

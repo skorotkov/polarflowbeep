@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/myDayIncludableSleepEfficiency" style="@style/MyDayItemStyle.HorizontalContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/sleepEfficiencyGlyph" polar:glyph="@string/glyph_actual_sleep" style="@style/MyDayItemTextStyle.Glyph.Small" />
+    <TextView android:id="@id/sleepEfficiency" style="@style/MyDayItemTextStyle.Small" />
+    <TextView android:id="@id/sleepEfficiencyUnits" android:text="@string/exe_view_percentage_of_max_1_row" style="@style/MyDayItemTextStyle.Small.Units" />
+</LinearLayout>

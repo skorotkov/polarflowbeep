@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigasi ke beranda</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigasi naik</string>
+    <string name="abc_action_menu_overflow_description">Opsi lain</string>
+    <string name="abc_action_mode_done">Selesai</string>
+    <string name="abc_activity_chooser_view_see_all">Lihat semua</string>
+    <string name="abc_activitychooserview_choose_application">Pilih aplikasi</string>
+    <string name="abc_capital_off">NONAKTIF</string>
+    <string name="abc_capital_on">AKTIF</string>
+    <string name="abc_search_hint">Telusuri...</string>
+    <string name="abc_searchview_description_clear">Hapus kueri</string>
+    <string name="abc_searchview_description_query">Kueri penelusuran</string>
+    <string name="abc_searchview_description_search">Telusuri</string>
+    <string name="abc_searchview_description_submit">Kirim kueri</string>
+    <string name="abc_searchview_description_voice">Penelusuran suara</string>
+    <string name="abc_shareactionprovider_share_with">Bagikan dengan</string>
+    <string name="abc_shareactionprovider_share_with_application">Bagikan dengan %s</string>
+    <string name="abc_toolbar_collapse_description">Ciutkan</string>
+    <string name="common_google_play_services_enable_button">Aktifkan</string>
+    <string name="common_google_play_services_enable_text">%1$s tidak akan berfungsi jika layanan Google Play tidak diaktifkan.</string>
+    <string name="common_google_play_services_enable_title">Aktifkan layanan Google Play</string>
+    <string name="common_google_play_services_install_button">Pasang</string>
+    <string name="common_google_play_services_install_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak ada di perangkat Anda.</string>
+    <string name="common_google_play_services_install_title">Dapatkan layanan Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Kesalahan layanan Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s mengalami masalah dengan layanan Google Play. Coba lagi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang tidak didukung oleh perangkat Anda.</string>
+    <string name="common_google_play_services_update_button">Perbarui</string>
+    <string name="common_google_play_services_update_text">%1$s tidak akan berjalan jika layanan Google Play tidak diperbarui.</string>
+    <string name="common_google_play_services_update_title">Perbarui layanan Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s tidak akan berjalan tanpa layanan Google Play, yang saat ini sedang diperbarui.</string>
+    <string name="common_google_play_services_wear_update_text">Perlu versi baru layanan Google Play. Akan segera memperbarui sendiri.</string>
+    <string name="common_open_on_phone">Buka di ponsel</string>
+    <string name="common_signin_button_text">Masuk</string>
+    <string name="common_signin_button_text_long">Masuk dengan Google</string>
+    <string name="search_menu_title">Telusuri</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="buttons_rect_bottom_center">Bawah</string>
+    <string name="buttons_rect_bottom_left">Kiri bawah</string>
+    <string name="buttons_rect_bottom_right">Kanan bawah</string>
+    <string name="buttons_rect_left_bottom">Bawah, sisi kiri</string>
+    <string name="buttons_rect_left_center">Kiri tengah</string>
+    <string name="buttons_rect_left_top">Atas, sisi kiri</string>
+    <string name="buttons_rect_right_bottom">Bawah, sisi kanan</string>
+    <string name="buttons_rect_right_center">Kanan tengah</string>
+    <string name="buttons_rect_right_top">Atas, sisi kanan</string>
+    <string name="buttons_rect_top_center">Atas</string>
+    <string name="buttons_rect_top_left">Kiri atas</string>
+    <string name="buttons_rect_top_right">Kanan atas</string>
+    <string name="buttons_round_bottom_center">Bawah</string>
+    <string name="buttons_round_bottom_left">Kiri bawah</string>
+    <string name="buttons_round_bottom_left_lower">Kiri bawah, rendah</string>
+    <string name="buttons_round_bottom_left_upper">Kiri bawah, tinggi</string>
+    <string name="buttons_round_bottom_right">Kanan bawah</string>
+    <string name="buttons_round_bottom_right_lower">Kanan bawah, rendah</string>
+    <string name="buttons_round_bottom_right_upper">Kanan bawah, tinggi</string>
+    <string name="buttons_round_center_left">Kiri tengah</string>
+    <string name="buttons_round_center_right">Kanan tengah</string>
+    <string name="buttons_round_top_center">Atas</string>
+    <string name="buttons_round_top_left">Kiri atas</string>
+    <string name="buttons_round_top_left_lower">Kiri atas, rendah</string>
+    <string name="buttons_round_top_left_upper">Kiri atas, tinggi</string>
+    <string name="buttons_round_top_right">Kanan atas</string>
+    <string name="buttons_round_top_right_lower">Kanan atas, rendah</string>
+    <string name="buttons_round_top_right_upper">Kanan atas, tinggi</string>
+    <string name="dismiss_overlay_button_label">Keluar</string>
+    <string name="generic_cancel">Batal</string>
+    <string name="generic_yes">Ya</string>
+    <string name="navigation_drawer_content_description">Panel samping navigasi</string>
+    <string name="time_difference_now">Sekarang</string>
+    <string name="time_difference_short_days_and_hours">%1$s %2$s</string>
+    <string name="time_difference_short_hours_and_minutes">%1$s %2$s</string>
+    <string name="battery_saver_on_card_3_rows">Penghemat baterai dinyalakan. Pelacakan lokasi dihentikan.</string>
+    <string name="battery_saver_on_toast_2_rows">Penghemat baterai dinyalakan. Pelacakan lokasi dihentikan.</string>
+    <string name="ble_sensor_connected_1_row">%1$s tersmbg</string>
+    <string name="ble_sensor_pairing_confirmation_2_rows">"Pasangkan
+%1$s?"</string>
+    <string name="exe_summary_feedback_names__01_3_rows">Latihan maksimum +</string>
+    <string name="exe_summary_feedback_names__02_3_rows">Latihan maksimum</string>
+    <string name="exe_summary_feedback_names__03_3_rows">"Latihan Maksimum  Tempo"</string>
+    <string name="exe_summary_feedback_names__04_3_rows">"Latihan Tempo  Maksimum"</string>
+    <string name="exe_summary_feedback_names__05_3_rows">Latihan tempo +</string>
+    <string name="exe_summary_feedback_names__06_3_rows">Latihan tempo</string>
+    <string name="exe_summary_feedback_names__07_3_rows">Latihan Tempo dan Stabil</string>
+    <string name="exe_summary_feedback_names__08_3_rows">Latihan Stabil dan Tempo</string>
+    <string name="exe_summary_feedback_names__09_3_rows">Latihan Kestabilan +</string>
+    <string name="exe_summary_feedback_names__10_3_rows">Latihan Stabil</string>
+    <string name="exe_summary_feedback_names__11_3_rows">"Latihan Dasar  Stabil, panjang"</string>
+    <string name="exe_summary_feedback_names__12_3_rows">Latihan Stabil dan Dasar</string>
+    <string name="exe_summary_feedback_names__13_3_rows">Latihan Dasar dan Stabil, panjang</string>
+    <string name="exe_summary_feedback_names__14_3_rows">"Latihan Dasar  stabil"</string>
+    <string name="exe_summary_feedback_names__15_3_rows">Latihan dasar, panjang</string>
+    <string name="exe_summary_feedback_names__16_3_rows">Latihan dasar</string>
+    <string name="exe_summary_feedback_names__17_3_rows">Latihan pemulihan</string>
+    <string name="exe_summary_start_date_and_time_1_row">%1$s %2$s</string>
+    <string name="exe_summary_styles_backstrocke">Gaya punggung</string>
+    <string name="exe_summary_styles_breaststroke">Gaya dada</string>
+    <string name="exe_summary_styles_butterfly">Gaya kupu-kupu</string>
+    <string name="exe_summary_styles_freestyle">Gaya bebas</string>
+    <string name="exe_summary_styles_other">Gaya lainnya</string>
+    <string name="exe_summary_swimming_rest_time">Waktu istirahat</string>
+    <string name="exe_summary_swimming_styles">Gaya</string>
+    <string name="exe_target_calorie_cal_reached_4_rows">Anda telah mencapai target %1$s Kal Anda!</string>
+    <string name="exe_target_calorie_kcal_reached_4_rows">Anda telah mencapai target %1$s kkal Anda!</string>
+    <string name="exe_target_distance_km_reached_4_rows">Anda telah mencapai target %1$s km Anda!</string>
+    <string name="exe_target_distance_mi_reached_4_rows">Anda telah mencapai target %1$s mi Anda!</string>
+    <string name="exe_target_doubled_4_rows">Wow! Anda telah menggandakan target Anda!</string>
+    <string name="exe_target_duration_reached_4_rows">Anda telah mencapai target %1$s Anda!</string>
+    <string name="exe_target_phase_multi_zone_1_row">Zona %1$d-%2$d</string>
+    <string name="exe_target_phase_no_limits_1_row">Tidak terbatas</string>
+    <string name="exe_target_phase_single_zone_1_row">Zona %1$d</string>
+    <string name="exe_target_phased_training_completed_2_rows">%1$s selesai</string>
+    <string name="exe_target_reached_already_1_row">Telah tercapai</string>
+    <string name="exe_target_select_favorite_1_row">Pilih favorit</string>
+    <string name="exe_target_select_target_1_row">Pilih target</string>
+    <string name="exe_target_your_target_1_row">Target Anda</string>
+    <string name="exe_view_Altitude_1_row">Ketinggian</string>
+    <string name="exe_view_alap_ascent">Kenaikanput.ot.</string>
+    <string name="exe_view_alap_avg_heartrate_1_row">A. rr DJ putaran</string>
+    <string name="exe_view_alap_avg_pace_1_row">A. rr laju ptrn</string>
+    <string name="exe_view_alap_avg_speed_1_row">A. rr kcptn ptrn</string>
+    <string name="exe_view_alap_descent">Penurunanput.ot</string>
+    <string name="exe_view_alap_distance_1_row">A. jarak putaran</string>
+    <string name="exe_view_alap_max_heartrate_1_row">A. maks. DJ ptrn</string>
+    <string name="exe_view_alap_max_pace_1_row">A. maks.laju ptrn</string>
+    <string name="exe_view_alap_max_speed_1_row">A. maks kec. ptrn</string>
+    <string name="exe_view_ascent">Kenaikan</string>
+    <string name="exe_view_automatic_lap_1_row">Putaran oto. %1$d</string>
+    <string name="exe_view_automatic_lap_header_1_row">Putaran oto. %1$d</string>
+    <string name="exe_view_automatic_lap_running_cadence_avg_1_row">Avg irama put.ot</string>
+    <string name="exe_view_automatic_lap_running_cadence_max_1_row">Max irama put.ot</string>
+    <string name="exe_view_avg_1_row">RR</string>
+    <string name="exe_view_avg_heartrate_1_row">Denyut jantung RR</string>
+    <string name="exe_view_avg_pace_1_row">Laju rata-rata</string>
+    <string name="exe_view_avg_running_cadence_1_row">Rata-rata irama</string>
+    <string name="exe_view_avg_speed_1_row">Kecepatan RR</string>
+    <string name="exe_view_bpm_1_row">bpm</string>
+    <string name="exe_view_current_lap_running_cadence_avg_1_row">Avg irama put.</string>
+    <string name="exe_view_descent">Penurunan</string>
+    <string name="exe_view_distance_1_row">Jarak</string>
+    <string name="exe_view_distance_unit_km_1_row">km</string>
+    <string name="exe_view_distance_unit_m_1_row">m</string>
+    <string name="exe_view_duration_1_row">Durasi</string>
+    <string name="exe_view_feedback_1_row">Training Benefit</string>
+    <string name="exe_view_heartrate_1_row">Denyut jantung</string>
+    <string name="exe_view_heartrate_zones_1_row">Zona dnyt jntng</string>
+    <string name="exe_view_hr_not_in_zone_1_row">Kel. dari zona</string>
+    <string name="exe_view_item_label_calories_1_row">Kalori</string>
+    <string name="exe_view_lap_ascent">Kenaikan put.</string>
+    <string name="exe_view_lap_average_heart_rate_1_row">HR rata-rata put.</string>
+    <string name="exe_view_lap_descent">Penurunan put.</string>
+    <string name="exe_view_lap_distance">Jarak putaran</string>
+    <string name="exe_view_lap_maximum_heart_rate_1_row">Maksimal HR put.</string>
+    <string name="exe_view_lap_pace">Laju put. avg</string>
+    <string name="exe_view_lap_pace_max">Laju maks.putar.</string>
+    <string name="exe_view_lap_running_cadence_max_1_row">Irama maks.put.</string>
+    <string name="exe_view_lap_speed">Kecepat.avg put.</string>
+    <string name="exe_view_lap_speed_max">Kecepat.mak put.</string>
+    <string name="exe_view_lap_time">Putar.%1$s wakt.</string>
+    <string name="exe_view_last_a_lap_time">Akhir wakt.put.ot.</string>
+    <string name="exe_view_last_alap_HR_avg">Akhir avg put ot.</string>
+    <string name="exe_view_last_alap_HR_max">Akhir put.mak.ot.</string>
+    <string name="exe_view_last_alap_speed_avg">Akhir avg put ot.</string>
+    <string name="exe_view_last_alap_speed_max">Akhir put.mak.ot.</string>
+    <string name="exe_view_last_automatic_lap_distance_1_row">Akhirjrkput.ot.</string>
+    <string name="exe_view_last_lap_HR_avg">Avg HR put.ter.</string>
+    <string name="exe_view_last_lap_distance">Jarakput.terakh.</string>
+    <string name="exe_view_last_lap_maximum_heart_rate_1_row">Max HR put.ter</string>
+    <string name="exe_view_last_lap_maximum_speed_or_pace_1_row">Maks.put.terakh.</string>
+    <string name="exe_view_last_lap_running_cadence_avg_1_row">Avg irama put.ot</string>
+    <string name="exe_view_last_lap_speed_avg">Avg put.akhir</string>
+    <string name="exe_view_last_lap_time">Wakt. put.terakh.</string>
+    <string name="exe_view_manual_lap_header_1_row">Putaran %1$d</string>
+    <string name="exe_view_max_1_row">MAKS</string>
+    <string name="exe_view_max_heartrate_1_row">De. jant. maks</string>
+    <string name="exe_view_max_pace_1_row">Laju maksimal</string>
+    <string name="exe_view_max_running_cadence_1_row">Irama.Maks</string>
+    <string name="exe_view_max_speed_1_row">Kecepatan maks</string>
+    <string name="exe_view_pace_1_row">Laju</string>
+    <string name="exe_view_pause">Jeda</string>
+    <string name="exe_view_rest_time">Waktu istirahat</string>
+    <string name="exe_view_running_cadence_1_row">Irama</string>
+    <string name="exe_view_running_index_2_rows">Running Index</string>
+    <string name="exe_view_running_index_name_01_1_row">Elite</string>
+    <string name="exe_view_running_index_name_02_1_row">Sangat baik</string>
+    <string name="exe_view_running_index_name_03_1_row">Baik</string>
+    <string name="exe_view_running_index_name_04_1_row">Sedang</string>
+    <string name="exe_view_running_index_name_05_1_row">Wajar</string>
+    <string name="exe_view_running_index_name_06_1_row">Rendah</string>
+    <string name="exe_view_running_index_name_07_1_row">Sangat rendah</string>
+    <string name="exe_view_save_short_session">Sesi latihan pendek. Simpan?</string>
+    <string name="exe_view_speed_1_row">Kecepatan</string>
+    <string name="exe_view_swimming">Berenang</string>
+    <string name="exe_view_time_in_zone_1_row">Waktu di zona %1$s</string>
+    <string name="exe_view_time_of_day_1_row">Waktu</string>
+    <string name="exe_view_training_load_01_1_row">Ekstrem</string>
+    <string name="exe_view_training_load_02_1_row">Sangat menuntut</string>
+    <string name="exe_view_training_load_03_1_row">Menuntut</string>
+    <string name="exe_view_training_load_04_1_row">Masuk akal</string>
+    <string name="exe_view_training_load_05_1_row">Ringan</string>
+    <string name="exe_view_training_load_2_rows">Muat dari sesi ini</string>
+    <string name="exe_view_unit_cal_1_row">kal</string>
+    <string name="exe_view_unit_kcal_1_row">kkal</string>
+    <string name="exe_view_unit_min">mnt</string>
+    <string name="exe_view_unit_pace_min_per_km_1_row">mnt/km</string>
+    <string name="exe_view_unit_speed_km_per_hour_1_row">km/j</string>
+    <string name="exe_wait_activate_gopro_3_rows">Gunakan GoPro dalam sesi ini?</string>
+    <string name="exe_wait_activate_scheduled_training">"Mulai
+%1$s yang terjadwal
+pada pukul%2$s?"</string>
+    <string name="exe_wait_bluetooth_connection_device_with_friendly_name_5_rows">Tidak dapat menghubungkan ke %1$s karena M600 terhubung dengan %2$s.</string>
+    <string name="exe_wait_bluetooth_connection_iOS_5_rows">Tidak dapat menghubungkan ke %1$s karena M600 terhubung dengan perangkat seluler.</string>
+    <string name="exe_wait_bluetooth_connection_other_device_5_rows">Tidak dapat menghubungkan ke %1$s karena M600 terhubung dengan perangkat lain.</string>
+    <string name="exe_wait_choose_poollength_unit_m_1_row">Meter</string>
+    <string name="exe_wait_choose_poollength_unit_yd_1_row">Yard</string>
+    <string name="exe_wait_enable_body_sensor_permission">Ganti akses aplikasi untuk mengaktifkan sensor?</string>
+    <string name="exe_wait_enable_location_permission">Ganti akses aplikasi untuk mengaktifkan GPS?</string>
+    <string name="exe_wait_enable_location_service_1_row">Aktifkan layanan lokasi?</string>
+    <string name="exe_wait_hr_sensor_off_3_rows">"%1$s
+Anda dinonaktifkan."</string>
+    <string name="exe_wait_pool_length_heading_1_row">Panjang kolam</string>
+    <string name="exe_wait_pool_length_m">%1$d m</string>
+    <string name="exe_wait_pool_length_m_heading_1_row">Panjang kolam (m)</string>
+    <string name="exe_wait_pool_length_options_customize_1_row">Edit</string>
+    <string name="exe_wait_pool_length_options_m_1_row">%1$d meter</string>
+    <string name="exe_wait_pool_length_options_yd_1_row">%1$d yard</string>
+    <string name="exe_wait_pool_length_unit_yd">yd</string>
+    <string name="exe_wait_pool_length_yd">%1$d yd</string>
+    <string name="exe_wait_pool_length_yd_heading_1_row">Panjang kolam (yd)</string>
+    <string name="exe_wait_target_select_favorite_1_row">Pilih favorit</string>
+    <string name="exe_wait_target_select_target_1_row">Pilih target</string>
+    <string name="exercise_feedback_values__00">Anda harus berlatih setidaknya 10 menit di atas 50% nilai denyut jantung maksimal Anda untuk mendapatkan umpan balik.</string>
+    <string name="exercise_feedback_values__01">Sesi yang hebat! Kecepatan lari dan sistem saraf otot Anda meningkat, ini membuat Anda lebih efisien. Sesi ini juga meningkatkan daya tahan tubuh Anda terhadap kelelahan.</string>
+    <string name="exercise_feedback_values__02">Sesi yang hebat! Kecepatan lari dan sistem saraf otot Anda meningkat, ini membuat Anda lebih efisien.</string>
+    <string name="exercise_feedback_values__03">"Sesi yang hebat!
+Anda telah meningkatkan kecepatan serta efisiensi. Sesi ini juga mengembangkan kebugaran aerobik, kecepatan, dan kemampuan Anda untuk menjaga usaha dengan intensitas tinggi lebih lama secara signifikan."</string>
+    <string name="exercise_feedback_values__04">"Sesi yang hebat!
+Anda telah meningkatkan kebugaran aerobik Anda serta kemampuan Anda secara signifikan untuk mempertahankan tenaga intensitas tinggi lebih lama. Sesi ini juga mengembangkan kecepatan serta efisiensi Anda."</string>
+    <string name="exercise_feedback_values__05">"Laju yang bagus sekali pada sesi yang panjang!
+Anda telah meningkatkan kebugaran aerobik, kecepatan, dan kemampuan untuk menjaga usaha dengan intensitas tinggi lebih lama. Sesi ini juga meningkatkan daya tahan tubuh Anda terhadap kelelahan."</string>
+    <string name="exercise_feedback_values__06">"Laju yang bagus!
+Anda telah meningkatkan kebugaran aerobik, kecepatan, dan kemampuan untuk menjaga usaha dengan intensitas tinggi lebih lama."</string>
+    <string name="exercise_feedback_values__07">"Laju yang bagus!
+Anda telah meningkatkan kemampuan Anda untuk mempertahankan tenaga intensitas tinggi lebih lama. Sesi ini juga mengembangkan kebugaran aerobik dan daya tahan otot Anda."</string>
+    <string name="exercise_feedback_values__08">"Laju yang bagus!
+Anda telah meningkatkan kebugaran aerobik serta ketahanan otot Anda. Sesi ini juga mengembangkan kemampuan Anda untuk mempertahankan tenaga dengan intensitas tinggi lebih lama."</string>
+    <string name="exercise_feedback_values__09">"Luar biasa!
+Sesi yang panjang ini meningkatkan ketahanan otot serta kebugaran aerobik Anda. Sesi ini juga meningkatkan daya tahan tubuh Anda terhadap kelelahan."</string>
+    <string name="exercise_feedback_values__10">"Luar biasa!
+Anda telah meningkatkan ketahanan otot serta kebugaran aerobik Anda."</string>
+    <string name="exercise_feedback_values__11">"Luar biasa!
+Sesi yang panjang ini meningkatkan ketahanan otot serta kebugaran aerobik Anda. Sesi tersebut juga mengembangkan ketahanan dasar Anda serta kemampuan tubuh Anda untuk membakar lemak saat latihan."</string>
+    <string name="exercise_feedback_values__12">"Luar biasa!
+Anda telah meningkatkan ketahanan otot serta kebugaran aerobik Anda. Sesi tersebut juga mengembangkan ketahanan dasar Anda serta kemampuan tubuh Anda untuk membakar lemak saat latihan."</string>
+    <string name="exercise_feedback_values__13">"Hebat!
+Sesi yang panjang ini juga meningkatkan ketahanan dasar Anda serta kemampuan tubuh Anda untuk membakar lemak saat latihan. Sesi ini juga meningkatkan ketahanan otot serta kebugaran aerobik Anda."</string>
+    <string name="exercise_feedback_values__14">"Hebat!
+Anda telah meningkatkan ketahanan dasar Anda serta kemampuan tubuh Anda untuk membakar lemak saat latihan. Sesi ini juga meningkatkan ketahanan otot serta kebugaran aerobik Anda."</string>
+    <string name="exercise_feedback_values__15">"Hebat!
+Sesi yang panjang dengan intensitas rendah ini juga meningkatkan ketahanan dasar Anda serta kemampuan tubuh Anda untuk membakar lemak saat latihan."</string>
+    <string name="exercise_feedback_values__16">"Sangat baik!
+Sesi dengan intensitas rendah ini juga meningkatkan ketahanan dasar Anda serta kemampuan tubuh Anda untuk membakar lemak saat latihan."</string>
+    <string name="exercise_feedback_values__17">Sesi yang sangat baik untuk pemulihan Anda. Latihan ringan seperti ini memungkinkan tubuh beradaptasi dengan latihan Anda.</string>
+    <string name="fitnesstest_completed_1_row">"Tes selesai
+Kebugaran Anda lebih : %1$stimasi VO2max:%2$"</string>
+    <string name="fitnesstest_failed_1_row">Tes gagal</string>
+    <string name="fitnesstest_failed_hr_notification">Periksa bahwa strap HR Anda telah dibasahi</string>
+    <string name="fitnesstest_failed_ohr_notification">M600 harus diken. dgn pas di belakang tul. pergela.</string>
+    <string name="fitnesstest_lie_down_2_rows">Berbaring dan tenang</string>
+    <string name="fitnesstest_result_1_1_row">Elit</string>
+    <string name="fitnesstest_result_2_1_row">Sangat baik</string>
+    <string name="fitnesstest_result_3_1_row">Baik</string>
+    <string name="fitnesstest_result_4_1_row">Sedang</string>
+    <string name="fitnesstest_result_5_1_row">Cukup</string>
+    <string name="fitnesstest_result_6_1_row">Rendah</string>
+    <string name="ftu_finish_installation">"Lanjutkan dengan
+Polar Flow pada
+seluler Anda."</string>
+    <string name="ftu_get_flow_app">Dapatkan aplikasi Polar Flow</string>
+    <string name="ftu_get_started_message">"Geser ke kiri untuk memulai aplikasi Polar Flow
+pada seluler Anda."</string>
+    <string name="ftu_get_started_message_iOS">"Dapatkan aplikasi Polar Flow pada 
+seluler Anda dari App Store."</string>
+    <string name="ftu_get_started_title">Mulai</string>
+    <string name="ftu_installation_in_progress_3_rows">"Menginstal
+aplikasi Polar..."</string>
+    <string name="ftu_login_message">"Lanjutkan dengan
+Polar Flow pada
+seluler Anda."</string>
+    <string name="ftu_login_message_iOS">"Lanjutkan dengan
+Polar Flow pada
+seluler Anda."</string>
+    <string name="ftu_setting_up_3_rows">Mengatur Polar M600...</string>
+    <string name="ftu_setup_complete_3_rows">Penyetelan selesai!</string>
+    <string name="gps_sensor_connected">Sinyal GPS ditemukan</string>
+    <string name="gps_sensor_not_connected">Berhentilah dulu untuk mencari sinyal GPS</string>
+    <string name="gps_sensor_signal_lost">Sinyal GPS tidak ditemukan</string>
+    <string name="main_menu_fitness_test_1_row">Uji Kebugaran</string>
+    <string name="main_menu_iOS_cancel_sync_3_rows">Batalkan sinkronisasi?</string>
+    <string name="main_menu_iOS_enable_BLE_3_rows">Aktifkan Bluetooth?</string>
+    <string name="main_menu_iOS_not_connected_2_rows">Ponsel tidak terhubung</string>
+    <string name="main_menu_iOS_reopen_flowapp_2_rows">Buka kembali aplikasi Polar Flow pada ponsel.</string>
+    <string name="main_menu_iOS_searching_2_rows">Mencari</string>
+    <string name="main_menu_iOS_sync_failed_2_rows">Gagal</string>
+    <string name="main_menu_iOS_sync_ok_2_rows">Selesai</string>
+    <string name="main_menu_iOS_synchronize_1_row">Sinkronisasi</string>
+    <string name="main_menu_iOS_syncing_2_rows">Sinkronisasi</string>
+    <string name="main_menu_my_heart_rate_1_row">Denyut jant. saya</string>
+    <string name="main_menu_settings_1_row">Pengaturan</string>
+    <string name="main_menu_today_1_row">Hari saya</string>
+    <string name="main_menu_training_1_row">Latihan</string>
+    <string name="main_menu_version_1_row">"Versi:
+%1$s"</string>
+    <string name="myday_item_HR_max_1_row">Maks.</string>
+    <string name="myday_item_HR_min_1_row">Min.</string>
+    <string name="myday_item_ToGo_01_2_rows">"%1$d j %2$d mnt
+berjalan"</string>
+    <string name="myday_item_ToGo_02_2_rows">"%1$d j %2$d mnt
+naik"</string>
+    <string name="myday_item_ToGo_03_2_rows">"%1$d j %2$d mnt
+berlari kecil"</string>
+    <string name="myday_item_ToGo_heading_1_row">Capai</string>
+    <string name="myday_item_text_time_1_row">SKRG</string>
+    <string name="myday_item_unit_cal_1_row">kal</string>
+    <string name="myday_item_unit_kcal_1_row">kkal</string>
+    <string name="myday_sleep_breakdown_1_row">Tidur</string>
+    <string name="myday_sleep_card_3_rows">Buka ringkasan tidur?</string>
+    <string name="myday_sleep_continuity_scale1_2_rows">"Terpotong-
+potong"</string>
+    <string name="myday_sleep_continuity_scale2_2_rows">Cukup terpotong-potong</string>
+    <string name="myday_sleep_continuity_scale3_2_rows">"Cukup
+kontinu"</string>
+    <string name="myday_sleep_continuity_scale4_2_rows">Kontinu</string>
+    <string name="myday_sleep_continuity_scale5_2_rows">"Sangat
+kontinu"</string>
+    <string name="myday_sleep_duration_hours_mins_1_row">%1$dj%2$dmnt</string>
+    <string name="myday_sleep_duration_unit_hours_1_row">j</string>
+    <string name="myday_sleep_duration_unit_minutes_1_row">mnt</string>
+    <string name="myday_sleep_failed_3_rows">Gagal untuk meringkas tidur</string>
+    <string name="myday_sleep_feedback_heading_2_rows">Umpan balik tidur</string>
+    <string name="myday_sleep_feedback_short1_6_rows">Jumlah tidur yang diinginkan, kualitas baik</string>
+    <string name="myday_sleep_feedback_short2_6_rows">Jumlah tidur yang diinginkan, banyak gangguan</string>
+    <string name="myday_sleep_feedback_short3_6_rows">Jumlah tidur yang diinginkan, banyak waktu terbangun</string>
+    <string name="myday_sleep_feedback_short4_6_rows">Jumlah tidur yang diinginkan, kualitas buruk</string>
+    <string name="myday_sleep_feedback_short5_6_rows">Tidur kurang dari yang diinginkan, kualitas keseluruhan baik</string>
+    <string name="myday_sleep_feedback_short6_6_rows">Tidur kurang dari yang diinginkan, banyak gangguan</string>
+    <string name="myday_sleep_feedback_short7_6_rows">Tidur kurang dari yang diinginkan, banyak waktu terbangun</string>
+    <string name="myday_sleep_feedback_short8_6_rows">Tidur kurang dari yang diinginkan, kualitas buruk</string>
+    <string name="myday_sleep_manual_interruption_bodytext_4_rows">Ini akan menghentikan pelacakan tidur.</string>
+    <string name="myday_sleep_manual_interruption_heading_1_row">Buka ringkasan?</string>
+    <string name="myday_sleep_pie_heading_asleep_1_row">Tertidur</string>
+    <string name="myday_sleep_pie_heading_interruptions_2_rows">Gangguan</string>
+    <string name="myday_sleep_preferred_sleep_time_hours_mins_1_row">%1$dj%2$dmnt</string>
+    <string name="myday_sleep_rating_heading_2_rows">Bagaimana tidur Anda?</string>
+    <string name="myday_sleep_rating_option1_1_row">Sangat nyenyak</string>
+    <string name="myday_sleep_rating_option2_1_row">Nyenyak</string>
+    <string name="myday_sleep_rating_option3_1_row">Oke</string>
+    <string name="myday_sleep_rating_option4_1_row">Buruk</string>
+    <string name="myday_sleep_rating_option5_1_row">Sangat buruk</string>
+    <string name="notification_activity_goal_reached_5_rows">Anda telah mencapai target Anda!</string>
+    <string name="notification_app_updated_2_rows">Aplikasi Polar telah diperbarui.</string>
+    <string name="notification_fitnesstest_expired_3_rows">Fitness Test result is more than a month old. Retest?</string>
+    <string name="notification_happy_birthday_2_rows">Selamat Ulang Tahun, %1$s!</string>
+    <string name="notification_happy_birthday_second_2_rows">Segalanya yang terbaik di hari spesial Anda, %1$s!</string>
+    <string name="notification_happy_birthday_third_2_rows">Ulang tahun yang fantastis, %1$s!</string>
+    <string name="notification_inactivity_content">Gerakkan kaki Anda, berdiri, berjalan keliling.</string>
+    <string name="notification_inactivity_title_1_row">Saatnya bergerak!</string>
+    <string name="notification_phased_training_completed_5_rows">%1$s selesai</string>
+    <string name="notification_sleep_ready_1_row">Buka ringkasan?</string>
+    <string name="notification_sleep_ready_heading_2_rows">"Waktu tidur
+%1$dj%2$dmnt"</string>
+    <string name="notification_training_paused_1_row">Jeda</string>
+    <string name="notification_training_recording_on_1_row">Perekaman aktif</string>
+    <string name="notification_trainingname_at_3_rows">"Anda telah merencanakan
+latihan pada %1$s"</string>
+    <string name="notification_trainingname_today_at_3_rows">"Anda telah meren­canakan latihan
+pada %1$s hari ini"</string>
+    <string name="percentage_value">%1$d%%</string>
+    <string name="screen_lock_heading_1_row">Kunci layar</string>
+    <string name="screen_lock_off_1_row">NONAKTIF</string>
+    <string name="screen_lock_on_1_row">HIDUP</string>
+    <string name="settings_item_1_row">Pengaturan</string>
+    <string name="settings_item_247_HR_tracking_1_row">Pelacakan HR 24/7</string>
+    <string name="settings_item_about_app_1_row">Tentang aplikasi Polar</string>
+    <string name="settings_item_about_app_account_2_rows">Akun Polar</string>
+    <string name="settings_item_about_app_heading_1_row">Tentang aplikasi Polar</string>
+    <string name="settings_item_about_app_version_1_row">Versi</string>
+    <string name="shader_backlight">Lampu latar</string>
+    <string name="shader_off">MATI</string>
+    <string name="shader_on">HIDUP</string>
+    <string name="swipe_down_1_row">Geser ke bawah</string>
+    <string name="wf_data_activity_1_row">Aktivitas</string>
+    <string name="wf_data_hr_1_row">Denyut jantung</string>
+</resources>

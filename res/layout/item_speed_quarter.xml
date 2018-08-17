@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemSpeedQuarter" android:background="?colorItemSpeedBackground" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/speedView" style="@style/DisplayItemStyle.ImageContainer">
+        <fi.polar.polarflow.ui.custom.ImageOrGlyphView android:id="@id/imgSpeed" polar:drawable="?exeIconSpeed" polar:glyph="@string/glyph_speed" style="@style/DisplayItemStyle.Image.InContainer" />
+        <TextView android:id="@id/textSpeedOrPaceType" style="@style/ItemTextStyle.SmallLabel.WithBackground" />
+        <TextView android:id="@id/textLapNumber" android:text="@string/exe_view_lap_number_undefined" style="@style/ItemTextStyle.SmallLabel.WithBackground.Bottom" />
+    </FrameLayout>
+    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
+        <TextView android:id="@id/textSpeedOrPace" android:text="@string/exe_view_speed_offline_value" style="@style/ItemTextStyle.Primary.Quarter" />
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="top" android:id="@id/swimmingUnit" android:visibility="gone" android:layout_width="@dimen/item_quarter_secondary_text_zone_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/item_quarter_units_text_marginTop">
+        <TextView android:id="@id/minutes" android:layout_width="wrap_content" android:text="@string/exe_view_unit_min" android:layout_alignParentTop="true" android:layout_alignStart="@id/unit" android:layout_alignEnd="@id/unit" style="@style/ItemTextStyle.Units.Swimming" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/vinculum" android:background="@color/white" android:layout_width="@dimen/item_speed_quarter_half_vinculum_width" android:layout_height="@dimen/item_speed_quarter_half_vinculum_height" android:layout_below="@id/minutes" android:layout_marginStart="@dimen/item_speed_vinculum_width_margin" android:layout_marginEnd="@dimen/item_speed_vinculum_width_margin" android:layout_alignStart="@id/unit" android:layout_alignEnd="@id/unit" />
+        <TextView android:id="@id/unit" android:layout_width="wrap_content" android:layout_below="@id/vinculum" android:layout_marginStart="@dimen/item_quarter_secondary_text_zone_padding" android:layout_alignParentStart="true" style="@style/ItemTextStyle.Units.Swimming" />
+    </RelativeLayout>
+    <TextView android:id="@id/textSpeedOrPaceUnit" android:text="@string/exe_view_unit_speed_km_per_hour_1_row" style="@style/ItemTextStyle.Units" />
+</LinearLayout>

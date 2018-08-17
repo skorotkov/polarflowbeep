@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/myDayIncludableSleepContinuity" style="@style/MyDayItemStyle.HorizontalContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/sleepContinuityGlyph" polar:glyph="@string/glyph_sleep_continuity" style="@style/MyDayItemTextStyle.Glyph.Small" />
+    <TextView android:id="@id/sleepContinuityIndex" style="@style/MyDayItemTextStyle.Small" />
+</LinearLayout>

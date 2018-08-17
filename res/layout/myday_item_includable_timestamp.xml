@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/myday_item_timestamp_text_color" android:gravity="center" android:layout_gravity="start|center|top" android:id="@id/mydayItemTimestamp" android:background="@drawable/myday_item_time_background" android:layout_width="44.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/myday_item_text_time_1_row" android:maxLines="2" android:layout_marginStart="-3.0dip" style="@style/MyDayItemTextStyle.Timestamp"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

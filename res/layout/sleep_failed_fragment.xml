@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/polarGlyphView" polar:glyph="@string/glyph_error" polar:glyphSize="@dimen/sleep_failed_glyph_size" style="@style/SleepFailedDialogStyle.Glyph" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/polarGlyphView">
+        <TextView android:text="@string/myday_sleep_failed_3_rows" style="@style/SleepFailedDialogStyle.Message" />
+    </LinearLayout>
+</RelativeLayout>

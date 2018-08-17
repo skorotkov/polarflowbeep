@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="common_google_play_services_enable_button">Inschakelen</string>
+    <string name="common_google_play_services_enable_text">%1$s werkt niet, tenzij je Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
+    <string name="common_google_play_services_install_button">Installeren</string>
+    <string name="common_google_play_services_install_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ondervindt problemen met Google Play-services. Probeer het opnieuw.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat.</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">%1$s kan niet worden uitgevoerd, tenzij je Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_google_play_services_updating_text">%1$s kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet.</string>
+    <string name="common_google_play_services_wear_update_text">Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd.</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="buttons_rect_bottom_center">Middenonder</string>
+    <string name="buttons_rect_bottom_left">Linksonder</string>
+    <string name="buttons_rect_bottom_right">Rechtsonder</string>
+    <string name="buttons_rect_left_bottom">Onder, linkerzijde</string>
+    <string name="buttons_rect_left_center">Middenlinks</string>
+    <string name="buttons_rect_left_top">Boven, linkerzijde</string>
+    <string name="buttons_rect_right_bottom">Onder, rechterzijde</string>
+    <string name="buttons_rect_right_center">Middenrechts</string>
+    <string name="buttons_rect_right_top">Boven, rechterzijde</string>
+    <string name="buttons_rect_top_center">Boven</string>
+    <string name="buttons_rect_top_left">Linksboven</string>
+    <string name="buttons_rect_top_right">Rechtsboven</string>
+    <string name="buttons_round_bottom_center">Middenonder</string>
+    <string name="buttons_round_bottom_left">Linksonder</string>
+    <string name="buttons_round_bottom_left_lower">Linksonder, onderste deel</string>
+    <string name="buttons_round_bottom_left_upper">Linksonder, bovenste deel</string>
+    <string name="buttons_round_bottom_right">Rechtsonder</string>
+    <string name="buttons_round_bottom_right_lower">Rechtsonder, onderste deel</string>
+    <string name="buttons_round_bottom_right_upper">Rechtsonder, bovenste deel</string>
+    <string name="buttons_round_center_left">Middenlinks</string>
+    <string name="buttons_round_center_right">Middenrechts</string>
+    <string name="buttons_round_top_center">Boven</string>
+    <string name="buttons_round_top_left">Linksboven</string>
+    <string name="buttons_round_top_left_lower">Linksboven, onderste deel</string>
+    <string name="buttons_round_top_left_upper">Linksboven, bovenste deel</string>
+    <string name="buttons_round_top_right">Rechtsboven</string>
+    <string name="buttons_round_top_right_lower">Rechtsboven, onderste deel</string>
+    <string name="buttons_round_top_right_upper">Rechtsboven, bovenste deel</string>
+    <string name="dismiss_overlay_button_label">Sluiten</string>
+    <string name="generic_cancel">Annuleren</string>
+    <string name="generic_yes">Ja</string>
+    <string name="navigation_drawer_content_description">Zijmenu</string>
+    <string name="time_difference_now">Nu</string>
+    <string name="time_difference_short_days_and_hours">%1$s %2$s</string>
+    <string name="time_difference_short_hours_and_minutes">%1$s %2$s</string>
+    <string name="battery_saver_on_card_3_rows">Batterijbesparing ingeschakeld. Locatieregistratie gestopt.</string>
+    <string name="battery_saver_on_toast_2_rows">Batterijbesparing ingeschakeld. Locatieregistratie gestopt.</string>
+    <string name="ble_sensor_connected_1_row">%1$s verbonden</string>
+    <string name="ble_sensor_pairing_confirmation_2_rows">"Koppel
+%1$s?"</string>
+    <string name="exe_summary_feedback_names__01_3_rows">Maximale training+</string>
+    <string name="exe_summary_feedback_names__02_3_rows">Maximale training</string>
+    <string name="exe_summary_feedback_names__03_3_rows">Maximale en tempotraining</string>
+    <string name="exe_summary_feedback_names__04_3_rows">Tempo- en maximale training</string>
+    <string name="exe_summary_feedback_names__05_3_rows">Tempotraining+</string>
+    <string name="exe_summary_feedback_names__06_3_rows">Tempotraining</string>
+    <string name="exe_summary_feedback_names__07_3_rows">Tempo- en constante training</string>
+    <string name="exe_summary_feedback_names__08_3_rows">Constante en tempotraining</string>
+    <string name="exe_summary_feedback_names__09_3_rows">Constante training+</string>
+    <string name="exe_summary_feedback_names__10_3_rows">Constante training</string>
+    <string name="exe_summary_feedback_names__11_3_rows">Constante en basistraining, lang</string>
+    <string name="exe_summary_feedback_names__12_3_rows">Constante en basistraining</string>
+    <string name="exe_summary_feedback_names__13_3_rows">Basis- en constante training, lang</string>
+    <string name="exe_summary_feedback_names__14_3_rows">Basis- en constante training</string>
+    <string name="exe_summary_feedback_names__15_3_rows">Basistraining, lang</string>
+    <string name="exe_summary_feedback_names__16_3_rows">Basistraining</string>
+    <string name="exe_summary_feedback_names__17_3_rows">Hersteltraining</string>
+    <string name="exe_summary_start_date_and_time_1_row">%1$s %2$s</string>
+    <string name="exe_summary_styles_backstrocke">Rugslag</string>
+    <string name="exe_summary_styles_breaststroke">Schoolslag</string>
+    <string name="exe_summary_styles_butterfly">Vlinderslag</string>
+    <string name="exe_summary_styles_freestyle">Vrije slag</string>
+    <string name="exe_summary_styles_other">Andere slag</string>
+    <string name="exe_summary_swimming_rest_time">Rusttijd</string>
+    <string name="exe_summary_swimming_styles">Stijlen</string>
+    <string name="exe_target_calorie_cal_reached_4_rows">Je hebt je doel van %1$s cal bereikt!</string>
+    <string name="exe_target_calorie_kcal_reached_4_rows">Je hebt je doel van %1$s kcal bereikt!</string>
+    <string name="exe_target_distance_km_reached_4_rows">Je hebt je doel van %1$s km bereikt!</string>
+    <string name="exe_target_distance_mi_reached_4_rows">Je hebt je doel van %1$s mijl bereikt!</string>
+    <string name="exe_target_doubled_4_rows">Wauw! Je hebt je doel verdubbeld!</string>
+    <string name="exe_target_duration_reached_4_rows">Je hebt je doel %1$s bereikt!</string>
+    <string name="exe_target_phase_multi_zone_1_row">Zones %1$d-%2$d</string>
+    <string name="exe_target_phase_no_limits_1_row">Geen limieten</string>
+    <string name="exe_target_phase_single_zone_1_row">Zone %1$d</string>
+    <string name="exe_target_phased_training_completed_2_rows">%1$s voltooid</string>
+    <string name="exe_target_reached_already_1_row">Al bereikt</string>
+    <string name="exe_target_select_favorite_1_row">Favoriet selecteren</string>
+    <string name="exe_target_select_target_1_row">Doel selecteren</string>
+    <string name="exe_target_your_target_1_row">Je doel</string>
+    <string name="exe_view_Altitude_1_row">Hoogte</string>
+    <string name="exe_view_alap_ascent">Stijging a. rnd.</string>
+    <string name="exe_view_alap_avg_heartrate_1_row">Gem. HF aut. rnd</string>
+    <string name="exe_view_alap_avg_pace_1_row">Gem. tempo a.rnd</string>
+    <string name="exe_view_alap_avg_speed_1_row">Gem.snelh.aut.rnd</string>
+    <string name="exe_view_alap_descent">Aut.rondedaling</string>
+    <string name="exe_view_alap_distance_1_row">Aut. ronde afst.</string>
+    <string name="exe_view_alap_max_heartrate_1_row">Max. HF aut. rnd</string>
+    <string name="exe_view_alap_max_pace_1_row">Max. tempo a. rnd</string>
+    <string name="exe_view_alap_max_speed_1_row">Max.snelh.aut.rnd</string>
+    <string name="exe_view_ascent">Stijging</string>
+    <string name="exe_view_automatic_lap_1_row">Autom. ronde %1$d</string>
+    <string name="exe_view_automatic_lap_header_1_row">Autom. ronde %1$d</string>
+    <string name="exe_view_automatic_lap_running_cadence_avg_1_row">Gem.pasfr. a.rnd</string>
+    <string name="exe_view_automatic_lap_running_cadence_max_1_row">Max. pasfr. a.rnd</string>
+    <string name="exe_view_avg_1_row">GEM.</string>
+    <string name="exe_view_avg_heartrate_1_row">Gem. hartslag</string>
+    <string name="exe_view_avg_pace_1_row">Gemiddeld tempo</string>
+    <string name="exe_view_avg_running_cadence_1_row">Gem.pasfrequen.</string>
+    <string name="exe_view_avg_speed_1_row">Gem. snelheid</string>
+    <string name="exe_view_bpm_1_row">hsm</string>
+    <string name="exe_view_current_lap_running_cadence_avg_1_row">Gem. pasfr. rnd</string>
+    <string name="exe_view_descent">Daling</string>
+    <string name="exe_view_distance_1_row">Afstand</string>
+    <string name="exe_view_distance_unit_km_1_row">km</string>
+    <string name="exe_view_distance_unit_m_1_row">m</string>
+    <string name="exe_view_duration_1_row">Duur</string>
+    <string name="exe_view_feedback_1_row">Training Benefit</string>
+    <string name="exe_view_heartrate_1_row">Hartslag</string>
+    <string name="exe_view_heartrate_zones_1_row">HF-Zones</string>
+    <string name="exe_view_hr_not_in_zone_1_row">Buiten zones</string>
+    <string name="exe_view_item_label_calories_1_row">Calorieën</string>
+    <string name="exe_view_lap_ascent">Rondestijging</string>
+    <string name="exe_view_lap_average_heart_rate_1_row">Gem. HF ronde</string>
+    <string name="exe_view_lap_descent">Rondedaling</string>
+    <string name="exe_view_lap_distance">Rondeafstand</string>
+    <string name="exe_view_lap_maximum_heart_rate_1_row">Max. HF ronde</string>
+    <string name="exe_view_lap_pace">Gem. rondetempo</string>
+    <string name="exe_view_lap_pace_max">Max. rnd.tempo</string>
+    <string name="exe_view_lap_running_cadence_max_1_row">Max. pasfr. rnd</string>
+    <string name="exe_view_lap_speed">Gem. rondesnelh.</string>
+    <string name="exe_view_lap_speed_max">Max. rondesnelh.</string>
+    <string name="exe_view_lap_time">Ronde %1$s tijd</string>
+    <string name="exe_view_last_a_lap_time">Tijd a.slotronde</string>
+    <string name="exe_view_last_alap_HR_avg">Gem. a. slotrnd.</string>
+    <string name="exe_view_last_alap_HR_max">Max. a.slotronde</string>
+    <string name="exe_view_last_alap_speed_avg">Gem. a. slotrnd.</string>
+    <string name="exe_view_last_alap_speed_max">Max. a.slotronde</string>
+    <string name="exe_view_last_automatic_lap_distance_1_row">Afst. a.slotronde</string>
+    <string name="exe_view_last_lap_HR_avg">Gem. HF slotrnd.</string>
+    <string name="exe_view_last_lap_distance">Afst. slotronde</string>
+    <string name="exe_view_last_lap_maximum_heart_rate_1_row">Max. HF slotrnd.</string>
+    <string name="exe_view_last_lap_maximum_speed_or_pace_1_row">Max. slotronde</string>
+    <string name="exe_view_last_lap_running_cadence_avg_1_row">Max.pasfr.slotr.</string>
+    <string name="exe_view_last_lap_speed_avg">Gem. slotrnd.</string>
+    <string name="exe_view_last_lap_time">Laatste rondetijd</string>
+    <string name="exe_view_manual_lap_header_1_row">Ronde %1$d</string>
+    <string name="exe_view_max_1_row">MAX.</string>
+    <string name="exe_view_max_heartrate_1_row">Maximale hartslag</string>
+    <string name="exe_view_max_pace_1_row">Maximaal tempo</string>
+    <string name="exe_view_max_running_cadence_1_row">Max.pasfrequen.</string>
+    <string name="exe_view_max_speed_1_row">Maximale snelheid</string>
+    <string name="exe_view_pace_1_row">Tempo</string>
+    <string name="exe_view_pause">Pauze</string>
+    <string name="exe_view_rest_time">Rusttijd</string>
+    <string name="exe_view_running_cadence_1_row">Pasfrequentie</string>
+    <string name="exe_view_running_index_2_rows">Running Index</string>
+    <string name="exe_view_running_index_name_01_1_row">Uitstekend</string>
+    <string name="exe_view_running_index_name_02_1_row">Zeer goed</string>
+    <string name="exe_view_running_index_name_03_1_row">Goed</string>
+    <string name="exe_view_running_index_name_04_1_row">Gemiddeld</string>
+    <string name="exe_view_running_index_name_05_1_row">Redelijk</string>
+    <string name="exe_view_running_index_name_06_1_row">Laag</string>
+    <string name="exe_view_running_index_name_07_1_row">Zeer laag</string>
+    <string name="exe_view_save_short_session">Korte trainingssessie. Opslaan?</string>
+    <string name="exe_view_speed_1_row">Snelheid</string>
+    <string name="exe_view_swimming">Zwemmen</string>
+    <string name="exe_view_time_in_zone_1_row">Tijd in zone %1$s</string>
+    <string name="exe_view_time_of_day_1_row">Tijd</string>
+    <string name="exe_view_training_load_01_1_row">Extreem</string>
+    <string name="exe_view_training_load_02_1_row">Zeer veeleisend</string>
+    <string name="exe_view_training_load_03_1_row">Veeleisend</string>
+    <string name="exe_view_training_load_04_1_row">Redelijk</string>
+    <string name="exe_view_training_load_05_1_row">Licht</string>
+    <string name="exe_view_training_load_2_rows">Belasting van deze sessie</string>
+    <string name="exe_view_unit_cal_1_row">cal</string>
+    <string name="exe_view_unit_kcal_1_row">kcal</string>
+    <string name="exe_view_unit_min">min</string>
+    <string name="exe_view_unit_pace_min_per_km_1_row">min/km</string>
+    <string name="exe_view_unit_speed_km_per_hour_1_row">km/u</string>
+    <string name="exe_wait_activate_gopro_3_rows">GoPro gebruik­en in deze sessie?</string>
+    <string name="exe_wait_activate_scheduled_training">"Start
+%1$s gepland
+op %2$s?"</string>
+    <string name="exe_wait_bluetooth_connection_device_with_friendly_name_5_rows">Verbinden met %1$s niet mogelijk: M600 is verbonden met %2$s.</string>
+    <string name="exe_wait_bluetooth_connection_iOS_5_rows">Verbinden met %1$s niet mogelijk: M600 is verbonden met mobiel apparaat</string>
+    <string name="exe_wait_bluetooth_connection_other_device_5_rows">Verbinden met %1$s niet mogelijk: M600 is verbonden met ander apparaat</string>
+    <string name="exe_wait_choose_poollength_unit_m_1_row">Meter</string>
+    <string name="exe_wait_choose_poollength_unit_yd_1_row">Yards</string>
+    <string name="exe_wait_enable_body_sensor_permission">Bevoegdheid van applicatie om sensoren in te schakelen, wijzigen?</string>
+    <string name="exe_wait_enable_location_permission">Bevoegdheid van applicatie om GPS in te schakelen, wijzigen?</string>
+    <string name="exe_wait_enable_location_service_1_row">Locatieservices inschakelen?</string>
+    <string name="exe_wait_hr_sensor_off_3_rows">"Je 
+%1$s is uit­ge­schakeld."</string>
+    <string name="exe_wait_pool_length_heading_1_row">Lengte zwembad</string>
+    <string name="exe_wait_pool_length_m">%1$d m</string>
+    <string name="exe_wait_pool_length_m_heading_1_row">Lengte zwembad (m)</string>
+    <string name="exe_wait_pool_length_options_customize_1_row">Bewerken</string>
+    <string name="exe_wait_pool_length_options_m_1_row">%1$d meter</string>
+    <string name="exe_wait_pool_length_options_yd_1_row">%1$d yards</string>
+    <string name="exe_wait_pool_length_unit_yd">yd</string>
+    <string name="exe_wait_pool_length_yd">%1$d yd</string>
+    <string name="exe_wait_pool_length_yd_heading_1_row">Lengte zwembad (yd)</string>
+    <string name="exe_wait_target_select_favorite_1_row">Favoriet selecteren</string>
+    <string name="exe_wait_target_select_target_1_row">Doel selecteren</string>
+    <string name="exercise_feedback_values__00">Je moet ten minste 10 minuten trainen boven 50% van je berekende maximale hartslagwaarde om feedback te krijgen.</string>
+    <string name="exercise_feedback_values__01">"Wat een training!
+Je verbeterde je sprintsnelheid en het zenuwstelsel van je spieren, waardoor je efficiënter wordt. Deze sessie verhoogde ook je weerstand tegen vermoeidheid."</string>
+    <string name="exercise_feedback_values__02">"Wat een training!
+Je verbeterde je sprintsnelheid en het zenuwstelsel van je spieren, waardoor je efficiënter wordt."</string>
+    <string name="exercise_feedback_values__03">"Wat een training!
+Je verbeterde je snelheid en efficiëntie. Deze sessie heeft ook je aerobe conditie en je vermogen om langdurig zeer intensieve inspanningen vol te houden merkbaar verhoogd."</string>
+    <string name="exercise_feedback_values__04">"Wat een training!
+Je verhoogde merkbaar je aerobe conditie en je vermogen om langdurig zeer intensieve inspanningen vol te houden. Deze sessie ontwikkelde ook je snelheid en efficiëntie."</string>
+    <string name="exercise_feedback_values__05">"Prima tempo in een lange sessie!
+Je verbeterde je aerobe conditie, snelheid en vermogen om langdurig zeer intensieve inspanningen vol te houden. Deze sessie verhoogde ook je weerstand tegen vermoeidheid."</string>
+    <string name="exercise_feedback_values__06">"Prima tempo!
+Je verbeterde je aerobe conditie, snelheid en vermogen om langdurig zeer intensieve inspanningen vol te houden."</string>
+    <string name="exercise_feedback_values__07">"Prima tempo!
+Je verbeterde je vermogen om langdurig zeer intensieve inspanningen te leveren. Deze sessie ontwikkelde ook je aerobe conditie en het uithoudingsvermogen van je spieren."</string>
+    <string name="exercise_feedback_values__08">"Prima tempo!
+Je verbeterde je aerobe conditie en het uithoudingsvermogen van je spieren. Deze sessie ontwikkelde ook je vermogen om langdurig zeer intensieve inspanningen te leveren."</string>
+    <string name="exercise_feedback_values__09">"Uitstekend!
+Deze lange sessie verbeterde het uithoudingsvermogen van je spieren en je aerobe conditie. Het verhoogde ook je weerstand tegen vermoeidheid."</string>
+    <string name="exercise_feedback_values__10">"Uitstekend!
+Je verbeterde het uithoudingsvermogen van je spieren en je aerobe conditie."</string>
+    <string name="exercise_feedback_values__11">"Uitstekend!
+Deze lange sessie verbeterde het uithoudingsvermogen van je spieren en je aerobe conditie. Het verbeterde ook je basisuithoudingsvermogen en het vermogen van je lichaam om tijdens de training vet te verbranden."</string>
+    <string name="exercise_feedback_values__12">"Uitstekend!
+Je verbeterde het uithoudingsvermogen van je spieren en je aerobe conditie. Deze sessie ontwikkelde ook je basisuithoudingsvermogen en het vermogen van je lichaam om tijdens de training vet te verbranden."</string>
+    <string name="exercise_feedback_values__13">"Prima!
+Deze lange sessie verbeterde je basisuithoudingsvermogen en het vermogen van je lichaam om tijdens de training vet te verbranden. Het verbeterde ook het uithoudingsvermogen van je spieren en je aerobe conditie."</string>
+    <string name="exercise_feedback_values__14">"Prima!
+Je verbeterde je basisuithoudingsvermogen en het vermogen van je lichaam om tijdens de training vet te verbranden. Deze sessie ontwikkelde ook het uithoudingsvermogen van je spieren en je aerobe conditie."</string>
+    <string name="exercise_feedback_values__15">"Prima!
+Deze lange sessie van lage intensiteit verbeterde je basisuithoudingsvermogen en het vermogen van je lichaam om tijdens de training vet te verbranden."</string>
+    <string name="exercise_feedback_values__16">"Goed gedaan!
+Deze sessie van lage intensiteit verbeterde je basisuithoudingsvermogen en het vermogen van je lichaam om tijdens de training vet te verbranden."</string>
+    <string name="exercise_feedback_values__17">Leuke sessie voor je herstel. Door een lichte sessie als deze kan je lichaam zich aanpassen op je training.</string>
+    <string name="fitnesstest_completed_1_row">"Test voltooid
+Conditieniveau: %1$
+Geschat VO2max:%2$"</string>
+    <string name="fitnesstest_failed_1_row">Test mislukt</string>
+    <string name="fitnesstest_failed_hr_notification">Controleer of je borstband bevochtigd is.</string>
+    <string name="fitnesstest_failed_ohr_notification">Draag de M600 strak, net boven het polsgewricht.</string>
+    <string name="fitnesstest_lie_down_2_rows">Ga liggen en ontspan</string>
+    <string name="fitnesstest_result_1_1_row">Uitstekend</string>
+    <string name="fitnesstest_result_2_1_row">Zeer goed</string>
+    <string name="fitnesstest_result_3_1_row">Goed</string>
+    <string name="fitnesstest_result_4_1_row">Gemiddeld</string>
+    <string name="fitnesstest_result_5_1_row">Redelijk</string>
+    <string name="fitnesstest_result_6_1_row">Laag</string>
+    <string name="ftu_finish_installation">"Ga verder met
+Polar Flow op
+je mobiel."</string>
+    <string name="ftu_get_flow_app">Download Polar Flow app</string>
+    <string name="ftu_get_started_message">"Veeg naar links om de Polar Flow app
+naar je mobiel te downloaden."</string>
+    <string name="ftu_get_started_message_iOS">"Download de Polar Flow app van
+de App Store naar je mobiel."</string>
+    <string name="ftu_get_started_title">Aan de slag</string>
+    <string name="ftu_installation_in_progress_3_rows">"Polar app
+installeren..."</string>
+    <string name="ftu_login_message">"Ga verder met
+Polar Flow op
+je mobiel."</string>
+    <string name="ftu_login_message_iOS">"Ga verder met
+Polar Flow op
+je mobiel."</string>
+    <string name="ftu_setting_up_3_rows">Polar M600 instellen...</string>
+    <string name="ftu_setup_complete_3_rows">Installatie voltooid!</string>
+    <string name="gps_sensor_connected">GPS-signaal gevonden</string>
+    <string name="gps_sensor_not_connected">Blijf stil staan om GPS signaal te vinden</string>
+    <string name="gps_sensor_signal_lost">Geen GPS-signaal</string>
+    <string name="main_menu_fitness_test_1_row">Fitness Test</string>
+    <string name="main_menu_iOS_cancel_sync_3_rows">Synchronisatie annuleren?</string>
+    <string name="main_menu_iOS_enable_BLE_3_rows">Bluetooth inschakelen?</string>
+    <string name="main_menu_iOS_not_connected_2_rows">Mobiel niet verbonden</string>
+    <string name="main_menu_iOS_reopen_flowapp_2_rows">Open de Polar Flow app opnieuw op je mobiel.</string>
+    <string name="main_menu_iOS_searching_2_rows">Bezig met zoeken</string>
+    <string name="main_menu_iOS_sync_failed_2_rows">Mislukt</string>
+    <string name="main_menu_iOS_sync_ok_2_rows">Voltooid</string>
+    <string name="main_menu_iOS_synchronize_1_row">Synchroniseren</string>
+    <string name="main_menu_iOS_syncing_2_rows">Bezig met synchroniseren</string>
+    <string name="main_menu_my_heart_rate_1_row">Mijn hartslag</string>
+    <string name="main_menu_settings_1_row">Instellingen</string>
+    <string name="main_menu_today_1_row">Mijn dag</string>
+    <string name="main_menu_training_1_row">Training</string>
+    <string name="main_menu_version_1_row">"Versie:
+%1$s"</string>
+    <string name="myday_item_HR_max_1_row">Max</string>
+    <string name="myday_item_HR_min_1_row">Min.</string>
+    <string name="myday_item_ToGo_01_2_rows">"%1$d u %2$d min
+wandelen"</string>
+    <string name="myday_item_ToGo_02_2_rows">"%1$d u %2$d min
+staan"</string>
+    <string name="myday_item_ToGo_03_2_rows">"%1$d u %2$d min
+joggen"</string>
+    <string name="myday_item_ToGo_heading_1_row">Te gaan</string>
+    <string name="myday_item_text_time_1_row">NU</string>
+    <string name="myday_item_unit_cal_1_row">cal</string>
+    <string name="myday_item_unit_kcal_1_row">kcal</string>
+    <string name="myday_sleep_breakdown_1_row">Slaap</string>
+    <string name="myday_sleep_card_3_rows">Slaap­overzicht openen?</string>
+    <string name="myday_sleep_continuity_scale1_2_rows">Gefragmenteerd</string>
+    <string name="myday_sleep_continuity_scale2_2_rows">"Redelijk
+gefragmenteerd"</string>
+    <string name="myday_sleep_continuity_scale3_2_rows">"Redelijk
+continu"</string>
+    <string name="myday_sleep_continuity_scale4_2_rows">Continu</string>
+    <string name="myday_sleep_continuity_scale5_2_rows">"Heel
+continu"</string>
+    <string name="myday_sleep_duration_hours_mins_1_row">%1$du%2$dmin</string>
+    <string name="myday_sleep_duration_unit_hours_1_row">u</string>
+    <string name="myday_sleep_duration_unit_minutes_1_row">min</string>
+    <string name="myday_sleep_failed_3_rows">Slaapoverzicht maken mislukt</string>
+    <string name="myday_sleep_feedback_heading_2_rows">Feedback over je slaap</string>
+    <string name="myday_sleep_feedback_short1_6_rows">Slaapduur net zolang als gewenst, goede kwaliteit</string>
+    <string name="myday_sleep_feedback_short2_6_rows">Slaapduur net zolang als gewenst, veel onderbrekingen</string>
+    <string name="myday_sleep_feedback_short3_6_rows">Slaapduur net zolang als gewenst, vaak wakker geweest</string>
+    <string name="myday_sleep_feedback_short4_6_rows">Slaapduur net zolang als gewenst, slechte kwaliteit</string>
+    <string name="myday_sleep_feedback_short5_6_rows">Slaapduur korter dan gewenst, over het algemeen goed</string>
+    <string name="myday_sleep_feedback_short6_6_rows">Slaapduur korter dan gewenst, veel onderbrekingen</string>
+    <string name="myday_sleep_feedback_short7_6_rows">Slaapduur korter dan gewenst, vaak wakker geweest</string>
+    <string name="myday_sleep_feedback_short8_6_rows">Slaapduur korter dan gewenst, slechte kwaliteit</string>
+    <string name="myday_sleep_manual_interruption_bodytext_4_rows">Dit stopt de slaap­regi­stratie.</string>
+    <string name="myday_sleep_manual_interruption_heading_1_row">Overzicht openen?</string>
+    <string name="myday_sleep_pie_heading_asleep_1_row">In slaap</string>
+    <string name="myday_sleep_pie_heading_interruptions_2_rows">Onder­brekingen</string>
+    <string name="myday_sleep_preferred_sleep_time_hours_mins_1_row">%1$du%2$dmin</string>
+    <string name="myday_sleep_rating_heading_2_rows">Hoe heb je geslapen?</string>
+    <string name="myday_sleep_rating_option1_1_row">Zeer goed</string>
+    <string name="myday_sleep_rating_option2_1_row">Goed</string>
+    <string name="myday_sleep_rating_option3_1_row">OK</string>
+    <string name="myday_sleep_rating_option4_1_row">Slecht</string>
+    <string name="myday_sleep_rating_option5_1_row">Zeer slecht</string>
+    <string name="notification_activity_goal_reached_5_rows">Je hebt je doel bereikt!</string>
+    <string name="notification_app_updated_2_rows">De Polar-app is bijgewerkt.</string>
+    <string name="notification_fitnesstest_expired_3_rows">Fitness Test result is more than a month old. Retest?</string>
+    <string name="notification_happy_birthday_2_rows">Gefeliciteerd met je verjaardag, %1$s!</string>
+    <string name="notification_happy_birthday_second_2_rows">Gelukgewenst met deze speciale dag, %1$s!</string>
+    <string name="notification_happy_birthday_third_2_rows">We wensen je een fantastische verjaardag, %1$s!</string>
+    <string name="notification_inactivity_content">Beweeg je benen, ga staan, maak een wandeling.</string>
+    <string name="notification_inactivity_title_1_row">Het is tijd voor wat beweging!</string>
+    <string name="notification_phased_training_completed_5_rows">%1$s voltooid</string>
+    <string name="notification_sleep_ready_1_row">Overzicht openen?</string>
+    <string name="notification_sleep_ready_heading_2_rows">"Slaapduur
+%1$du%2$dmin"</string>
+    <string name="notification_training_paused_1_row">Onderbroken</string>
+    <string name="notification_training_recording_on_1_row">Registratie aan</string>
+    <string name="notification_trainingname_at_3_rows">Je hebt een training gepland om %1$s</string>
+    <string name="notification_trainingname_today_at_3_rows">Je hebt vandaag een training gepland om %1$s</string>
+    <string name="percentage_value">%1$d%%</string>
+    <string name="screen_lock_heading_1_row">Schermvergrendeling</string>
+    <string name="screen_lock_off_1_row">UIT</string>
+    <string name="screen_lock_on_1_row">AAN</string>
+    <string name="settings_item_1_row">Instellingen</string>
+    <string name="settings_item_247_HR_tracking_1_row">24/7 HF-registratie</string>
+    <string name="settings_item_about_app_1_row">Info over Polar-app</string>
+    <string name="settings_item_about_app_account_2_rows">Polar account</string>
+    <string name="settings_item_about_app_heading_1_row">Info over Polar-app</string>
+    <string name="settings_item_about_app_version_1_row">Versie</string>
+    <string name="shader_backlight">Verlichting</string>
+    <string name="shader_off">UIT</string>
+    <string name="shader_on">AAN</string>
+    <string name="swipe_down_1_row">Swipe omlaag</string>
+    <string name="wf_data_activity_1_row">Activiteit</string>
+    <string name="wf_data_hr_1_row">Hartslag</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/myDayActivityToGo" style="@style/MyDayItemStyle.ActivityItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/activityToGoTitle" android:text="@string/myday_item_ToGo_heading_1_row" style="@style/MyDayItemTextStyle.Small.ActivityToGoTitle" />
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/activityToGoGlyph" style="@style/MyDayItemTextStyle.Glyph.Medium" />
+    <TextView android:id="@id/activityToGoText" style="@style/MyDayItemTextStyle.Small.ActivityToGoText" />
+</LinearLayout>

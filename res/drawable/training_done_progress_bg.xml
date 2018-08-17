@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/training_done_background" />
+            <size android:height="66.0dip" android:width="66.0dip" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/exewaitSportProfilesFragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fi.polar.polarflow.ui.custom.BetterWearableListView android:gravity="start" android:id="@id/better_wearable_list" android:layout_width="fill_parent" android:layout_height="@dimen/exe_wait_sport_profile_list_view_height" android:layout_marginTop="@dimen/exe_wait_sport_profile_list_view_offset" />
+    <include layout="@layout/exe_wait_sensor_indicators" />
+    <include layout="@layout/exe_wait_target_indicators" />
+    <include android:visibility="invisible" layout="@layout/exe_wait_swimming_icon" />
+    <include layout="@layout/button_name_2row_includable" />
+    <ViewStub android:layout_gravity="end|center|top" android:id="@id/sensor_toast_stub" android:layout="@layout/sensor_toast_view" android:inflatedId="@id/sensor_toast_import" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/exe_wait_sensor_indicators_margin_top" />
+</FrameLayout>

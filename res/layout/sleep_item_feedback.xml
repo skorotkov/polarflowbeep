@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center|top" android:layout_height="wrap_content" android:minHeight="@dimen/display_height" style="@style/SleepItemStyle.Container.Full"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sleepFeedbackTitle" android:text="@string/myday_sleep_feedback_heading_2_rows" style="@style/SleepItemTextStyle.Label.TwoLines" />
+    <TextView android:id="@id/sleepFeedbackText" style="@style/SleepItemTextStyle.Feedback" />
+</LinearLayout>

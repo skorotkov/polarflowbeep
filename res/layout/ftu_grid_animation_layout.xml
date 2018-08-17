@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:id="@id/grid_animation_main_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="4" android:columnCount="4"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

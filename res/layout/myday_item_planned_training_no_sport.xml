@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/MyDayItemStyle.CardContainerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/myday_item_includable_timestamp" />
+    <View android:id="@id/handleView" android:background="@color/myday_item_planned_training_card_color" style="@style/MyDayItemStyle.HandleView" />
+    <LinearLayout android:id="@id/plannedTrainingContainer" android:backgroundTint="@color/myday_item_planned_training_card_color" style="@style/MyDayItemStyle.CardLayout.PlannedTraining">
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/trainingTargetGlyph" polar:glyph="@string/glyph_favorites" style="@style/MyDayItemTextStyle.Glyph.TrainingTargetNoSport" />
+        <include layout="@layout/myday_item_includable_planned_training_text" />
+    </LinearLayout>
+</FrameLayout>

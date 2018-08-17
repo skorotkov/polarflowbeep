@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemRestTimeHalf" style="@style/DisplayItemStyle.Layout.Vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout style="@style/DisplayItemStyle.LabelContainer">
+        <TextView android:id="@id/textRestTimeTitle" android:text="@string/exe_view_rest_time" style="@style/ItemTextStyle.Title.Half" />
+    </RelativeLayout>
+    <LinearLayout style="@style/DisplayItemStyle.Layout.Horizontal">
+        <FrameLayout android:id="@id/timeContainer" style="@style/DisplayItemStyle.PrimaryTextContainer">
+            <TextView android:id="@id/textHoursMinutes" android:text="@string/exe_view_lap_duration_default" style="@style/ItemTextStyle.Primary.Half" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/swimmingTextContainer" android:layout_marginStart="30.0dip" style="@style/DisplayItemStyle.PrimaryTextContainer">
+            <TextView android:text="@string/exe_view_swimming" style="@style/ItemTextStyle.RestTimeText" />
+        </FrameLayout>
+        <TextView android:id="@id/textSeconds" style="@style/ItemTextStyle.Secondary.Half" />
+    </LinearLayout>
+</LinearLayout>

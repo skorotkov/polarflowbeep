@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/itemHrZonePointerHalf" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/hr_zone_pointer_levels" />
+    <LinearLayout android:id="@id/timeInZonesContainer" android:layout_marginTop="@dimen/hr_zone_pointer_quarter_top_margin" style="@style/DisplayItemStyle.TimeInHrZoneLevelContainer">
+        <include layout="@layout/time_in_hr_zone_levels" />
+    </LinearLayout>
+    <include layout="@layout/hr_zone_pointer_hearts" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/timeInZone1" android:background="?colorHrZone1Background" style="@style/DisplayItemStyle.TimeInZoneProgressBar" />
+    <ProgressBar android:id="@id/timeInZone2" android:background="?colorHrZone2Background" style="@style/DisplayItemStyle.TimeInZoneProgressBar" />
+    <ProgressBar android:id="@id/timeInZone3" android:background="?colorHrZone3Background" style="@style/DisplayItemStyle.TimeInZoneProgressBar" />
+    <ProgressBar android:id="@id/timeInZone4" android:background="?colorHrZone4Background" style="@style/DisplayItemStyle.TimeInZoneProgressBar" />
+    <ProgressBar android:id="@id/timeInZone5" android:background="?colorHrZone5Background" style="@style/DisplayItemStyle.TimeInZoneProgressBar" />
+</merge>

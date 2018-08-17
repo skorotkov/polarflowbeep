@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Visa startsidan</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigera uppåt</string>
+    <string name="abc_action_menu_overflow_description">Fler alternativ</string>
+    <string name="abc_action_mode_done">Klart</string>
+    <string name="abc_activity_chooser_view_see_all">Visa alla</string>
+    <string name="abc_activitychooserview_choose_application">Välj en app</string>
+    <string name="abc_capital_off">AV</string>
+    <string name="abc_capital_on">PÅ</string>
+    <string name="abc_search_hint">Sök …</string>
+    <string name="abc_searchview_description_clear">Ta bort frågan</string>
+    <string name="abc_searchview_description_query">Sökfråga</string>
+    <string name="abc_searchview_description_search">Sök</string>
+    <string name="abc_searchview_description_submit">Skicka fråga</string>
+    <string name="abc_searchview_description_voice">Röstsökning</string>
+    <string name="abc_shareactionprovider_share_with">Dela med</string>
+    <string name="abc_shareactionprovider_share_with_application">Dela med %s</string>
+    <string name="abc_toolbar_collapse_description">Komprimera</string>
+    <string name="common_google_play_services_enable_button">Aktivera</string>
+    <string name="common_google_play_services_enable_text">%1$s fungerar inte om du inte aktiverar Google Play-tjänster.</string>
+    <string name="common_google_play_services_enable_title">Aktivera Google Play-tjänster</string>
+    <string name="common_google_play_services_install_button">Installera</string>
+    <string name="common_google_play_services_install_text">%1$s kan inte köras utan Google Play-tjänsterna, som saknas på enheten.</string>
+    <string name="common_google_play_services_install_title">Hämta Google Play-tjänster</string>
+    <string name="common_google_play_services_notification_ticker">Fel på Google Play-tjänster</string>
+    <string name="common_google_play_services_unknown_issue">Det har uppstått ett fel mellan %1$s och Google Play-tjänsterna. Försök igen.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten.</string>
+    <string name="common_google_play_services_update_button">Uppdatera</string>
+    <string name="common_google_play_services_update_text">%1$s kan inte köras om du inte uppdaterar Google Play-tjänsterna.</string>
+    <string name="common_google_play_services_update_title">Uppdatera Google Play-tjänster</string>
+    <string name="common_google_play_services_updating_text">%1$s kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande.</string>
+    <string name="common_google_play_services_wear_update_text">En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort.</string>
+    <string name="common_open_on_phone">Öppna på mobilen</string>
+    <string name="common_signin_button_text">Logga in</string>
+    <string name="common_signin_button_text_long">Logga in med Google</string>
+    <string name="search_menu_title">Sök</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="buttons_rect_bottom_center">Längst ned</string>
+    <string name="buttons_rect_bottom_left">Längst ned till vänster</string>
+    <string name="buttons_rect_bottom_right">Längst ned till höger</string>
+    <string name="buttons_rect_left_bottom">Längst ned till vänster</string>
+    <string name="buttons_rect_left_center">I mitten till vänster</string>
+    <string name="buttons_rect_left_top">Högst upp till vänster</string>
+    <string name="buttons_rect_right_bottom">Längst ned till höger</string>
+    <string name="buttons_rect_right_center">I mitten till höger</string>
+    <string name="buttons_rect_right_top">Högst upp till höger</string>
+    <string name="buttons_rect_top_center">Högst upp</string>
+    <string name="buttons_rect_top_left">Högst upp till vänster</string>
+    <string name="buttons_rect_top_right">Högst upp till höger</string>
+    <string name="buttons_round_bottom_center">Längst ned</string>
+    <string name="buttons_round_bottom_left">Längst ned till vänster</string>
+    <string name="buttons_round_bottom_left_lower">Längst ned till vänster, lägre</string>
+    <string name="buttons_round_bottom_left_upper">Längst ned till vänster, övre</string>
+    <string name="buttons_round_bottom_right">Längst ned till höger</string>
+    <string name="buttons_round_bottom_right_lower">Längst ned till höger, lägre</string>
+    <string name="buttons_round_bottom_right_upper">Längst ned till höger, övre</string>
+    <string name="buttons_round_center_left">I mitten till vänster</string>
+    <string name="buttons_round_center_right">I mitten till höger</string>
+    <string name="buttons_round_top_center">Högst upp</string>
+    <string name="buttons_round_top_left">Högst upp till vänster</string>
+    <string name="buttons_round_top_left_lower">Högst upp till vänster, lägre</string>
+    <string name="buttons_round_top_left_upper">Högst upp till vänster, övre</string>
+    <string name="buttons_round_top_right">Högst upp till höger</string>
+    <string name="buttons_round_top_right_lower">Högst upp till höger, lägre</string>
+    <string name="buttons_round_top_right_upper">Högst upp till höger, övre</string>
+    <string name="dismiss_overlay_button_label">Avsluta</string>
+    <string name="generic_cancel">Avbryt</string>
+    <string name="generic_yes">Ja</string>
+    <string name="navigation_drawer_content_description">Navigeringspanel</string>
+    <string name="time_difference_now">Nu</string>
+    <string name="time_difference_short_days_and_hours">%1$s %2$s</string>
+    <string name="time_difference_short_hours_and_minutes">%1$s %2$s</string>
+    <string name="battery_saver_on_card_3_rows">Batterispar aktiverad. Platsspårning stoppad.</string>
+    <string name="battery_saver_on_toast_2_rows">Batterispar aktiverad. Platsspårning stoppad.</string>
+    <string name="ble_sensor_connected_1_row">%1$s ansluten</string>
+    <string name="ble_sensor_pairing_confirmation_2_rows">"Para ihop
+%1$s?"</string>
+    <string name="exe_summary_feedback_names__01_3_rows">Maxträning+</string>
+    <string name="exe_summary_feedback_names__02_3_rows">Maxträning</string>
+    <string name="exe_summary_feedback_names__03_3_rows">Max- &amp; Tempo­träning</string>
+    <string name="exe_summary_feedback_names__04_3_rows">Tempo- &amp; Max­träning</string>
+    <string name="exe_summary_feedback_names__05_3_rows">Tempoträning+</string>
+    <string name="exe_summary_feedback_names__06_3_rows">Tempo­träning</string>
+    <string name="exe_summary_feedback_names__07_3_rows">Tempo- &amp; Distans­träning</string>
+    <string name="exe_summary_feedback_names__08_3_rows">Distans- &amp; Tempo­träning</string>
+    <string name="exe_summary_feedback_names__09_3_rows">Distans­träning +</string>
+    <string name="exe_summary_feedback_names__10_3_rows">Distans­träning</string>
+    <string name="exe_summary_feedback_names__11_3_rows">Distans- &amp; Grund­träning, lång</string>
+    <string name="exe_summary_feedback_names__12_3_rows">Distans- &amp; Grund­träning</string>
+    <string name="exe_summary_feedback_names__13_3_rows">Grund- &amp; Distans­träning, lång</string>
+    <string name="exe_summary_feedback_names__14_3_rows">Grund- &amp; Distans­träning</string>
+    <string name="exe_summary_feedback_names__15_3_rows">Grund­träning, lång</string>
+    <string name="exe_summary_feedback_names__16_3_rows">Grund­träning</string>
+    <string name="exe_summary_feedback_names__17_3_rows">Återhämtnings­träning</string>
+    <string name="exe_summary_start_date_and_time_1_row">%1$sh %2$s</string>
+    <string name="exe_summary_styles_backstrocke">Ryggsim</string>
+    <string name="exe_summary_styles_breaststroke">Bröstsim</string>
+    <string name="exe_summary_styles_butterfly">Fjärilsim</string>
+    <string name="exe_summary_styles_freestyle">Frisim</string>
+    <string name="exe_summary_styles_other">Annat simsätt</string>
+    <string name="exe_summary_swimming_rest_time">Vilotid</string>
+    <string name="exe_summary_swimming_styles">Simsätt</string>
+    <string name="exe_target_calorie_cal_reached_4_rows">Du har uppnått ditt %1$s Cal­mål</string>
+    <string name="exe_target_calorie_kcal_reached_4_rows">Du har uppnått ditt %1$s kcal­mål!</string>
+    <string name="exe_target_distance_km_reached_4_rows">Du har uppnått ditt %1$s km­mål!</string>
+    <string name="exe_target_distance_mi_reached_4_rows">Du har uppnått ditt %1$s mi­mål!</string>
+    <string name="exe_target_doubled_4_rows">Wow! Du har dubblat ditt mål!</string>
+    <string name="exe_target_duration_reached_4_rows">Du har uppnått ditt %1$s mål!</string>
+    <string name="exe_target_phase_multi_zone_1_row">Zoner %1$d-%2$d</string>
+    <string name="exe_target_phase_no_limits_1_row">Inga gränser</string>
+    <string name="exe_target_phase_single_zone_1_row">Zon %1$d</string>
+    <string name="exe_target_phased_training_completed_2_rows">%1$s slutfört</string>
+    <string name="exe_target_reached_already_1_row">Uppnått redan</string>
+    <string name="exe_target_select_favorite_1_row">Välj favorit</string>
+    <string name="exe_target_select_target_1_row">Välj mål</string>
+    <string name="exe_target_your_target_1_row">Ditt mål</string>
+    <string name="exe_view_Altitude_1_row">Höjd</string>
+    <string name="exe_view_alap_ascent">Stigning a.varv</string>
+    <string name="exe_view_alap_avg_heartrate_1_row">Snittpuls a.varv</string>
+    <string name="exe_view_alap_avg_pace_1_row">Snittempo a.varv</string>
+    <string name="exe_view_alap_avg_speed_1_row">Snitthast.a.varv</string>
+    <string name="exe_view_alap_descent">Utför a.varv</string>
+    <string name="exe_view_alap_distance_1_row">Sträcka a.varv</string>
+    <string name="exe_view_alap_max_heartrate_1_row">Maxpuls a.varv</string>
+    <string name="exe_view_alap_max_pace_1_row">Maxtempo a.varv</string>
+    <string name="exe_view_alap_max_speed_1_row">Maxhast. a. varv</string>
+    <string name="exe_view_ascent">Stigning</string>
+    <string name="exe_view_automatic_lap_1_row">Auto. varvtid %1$d</string>
+    <string name="exe_view_automatic_lap_header_1_row">Auto. varvtid %1$d</string>
+    <string name="exe_view_automatic_lap_running_cadence_avg_1_row">Snittkad. a.varv</string>
+    <string name="exe_view_automatic_lap_running_cadence_max_1_row">Maxkad. a.varv</string>
+    <string name="exe_view_avg_1_row">SNITT</string>
+    <string name="exe_view_avg_heartrate_1_row">Snittpuls</string>
+    <string name="exe_view_avg_pace_1_row">Snittempo</string>
+    <string name="exe_view_avg_running_cadence_1_row">Snittkadens</string>
+    <string name="exe_view_avg_speed_1_row">Snitthastighet</string>
+    <string name="exe_view_bpm_1_row">bpm</string>
+    <string name="exe_view_current_lap_running_cadence_avg_1_row">Snittkadens varv</string>
+    <string name="exe_view_descent">Utför</string>
+    <string name="exe_view_distance_1_row">Sträcka</string>
+    <string name="exe_view_distance_unit_km_1_row">km</string>
+    <string name="exe_view_distance_unit_m_1_row">m</string>
+    <string name="exe_view_duration_1_row">Träningstid</string>
+    <string name="exe_view_feedback_1_row">Training Benefit</string>
+    <string name="exe_view_heartrate_1_row">Puls</string>
+    <string name="exe_view_heartrate_zones_1_row">Pulszoner</string>
+    <string name="exe_view_hr_not_in_zone_1_row">Utanför zoner</string>
+    <string name="exe_view_item_label_calories_1_row">Kalorier</string>
+    <string name="exe_view_lap_ascent">Stigning varv</string>
+    <string name="exe_view_lap_average_heart_rate_1_row">Snittpuls varv</string>
+    <string name="exe_view_lap_descent">Utför varv</string>
+    <string name="exe_view_lap_distance">Varvsträcka</string>
+    <string name="exe_view_lap_maximum_heart_rate_1_row">Maxpuls varv</string>
+    <string name="exe_view_lap_pace">Snittempo varv</string>
+    <string name="exe_view_lap_pace_max">Maxtempo varv</string>
+    <string name="exe_view_lap_running_cadence_max_1_row">Maxkadens varv</string>
+    <string name="exe_view_lap_speed">Snitthast varv</string>
+    <string name="exe_view_lap_speed_max">Maxhastigh.varv</string>
+    <string name="exe_view_lap_time">Varv %1$s tid</string>
+    <string name="exe_view_last_a_lap_time">Snitt sen.a.varv</string>
+    <string name="exe_view_last_alap_HR_avg">Snitt sen.a.varv</string>
+    <string name="exe_view_last_alap_HR_max">Max sen.a.varv</string>
+    <string name="exe_view_last_alap_speed_avg">Snitt sen.a.varv</string>
+    <string name="exe_view_last_alap_speed_max">Max sen.a.varv</string>
+    <string name="exe_view_last_automatic_lap_distance_1_row">Str. sen. a.varv</string>
+    <string name="exe_view_last_lap_HR_avg">Snitt sen. varv</string>
+    <string name="exe_view_last_lap_distance">Str. senast. varv</string>
+    <string name="exe_view_last_lap_maximum_heart_rate_1_row">Max sen. varv</string>
+    <string name="exe_view_last_lap_maximum_speed_or_pace_1_row">Max sen. varv</string>
+    <string name="exe_view_last_lap_running_cadence_avg_1_row">Snitt sen. varv</string>
+    <string name="exe_view_last_lap_speed_avg">Snitt sen. varv</string>
+    <string name="exe_view_last_lap_time">Senaste varvtid</string>
+    <string name="exe_view_manual_lap_header_1_row">Varvtid %1$d</string>
+    <string name="exe_view_max_1_row">MAX</string>
+    <string name="exe_view_max_heartrate_1_row">Maxpuls</string>
+    <string name="exe_view_max_pace_1_row">Maxtempo</string>
+    <string name="exe_view_max_running_cadence_1_row">Maxkadens</string>
+    <string name="exe_view_max_speed_1_row">Maxhastighet</string>
+    <string name="exe_view_pace_1_row">Tempo</string>
+    <string name="exe_view_pause">Pausa</string>
+    <string name="exe_view_rest_time">Vilotid</string>
+    <string name="exe_view_running_cadence_1_row">Kadens</string>
+    <string name="exe_view_running_index_2_rows">Running Index</string>
+    <string name="exe_view_running_index_name_01_1_row">Elit</string>
+    <string name="exe_view_running_index_name_02_1_row">Mycket bra</string>
+    <string name="exe_view_running_index_name_03_1_row">Bra</string>
+    <string name="exe_view_running_index_name_04_1_row">Medel</string>
+    <string name="exe_view_running_index_name_05_1_row">Ganska bra</string>
+    <string name="exe_view_running_index_name_06_1_row">Lågt</string>
+    <string name="exe_view_running_index_name_07_1_row">Mycket lågt</string>
+    <string name="exe_view_save_short_session">Kort träningspass. Spara?</string>
+    <string name="exe_view_speed_1_row">Hastighet</string>
+    <string name="exe_view_swimming">Simning</string>
+    <string name="exe_view_time_in_zone_1_row">Tid i zon %1$s</string>
+    <string name="exe_view_time_of_day_1_row">Klocktid</string>
+    <string name="exe_view_training_load_01_1_row">Extrem</string>
+    <string name="exe_view_training_load_02_1_row">Mycket krävande</string>
+    <string name="exe_view_training_load_03_1_row">Krävande</string>
+    <string name="exe_view_training_load_04_1_row">Rimlig</string>
+    <string name="exe_view_training_load_05_1_row">Lätt</string>
+    <string name="exe_view_training_load_2_rows">Träningsansträngning för passet</string>
+    <string name="exe_view_unit_cal_1_row">cal</string>
+    <string name="exe_view_unit_kcal_1_row">kcal</string>
+    <string name="exe_view_unit_min">min</string>
+    <string name="exe_view_unit_pace_min_per_km_1_row">min/km</string>
+    <string name="exe_view_unit_speed_km_per_hour_1_row">km/h</string>
+    <string name="exe_wait_activate_gopro_3_rows">Använd GoPro i detta träningspass?</string>
+    <string name="exe_wait_activate_scheduled_training">"Starta
+%1$s schemalagd
+at %2$s?"</string>
+    <string name="exe_wait_bluetooth_connection_device_with_friendly_name_5_rows">Kan inte ansluta till %1$s eftersom M600 är ansluten till %2$s.</string>
+    <string name="exe_wait_bluetooth_connection_iOS_5_rows">Kan inte ansluta till %1$s eftersom M600 är ansluten till mobilenhet.</string>
+    <string name="exe_wait_bluetooth_connection_other_device_5_rows">Kan inte ansluta till %1$s eftersom M600 är ansluten till en annan enhet.</string>
+    <string name="exe_wait_choose_poollength_unit_m_1_row">Meters</string>
+    <string name="exe_wait_choose_poollength_unit_yd_1_row">Yards</string>
+    <string name="exe_wait_enable_body_sensor_permission">Ändra appbehörigheter för att aktivera sensorer?</string>
+    <string name="exe_wait_enable_location_permission">Ändra appbehörigheter för att aktivera GPS?</string>
+    <string name="exe_wait_enable_location_service_1_row">Aktivera position­eringstjänster?</string>
+    <string name="exe_wait_hr_sensor_off_3_rows">"Din 
+%1$s är avstängd."</string>
+    <string name="exe_wait_pool_length_heading_1_row">Bassänglängd</string>
+    <string name="exe_wait_pool_length_m">%1$d m</string>
+    <string name="exe_wait_pool_length_m_heading_1_row">Bassänglängd (m)</string>
+    <string name="exe_wait_pool_length_options_customize_1_row">Redigera</string>
+    <string name="exe_wait_pool_length_options_m_1_row">%1$d meters</string>
+    <string name="exe_wait_pool_length_options_yd_1_row">%1$d yards</string>
+    <string name="exe_wait_pool_length_unit_yd">yd</string>
+    <string name="exe_wait_pool_length_yd">%1$d yd</string>
+    <string name="exe_wait_pool_length_yd_heading_1_row">Bassänglängd (yd)</string>
+    <string name="exe_wait_target_select_favorite_1_row">Välj favorit</string>
+    <string name="exe_wait_target_select_target_1_row">Välj mål</string>
+    <string name="exercise_feedback_values__00">Du måste träna minst 10 minuter över 50% av ditt beräknade maxpulsvärde för att få feedback.</string>
+    <string name="exercise_feedback_values__01">"Vilketpass!
+Du förbättrade din sprint­hastighet och dina musklers nervsystem, vilket gör att du blir effektivare. Passet förbättrade även din förmåga att stå emot trötthet."</string>
+    <string name="exercise_feedback_values__02">"Vilketpass!
+Du förbättrade din sprint­hastighet och dina musklers nervsystem, vilket gör att du blir effektivare."</string>
+    <string name="exercise_feedback_values__03">"Vilket pass!
+Du förbättrade din snabbhet och effektivitet. Passet utvecklade även betydligt din kondition och din förmåga att bibehålla hög intensitet och kraft under en längre tid."</string>
+    <string name="exercise_feedback_values__04">"Vilket pass!
+Du förbättrade betydligt din aeroba kondition och din förmåga att bibehålla hög intensitet under längre tid. Passet utvecklade även din snabbhet och effektivitet."</string>
+    <string name="exercise_feedback_values__05">"Bra tempo under ett lång pass!
+Du förbättrade din aeroba kondition, snabbhet, och förmåga att bibehålla hög intensitet under en längre tid. Passet förbättrade även din förmåga att stå emot trötthet."</string>
+    <string name="exercise_feedback_values__06">"Bra tempo!
+Du förbättrade din aeroba kondition, snabbhet, och förmåga att bibehålla hög intensitet under en längre tid."</string>
+    <string name="exercise_feedback_values__07">"Bra tempo!
+Du förbättrade din förmåga att bibehålla hög intensitet under en längre tid. Passet utvecklade även din aeroba kondition och dina musklers uthållighet."</string>
+    <string name="exercise_feedback_values__08">"Bra tempo!
+Du förbättrade din aeroba kondition och dina musklers uthållighet. Passet utvecklade även din förmåga att bibehålla hög intensitet och kraft under en längre tid."</string>
+    <string name="exercise_feedback_values__09">"Utmärkt!
+Det långa passet förbättrade dina musklers uthållighet och din aeroba kondition. Det förbättrade även din förmåga att stå emot trötthet."</string>
+    <string name="exercise_feedback_values__10">"Utmärkt!
+Du förbättrade dina musklers uthållighet och din aeroba kondition."</string>
+    <string name="exercise_feedback_values__11">"Utmärkt!
+Det långa passet förbättrade dina musklers uthållighet och din aeroba kondition. Det utvecklade även din grunduthållighet och din kropps förmåga att bränna fett under träning."</string>
+    <string name="exercise_feedback_values__12">"Utmärkt!
+Du förbättrade dina musklers uthållighet och din aeroba kondition. Passet utvecklade även din grunduthållighet och din kropps förmåga att bränna fett under träning."</string>
+    <string name="exercise_feedback_values__13">Toppen! Det långa passet förbättrade din grund­uthållighet och din kropps förmåga att bränna fett under träning. Det utvecklade även dina musklers uthållighet och din aeroba kondition.</string>
+    <string name="exercise_feedback_values__14">Toppen! Du förbättrade din grunduthållighet och din kropps förmåga att bränna fett under träning. Passet utvecklade även dina musklers uthållighet och din aeroba kondition.</string>
+    <string name="exercise_feedback_values__15">"Toppen!
+Detta långa, lågintensiva pass förbättrade din grund­uthållighet och din kropps förmåga att bränna fett under träning."</string>
+    <string name="exercise_feedback_values__16">"Toppen!
+Detta långa, lågintensiva pass förbättrade din grund­uthållighet och din kropps förmåga att bränna fett under träning."</string>
+    <string name="exercise_feedback_values__17">Mycket bra pass för din återhämtning. Med sådan lätt träning kan din kropp anpassa sig till din träning.</string>
+    <string name="fitnesstest_completed_1_row">"Test slutfört
+Konditionsnivå: %1$
+Beräkn.VO2max:%2$"</string>
+    <string name="fitnesstest_failed_1_row">Test miss­lyckades</string>
+    <string name="fitnesstest_failed_hr_notification">Kontrollera att pulssensorn har fuktats.</string>
+    <string name="fitnesstest_failed_ohr_notification">M600 ska sitta åt strax ovanför handlovs­benet.</string>
+    <string name="fitnesstest_lie_down_2_rows">Ligg ner och slappna av</string>
+    <string name="fitnesstest_result_1_1_row">Elit</string>
+    <string name="fitnesstest_result_2_1_row">Mycket bra</string>
+    <string name="fitnesstest_result_3_1_row">Bra</string>
+    <string name="fitnesstest_result_4_1_row">Medel</string>
+    <string name="fitnesstest_result_5_1_row">Ganska bra</string>
+    <string name="fitnesstest_result_6_1_row">Lågt</string>
+    <string name="ftu_finish_installation">"Fortsätt med
+Polar Flow på
+din mobil."</string>
+    <string name="ftu_get_flow_app">Hämta Polar Flow-appen</string>
+    <string name="ftu_get_started_message">"Svep åt vänster för att hämta Polar Flow­appen
+på din mobil."</string>
+    <string name="ftu_get_started_message_iOS">"Hämta Polar Flow­appen på din
+mobil från App Store."</string>
+    <string name="ftu_get_started_title">Komma igång</string>
+    <string name="ftu_installation_in_progress_3_rows">"Installerar
+Polar­appen ..."</string>
+    <string name="ftu_login_message">"Fortsätt med
+Polar Flow på
+din mobil."</string>
+    <string name="ftu_login_message_iOS">"Fortsätt med
+Polar Flow på
+din mobil."</string>
+    <string name="ftu_setting_up_3_rows">Ställer in Polar M600...</string>
+    <string name="ftu_setup_complete_3_rows">Inställning slutförd!</string>
+    <string name="gps_sensor_connected">GPS-signal hittad</string>
+    <string name="gps_sensor_not_connected">Stå still för att hitta GPS-signal</string>
+    <string name="gps_sensor_signal_lost">GPS-signal saknas</string>
+    <string name="main_menu_fitness_test_1_row">Konditionstest</string>
+    <string name="main_menu_iOS_cancel_sync_3_rows">Avbryt synkronisering?</string>
+    <string name="main_menu_iOS_enable_BLE_3_rows">Aktivera Bluetooth?</string>
+    <string name="main_menu_iOS_not_connected_2_rows">Mobil ej ansluten</string>
+    <string name="main_menu_iOS_reopen_flowapp_2_rows">Öppna Polar Flow­appen på mobilen.</string>
+    <string name="main_menu_iOS_searching_2_rows">Söker</string>
+    <string name="main_menu_iOS_sync_failed_2_rows">Misslyckades</string>
+    <string name="main_menu_iOS_sync_ok_2_rows">Slutfört</string>
+    <string name="main_menu_iOS_synchronize_1_row">Synkronisera</string>
+    <string name="main_menu_iOS_syncing_2_rows">Synkroniserar</string>
+    <string name="main_menu_my_heart_rate_1_row">Min puls</string>
+    <string name="main_menu_settings_1_row">Inställningar</string>
+    <string name="main_menu_today_1_row">Min dag</string>
+    <string name="main_menu_training_1_row">Träning</string>
+    <string name="main_menu_version_1_row">"Version:
+%1$s"</string>
+    <string name="myday_item_HR_max_1_row">Max</string>
+    <string name="myday_item_HR_min_1_row">Min.</string>
+    <string name="myday_item_ToGo_01_2_rows">"%1$d h %2$d min
+promenad"</string>
+    <string name="myday_item_ToGo_02_2_rows">"%1$d h %2$d min
+uppe"</string>
+    <string name="myday_item_ToGo_03_2_rows">"%1$d h %2$d min
+jogg"</string>
+    <string name="myday_item_ToGo_heading_1_row">Kvar</string>
+    <string name="myday_item_text_time_1_row">NU</string>
+    <string name="myday_item_unit_cal_1_row">cal</string>
+    <string name="myday_item_unit_kcal_1_row">kcal</string>
+    <string name="myday_sleep_breakdown_1_row">Sömn</string>
+    <string name="myday_sleep_card_3_rows">Öppna sömn­summering?</string>
+    <string name="myday_sleep_continuity_scale1_2_rows">Fragmenterad</string>
+    <string name="myday_sleep_continuity_scale2_2_rows">"Ganska
+fragmenterad"</string>
+    <string name="myday_sleep_continuity_scale3_2_rows">"Ganska
+sammanhängande"</string>
+    <string name="myday_sleep_continuity_scale4_2_rows">Sammanhängande</string>
+    <string name="myday_sleep_continuity_scale5_2_rows">"Mycket
+sammanhängande"</string>
+    <string name="myday_sleep_duration_hours_mins_1_row">%1$dh%2$dmin</string>
+    <string name="myday_sleep_duration_unit_hours_1_row">h</string>
+    <string name="myday_sleep_duration_unit_minutes_1_row">min</string>
+    <string name="myday_sleep_failed_3_rows">Kunde inte summera din sömn</string>
+    <string name="myday_sleep_feedback_heading_2_rows">Sömnfeedback</string>
+    <string name="myday_sleep_feedback_short1_6_rows">Önskad sömntid, och bra kvalitet</string>
+    <string name="myday_sleep_feedback_short2_6_rows">Önskad sömntid, många avbrott</string>
+    <string name="myday_sleep_feedback_short3_6_rows">Önskad sömntid, mycket vaken tid</string>
+    <string name="myday_sleep_feedback_short4_6_rows">Önskad sömntid, men dålig kvalitet</string>
+    <string name="myday_sleep_feedback_short5_6_rows">Mindre sömn än önskat, men bra kvalitet totalt sett</string>
+    <string name="myday_sleep_feedback_short6_6_rows">Mindre sömn än önskat, flera avbrott</string>
+    <string name="myday_sleep_feedback_short7_6_rows">Mindre sömn än önskat, mycket vaken tid</string>
+    <string name="myday_sleep_feedback_short8_6_rows">Mindre sömn än önskat, dålig sömnkvalitet</string>
+    <string name="myday_sleep_manual_interruption_bodytext_4_rows">Detta avslutar sömn­registrering.</string>
+    <string name="myday_sleep_manual_interruption_heading_1_row">Öppna summering?</string>
+    <string name="myday_sleep_pie_heading_asleep_1_row">Sover</string>
+    <string name="myday_sleep_pie_heading_interruptions_2_rows">Avbrott</string>
+    <string name="myday_sleep_preferred_sleep_time_hours_mins_1_row">%1$dh%2$dmin</string>
+    <string name="myday_sleep_rating_heading_2_rows">Hur sov du?</string>
+    <string name="myday_sleep_rating_option1_1_row">Mycket bra</string>
+    <string name="myday_sleep_rating_option2_1_row">Bra</string>
+    <string name="myday_sleep_rating_option3_1_row">Okej</string>
+    <string name="myday_sleep_rating_option4_1_row">Dåligt</string>
+    <string name="myday_sleep_rating_option5_1_row">Mycket dåligt</string>
+    <string name="notification_activity_goal_reached_5_rows">Du har uppnått ditt mål!</string>
+    <string name="notification_app_updated_2_rows">Polar-appen har uppdaterats.</string>
+    <string name="notification_fitnesstest_expired_3_rows">Fitness Test result is more than a month old. Retest?</string>
+    <string name="notification_happy_birthday_2_rows">Grattis, %1$s!</string>
+    <string name="notification_happy_birthday_second_2_rows">Ha det så bra på din speciella dag, %1$s!</string>
+    <string name="notification_happy_birthday_third_2_rows">Ha en fantastisk födelsedag, %1$s!</string>
+    <string name="notification_inactivity_content">Rör benen, stå upp, gå runt.</string>
+    <string name="notification_inactivity_title_1_row">Det är dags att röra på sig!</string>
+    <string name="notification_phased_training_completed_5_rows">%1$s slutfört</string>
+    <string name="notification_sleep_ready_1_row">Öppna summering?</string>
+    <string name="notification_sleep_ready_heading_2_rows">"Sömntid
+%1$dh%2$dmin"</string>
+    <string name="notification_training_paused_1_row">Pausad</string>
+    <string name="notification_training_recording_on_1_row">Registrering på</string>
+    <string name="notification_trainingname_at_3_rows">Du har planerat träning kl. %1$s</string>
+    <string name="notification_trainingname_today_at_3_rows">Du har planerat träning kl. %1$s idag</string>
+    <string name="percentage_value">%1$d %%</string>
+    <string name="screen_lock_heading_1_row">Skärmlås</string>
+    <string name="screen_lock_off_1_row">AV</string>
+    <string name="screen_lock_on_1_row">PÅ</string>
+    <string name="settings_item_1_row">Inställningar</string>
+    <string name="settings_item_247_HR_tracking_1_row">Pulsmätn.dygnet runt</string>
+    <string name="settings_item_about_app_1_row">Om Polar-appen</string>
+    <string name="settings_item_about_app_account_2_rows">Polar-konto</string>
+    <string name="settings_item_about_app_heading_1_row">Om Polar-appen</string>
+    <string name="settings_item_about_app_version_1_row">Version</string>
+    <string name="shader_backlight">Bakbelysning</string>
+    <string name="shader_off">AV</string>
+    <string name="shader_on">PÅ</string>
+    <string name="swipe_down_1_row">Svep nedåt</string>
+    <string name="wf_data_activity_1_row">Aktivitet</string>
+    <string name="wf_data_hr_1_row">Puls</string>
+</resources>

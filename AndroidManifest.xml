@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fi.polar.polarflow" platformBuildVersionCode="25" platformBuildVersionName="7.1.1">
+    <uses-feature android:name="com.polar.wearable"/>
+    <uses-feature android:name="android.hardware.type.watch"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.BODY_SENSORS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <meta-data android:name="android.support.VERSION" android:value="25.3.1"/>
+    <compatible-screens/>
+    <application android:allowBackup="false" android:fullBackupContent="false" android:icon="@mipmap/app_icon" android:label="@string/app_name" android:name="fi.polar.polarflow.PolarFlowMicroApp" android:supportsRtl="false" android:theme="@style/FlowTheme">
+        <uses-library android:name="com.google.android.wearable" android:required="false"/>
+        <activity android:label="@string/app_name" android:name="fi.polar.polarflow.ui.StartActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:launchMode="singleTask" android:name="fi.polar.polarflow.ui.MainMenuActivity" android:resumeWhilePausing="true"/>
+        <activity android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="fi.polar.polarflow.ui.exewait.ExeWaitActivity"/>
+        <activity android:launchMode="singleInstance" android:name="fi.polar.polarflow.ui.exeview.ExeViewActivity" android:resumeWhilePausing="true" android:theme="@style/FlowTheme.Modal"/>
+        <activity android:finishOnTaskLaunch="true" android:name="fi.polar.polarflow.ui.myday.MyDayGridPagerActivity"/>
+        <activity android:name="fi.polar.polarflow.ui.myday.sleep.SleepResultActivity" android:noHistory="true"/>
+        <activity android:name="fi.polar.polarflow.ui.myday.StopSleepActivity" android:noHistory="true"/>
+        <activity android:name="android.support.wearable.activity.ConfirmationActivity" android:theme="@style/FlowTheme.ConfirmationActivity"/>
+        <activity android:launchMode="singleTask" android:name="fi.polar.polarflow.ftu.SignInActivity" android:theme="@style/FlowTheme.FtuWithBgImage"/>
+        <activity android:launchMode="singleTask" android:name="fi.polar.polarflow.ftu.GridAnimationActivity" android:theme="@style/FlowTheme.Ftu"/>
+        <activity android:name="fi.polar.polarflow.ui.exeview.summary.SummaryActivity" android:noHistory="true" android:theme="@style/FlowTheme.Summary"/>
+        <activity android:launchMode="singleInstance" android:name="fi.polar.polarflow.ui.myday.WatchFaceMyDayActivity" android:theme="@style/FlowTheme.MyDayActivity"/>
+        <activity android:launchMode="singleInstance" android:name="fi.polar.polarflow.ui.myday.DailyGoalReachedActivity" android:theme="@style/FlowTheme.DailyGoalReachedActivity"/>
+        <activity android:launchMode="singleTask" android:name="fi.polar.polarflow.ui.SyncActivity"/>
+        <activity android:launchMode="singleInstance" android:name="fi.polar.polarflow.ui.VoiceCommandsActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="vnd.google.fitness.TRACK"/>
+                <data android:mimeType="vnd.google.fitness.activity/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="fi.polar.polarflow.ui.myheartrate.MyHeartRateActivity" android:theme="@style/FlowTheme.MyHeartRateActivity"/>
+        <receiver android:name="fi.polar.polarflow.service.activity.BootCompletedReceiver">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="fi.polar.polarflow.util.TimeOrZoneChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="fi.polar.polarflow.ftu.ApplicationReplacedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="fi.polar.polarflow.ui.NotificationReceiver">
+            <intent-filter>
+                <action android:name="fi.polar.polarflow.action.PROVISIONING_STATUS"/>
+                <action android:name="fi.polar.polarflow.action.TARGET_NOTIFICATION"/>
+                <action android:name="fi.polar.polarflow.action.APP_UPDATED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="fi.polar.polarflow.service.bluetooth.BluetoothSyncReceiver">
+            <intent-filter>
+                <action android:name="fi.polar.polarflow.action.INITIALIZED"/>
+                <action android:name="fi.polar.polarflow.service.bluetooth.action.HOST_FOUND"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="fi.polar.polarflow.ftu.FtuEventReceiver">
+            <intent-filter>
+                <action android:name="fi.polar.polarflow.action.USERID_RECEIVED"/>
+                <action android:name="fi.polar.polarflow.action.SYNC_STARTED"/>
+                <action android:name="fi.polar.polarflow.action.SYNC_STOPPED"/>
+                <action android:name="fi.polar.polarflow.action.PROVISIONING_STATUS"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="fi.polar.polarflow.service.activity.FlushAlarmReceiver">
+            <intent-filter>
+                <action android:name="fi.polar.polarflow.action.FLUSH_SENSOR_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="fi.polar.polarflow.calculators.AlarmReceiver">
+            <intent-filter>
+                <action android:name="fi.polar.polarflow.action.CALCULATOR_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="fi.polar.polarflow.service.provider.ComplicationActionReceiver">
+            <intent-filter>
+                <action android:name="fi.polar.polarflow.action.COMPLICATION_TAP"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.bluetooth.BluetoothAdaptationService"/>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.TrainingService"/>
+        <service android:exported="true" android:name="fi.polar.polarflow.service.datalayer.DataListenerService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED"/>
+                <action android:name="com.google.android.gms.wearable.CHANNEL_EVENT"/>
+                <data android:host="*" android:scheme="wear"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.datalayer.SyncJournalingService"/>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.activity.DailyActivityService"/>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.activity.SleepTrackingService"/>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.sensorhubsocket.SensorHubDataWriterService"/>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.PresyncService"/>
+        <service android:icon="@drawable/ic_activity" android:label="@string/wf_data_activity_1_row" android:name="fi.polar.polarflow.service.provider.DailyActivityComplicationProvider" android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
+            <intent-filter>
+                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST"/>
+            </intent-filter>
+            <meta-data android:name="android.support.wearable.complications.SAFE_WATCH_FACES" android:value="                 fi.polar.watchfaces/fi.polar.watchfaces.ActivityWatchFaceService,                 fi.polar.watchfaces/fi.polar.watchfaces.JumboWatchFaceService,                 fi.polar.watchfaces/fi.polar.watchfaces.ComboWatchFaceService"/>
+            <meta-data android:name="android.support.wearable.complications.SUPPORTED_TYPES" android:value="RANGED_VALUE"/>
+            <meta-data android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS" android:value="0"/>
+        </service>
+        <service android:icon="@drawable/ic_my_heartrate" android:label="@string/wf_data_hr_1_row" android:name="fi.polar.polarflow.service.provider.OnDemandHrComplicationProvider" android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
+            <intent-filter>
+                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST"/>
+            </intent-filter>
+            <meta-data android:name="android.support.wearable.complications.SAFE_WATCH_FACES" android:value="                 fi.polar.watchfaces/fi.polar.watchfaces.ActivityWatchFaceService,                 fi.polar.watchfaces/fi.polar.watchfaces.JumboWatchFaceService,                 fi.polar.watchfaces/fi.polar.watchfaces.ComboWatchFaceService"/>
+            <meta-data android:name="android.support.wearable.complications.SUPPORTED_TYPES" android:value="ICON"/>
+            <meta-data android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS" android:value="0"/>
+        </service>
+        <service android:icon="@drawable/ic_time_of_day" android:label="@string/exe_view_time_of_day_1_row" android:name="fi.polar.polarflow.service.provider.TimeFormatProvider" android:permission="com.google.android.wearable.permission.BIND_COMPLICATION_PROVIDER">
+            <intent-filter>
+                <action android:name="android.support.wearable.complications.ACTION_COMPLICATION_UPDATE_REQUEST"/>
+            </intent-filter>
+            <meta-data android:name="android.support.wearable.complications.SAFE_WATCH_FACES" android:value="                 fi.polar.watchfaces/fi.polar.watchfaces.ActivityWatchFaceService,                 fi.polar.watchfaces/fi.polar.watchfaces.JumboWatchFaceService,                 fi.polar.watchfaces/fi.polar.watchfaces.ComboWatchFaceService"/>
+            <meta-data android:name="android.support.wearable.complications.SUPPORTED_TYPES" android:value="LONG_TEXT,SHORT_TEXT"/>
+            <meta-data android:name="android.support.wearable.complications.UPDATE_PERIOD_SECONDS" android:value="0"/>
+        </service>
+        <service android:exported="false" android:name="fi.polar.polarflow.service.PeriodicJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="DATABASE" android:value="flow.db"/>
+        <meta-data android:name="VERSION" android:value="23"/>
+        <meta-data android:name="QUERY_LOG" android:value="false"/>
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="fi.polar.polarflow.data.orm"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="com.google.android.wearable.standalone" android:value="true"/>
+        <meta-data android:name="POLAR_MATH_SMART_VERSION" android:value="1.2.6"/>
+        <meta-data android:name="POLAR_FONT_VERSION" android:value="1.47"/>
+        <meta-data android:name="PAIRING_RSSI_THRESHOLD_POLAR" android:value="-55"/>
+        <meta-data android:name="PAIRING_RSSI_THRESHOLD_OTHER" android:value="-55"/>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="PROTOBUF_DATA_VERSION" android:value="9.0.1"/>
+        <meta-data android:name="PROTOBUF_PROTOCOL_VERSION" android:value="7.2.0"/>
+        <meta-data android:name="POLAR_FTP_VERSION" android:value="4.4.8"/>
+    </application>
+</manifest>

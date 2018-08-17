@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/polar_round_button_grey_pressed" />
+            <size android:height="@dimen/round_button_diameter" android:width="@dimen/round_button_diameter" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="@dimen/main_menu_item_image_size" android:width="@dimen/main_menu_item_image_size" android:drawable="@drawable/mainmenu_manual_sync" />
+</layer-list>

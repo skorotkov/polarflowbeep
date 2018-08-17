@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/plannedTrainingTextContainer" style="@style/MyDayItemStyle.PlannedTrainingTextContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/plannedTrainingName" android:maxLines="2" style="@style/MyDayItemTextStyle.Small.PlannedTraining" />
+    <TextView android:id="@id/plannedTrainingDuration" android:visibility="gone" android:layout_height="@dimen/myday_item_horizontal_container_height" style="@style/MyDayItemTextStyle.Small.PlannedTraining" />
+    <LinearLayout android:id="@id/plannedTrainingDistanceContainer" android:visibility="gone" style="@style/MyDayItemStyle.HorizontalContainer.PlannedTraining">
+        <TextView android:id="@id/plannedTrainingItemDistance" style="@style/MyDayItemTextStyle.Small.PlannedTraining" />
+        <TextView android:id="@id/plannedTrainingItemDistanceUnits" style="@style/MyDayItemTextStyle.Small.Units.PlannedTraining" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/plannedTrainingCaloriesContainer" android:visibility="gone" style="@style/MyDayItemStyle.HorizontalContainer.PlannedTraining">
+        <TextView android:id="@id/plannedTrainingItemCalories" style="@style/MyDayItemTextStyle.Small.PlannedTraining" />
+        <TextView android:id="@id/plannedTrainingItemCaloriesUnits" android:text="@string/myday_item_unit_kcal_1_row" style="@style/MyDayItemTextStyle.Small.Units.PlannedTraining" />
+    </LinearLayout>
+</LinearLayout>

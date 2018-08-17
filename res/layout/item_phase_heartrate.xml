@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/itemPhaseHeartrate" android:layout_width="fill_parent" android:layout_height="@dimen/item_three_eighths_of_display_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/item_three_eighths_of_display_height" android:id="@id/textHeartrate" android:text="@string/exe_view_heartrate_offline_value" android:layout_toStartOf="@id/textHeartRateUnit" style="@style/ItemTextStyle.TrainingTargetText.PhaseHeartRate" />
+    <TextView android:id="@id/textHeartRateUnit" android:layout_marginTop="8.0dip" android:text="@string/exe_view_bpm_1_row" android:layout_alignParentEnd="true" style="@style/ItemTextStyle.Units" />
+</RelativeLayout>

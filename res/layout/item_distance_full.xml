@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemDistanceFull" style="@style/DisplayItemStyle.Layout.Vertical.Full"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textDistanceTitle" android:text="@string/exe_view_distance_1_row" style="@style/ItemTextStyle.Title.Full.WithMargins" />
+    <TextView android:id="@id/textDistanceUnit" android:text="@string/exe_view_distance_unit_km_1_row" style="@style/ItemTextStyle.Units.Full" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/item_full_distance_primary_text_size_large" android:id="@id/textDistance" android:text="@string/exe_view_three_digit_default" android:layout_toStartOf="@id/textDistanceFraction" style="@style/ItemTextStyle.Primary.Full" />
+        <TextView android:id="@id/textDistanceFraction" android:visibility="gone" android:text="@string/exe_view_distance_fraction_default" android:layout_alignBaseline="@id/textDistance" android:paddingStart="0.0dip" android:layout_alignParentEnd="true" style="@style/ItemTextStyle.Secondary.Full" />
+    </RelativeLayout>
+</LinearLayout>

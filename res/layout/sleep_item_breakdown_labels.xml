@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:minHeight="@dimen/half_of_display_height" style="@style/SleepItemStyle.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/asleepColor" android:background="@color/sleep_item_breakdown_asleep_color" android:layout_alignParentStart="true" style="@style/SleepItemStyle.BreakdownLabelColor" />
+        <TextView android:id="@id/asleepDuration" android:layout_toEndOf="@id/asleepColor" style="@style/SleepItemTextStyle.BreakdownSleepDuration" />
+        <TextView android:id="@id/asleepLabel" android:text="@string/myday_sleep_pie_heading_asleep_1_row" android:layout_below="@id/asleepDuration" android:layout_toEndOf="@id/asleepColor" style="@style/SleepItemTextStyle.BreakdownLabel" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/interruptionsColor" android:background="@color/sleep_item_breakdown_interruptions_color" android:layout_alignParentStart="true" style="@style/SleepItemStyle.BreakdownLabelColor" />
+        <TextView android:id="@id/interruptionsDuration" android:layout_toEndOf="@id/interruptionsColor" style="@style/SleepItemTextStyle.BreakdownSleepDuration" />
+        <TextView android:id="@id/interruptionsLabel" android:text="@string/myday_sleep_pie_heading_interruptions_2_rows" android:maxLines="2" android:layout_below="@id/interruptionsDuration" android:layout_toEndOf="@id/interruptionsColor" style="@style/SleepItemTextStyle.BreakdownLabel" />
+    </RelativeLayout>
+</LinearLayout>

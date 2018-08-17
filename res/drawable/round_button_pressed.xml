@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/polar_round_button_pressed" />
+    <size android:height="@dimen/round_button_diameter" android:width="@dimen/round_button_diameter" />
+</shape>

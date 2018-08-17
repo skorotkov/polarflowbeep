@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_training" android:title="@string/main_menu_training_1_row" />
+    <item android:id="@id/menu_myday" android:title="@string/main_menu_today_1_row" />
+    <item android:id="@id/menu_myheartrate" android:title="@string/main_menu_my_heart_rate_1_row" />
+    <item android:id="@id/menu_manual_sync" android:title="@string/main_menu_iOS_synchronize_1_row" />
+</menu>

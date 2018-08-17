@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/plannedTrainingFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/exe_wait_target_fragment_title_text_size" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="@dimen/exe_wait_target_fragment_title_height" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <fi.polar.polarflow.ui.custom.BetterWearableListView android:id="@id/better_wearable_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

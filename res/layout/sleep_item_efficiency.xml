@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/myday_item_sleep_result_card_color" android:paddingTop="6.0dip" android:layout_height="@dimen/sleep_item_efficiency_container_height" style="@style/SleepItemStyle.Container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/SleepItemStyle.Layout.Horizontal">
+        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/glyphView" polar:glyph="@string/glyph_sleep" polar:glyphSize="@dimen/item_quarter_image_view_size" style="@style/SleepItemStyle.Image.WithMargin" />
+        <FrameLayout style="@style/SleepItemStyle.PrimaryTextContainer">
+            <TextView android:id="@id/sleepEfficiency" style="@style/SleepItemTextStyle.Primary.Quarter" />
+        </FrameLayout>
+        <TextView android:id="@id/sleepEfficiencyUnits" android:text="@string/exe_view_percentage_of_max_1_row" style="@style/SleepItemTextStyle.Units" />
+    </LinearLayout>
+    <LinearLayout android:layout_height="@dimen/sleep_item_efficiency_description_height" style="@style/SleepItemStyle.Layout.Horizontal">
+        <View android:layout_width="@dimen/item_quarter_image_view_size" android:layout_height="fill_parent" android:layout_marginStart="@dimen/item_quarter_image_marginStart" />
+        <FrameLayout style="@style/SleepItemStyle.PrimaryTextContainer">
+            <TextView android:id="@id/asleepDuration" style="@style/SleepItemTextStyle.Description" />
+        </FrameLayout>
+        <View android:layout_width="@dimen/item_quarter_secondary_text_zone_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

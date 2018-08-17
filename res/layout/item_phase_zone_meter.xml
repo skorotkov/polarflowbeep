@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/itemHrZonePointerQuarter" style="@style/DisplayItemStyle.Layout.Horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/phased_training_phase_heart_rate_margin_bottom">
+        <include layout="@layout/hr_zone_pointer_levels" />
+        <include layout="@layout/hr_zone_pointer_hearts" />
+    </FrameLayout>
+    <fi.polar.polarflow.ui.custom.PolarGlyphView android:layout_gravity="start" android:id="@id/pointer" android:visibility="invisible" android:layout_width="@dimen/hr_zone_indicator_font_size" android:layout_height="@dimen/hr_zone_indicator_font_size" android:layout_marginBottom="@dimen/phased_training_phase_heart_rate_margin_bottom" polar:glyph="@string/glyph_heartrate" polar:glyphSize="@dimen/hr_zone_indicator_font_size" style="@style/DisplayItemStyle.HrZonePointerHeart" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/zonesLimitTextContainer" android:layout_width="fill_parent" android:layout_height="@dimen/phased_training_phase_heart_text_container_height" android:layout_marginBottom="@dimen/phased_training_phase_heart_text_container_margin_bottom">
+        <TextView android:id="@id/lowLimit" android:layout_alignParentStart="true" style="@style/ItemTextStyle.TrainingTargetText.PhaseHeartZoneMeter" />
+        <TextView android:id="@id/highLimit" android:layout_alignParentEnd="true" style="@style/ItemTextStyle.TrainingTargetText.PhaseHeartZoneMeter" />
+    </RelativeLayout>
+</FrameLayout>

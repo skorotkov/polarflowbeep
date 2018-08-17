@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/itemNameDateTimeQuarter" style="@style/DisplayItemStyle.SummaryNameDateTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/textSessionName" style="@style/ItemTextStyle.SummarySessionName" />
+    <TextView android:id="@id/textStartTime" style="@style/ItemTextStyle.SummaryStartTime" />
+</LinearLayout>
