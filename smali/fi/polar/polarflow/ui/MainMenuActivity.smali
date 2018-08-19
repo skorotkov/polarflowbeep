@@ -399,7 +399,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "2.3.0"
+    const-string v4, "2.3.0-beep"
 
     aput-object v4, v2, v3
 

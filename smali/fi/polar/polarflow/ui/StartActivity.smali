@@ -78,7 +78,7 @@
     .line 25
     const-string v0, "StartActivity"
 
-    const-string v1, "versionCode: 2502300, versionName: 2.3.0"
+    const-string v1, "versionCode: 2502302, versionName: 2.3.0-beep"
 
     invoke-static {v0, v1}, Lfi/polar/polarflow/util/d;->c(Ljava/lang/String;Ljava/lang/String;)V
 

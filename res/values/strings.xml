@@ -407,7 +407,7 @@ continuous"</string>
     <string name="abc_font_family_menu_material">sans-serif</string>
     <string name="abc_font_family_subhead_material">sans-serif</string>
     <string name="abc_font_family_title_material">sans-serif-medium</string>
-    <string name="app_name">Polar</string>
+    <string name="app_name">Polar Beep</string>
     <string name="button_test">Test</string>
     <string name="complicationDrawable_noDataText">--</string>
     <string name="complicationDrawable_textTypeface">sans-serif-condensed</string>
