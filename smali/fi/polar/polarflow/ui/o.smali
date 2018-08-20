@@ -723,8 +723,6 @@
 .method public static a(Landroid/content/Context;I)V
     .locals 3
 
-    .prologue
-    .line 83
     const-string v0, "vibrator"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -733,21 +731,24 @@
 
     check-cast v0, Landroid/os/Vibrator;
 
-    .line 84
     invoke-virtual {v0}, Landroid/os/Vibrator;->hasVibrator()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 85
     int-to-long v1, p1
 
     invoke-virtual {v0, v1, v2}, Landroid/os/Vibrator;->vibrate(J)V
 
-    invoke-static {p0}, Lfi/polar/polarflow/ui/o;->doBeep1(Landroid/content/Context;)V
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
 
-    .line 87
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v1}, Lfi/polar/polarflow/ui/SoundManager;->doBeep1()V
+
     :cond_0
     return-void
 .end method
@@ -778,8 +779,6 @@
 .method public static a(Landroid/content/Context;[J)V
     .locals 2
 
-    .prologue
-    .line 109
     const-string v0, "vibrator"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -788,21 +787,24 @@
 
     check-cast v0, Landroid/os/Vibrator;
 
-    .line 110
     invoke-virtual {v0}, Landroid/os/Vibrator;->hasVibrator()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 111
     const/4 v1, -0x1
 
     invoke-virtual {v0, p1, v1}, Landroid/os/Vibrator;->vibrate([JI)V
 
-    invoke-static {p0}, Lfi/polar/polarflow/ui/o;->doBeep3(Landroid/content/Context;)V
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
 
-    .line 113
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {v1}, Lfi/polar/polarflow/ui/SoundManager;->doBeep3()V
+
     :cond_0
     return-void
 .end method
@@ -1835,114 +1837,3 @@
     goto :goto_0
 .end method
 
-.method public static doBeep1(Landroid/content/Context;)V
-    .locals 9
-
-    new-instance v0, Landroid/media/SoundPool$Builder;
-
-    invoke-direct {v0}, Landroid/media/SoundPool$Builder;-><init>()V
-
-    invoke-virtual {v0}, Landroid/media/SoundPool$Builder;->build()Landroid/media/SoundPool;
-
-    move-result-object v0
-
-    const/high16 v1, 0x7f130000
-
-    const/4 v2, 0x1
-
-    invoke-virtual {v0, p0, v1, v2}, Landroid/media/SoundPool;->load(Landroid/content/Context;II)I
-
-    move-result v8
-
-    const-string v1, "SKOR"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "soundId="
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    const/high16 v3, 0x3f800000    # 1.0f
-
-    const/high16 v4, 0x3f800000    # 1.0f
-
-    const/4 v5, 0x0
-
-    const/4 v6, 0x0
-
-    const/high16 v7, 0x3f800000    # 1.0f
-
-    move-object v1, v0
-
-    move v2, v8
-
-    invoke-virtual/range {v1 .. v7}, Landroid/media/SoundPool;->play(IFFIIF)I
-
-    return-void
-.end method
-
-.method public static doBeep3(Landroid/content/Context;)V
-    .locals 9
-
-    new-instance v0, Landroid/media/SoundPool$Builder;
-
-    invoke-direct {v0}, Landroid/media/SoundPool$Builder;-><init>()V
-
-    invoke-virtual {v0}, Landroid/media/SoundPool$Builder;->build()Landroid/media/SoundPool;
-
-    move-result-object v0
-
-    const/high16 v1, 0x7f130000
-
-    const/4 v2, 0x1
-
-    invoke-virtual {v0, p0, v1, v2}, Landroid/media/SoundPool;->load(Landroid/content/Context;II)I
-
-    move-result v8
-
-    const-string v1, "SKOR"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    invoke-direct {v2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v3, "soundId="
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2, v8}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    const/high16 v3, 0x3f800000    # 1.0f
-
-    const/high16 v4, 0x3f800000    # 1.0f
-
-    const/4 v5, 0x0
-
-    const/4 v6, 0x2
-
-    const/high16 v7, 0x3f000000    # 0.5f
-
-    move-object v1, v0
-
-    move v2, v8
-
-    invoke-virtual/range {v1 .. v7}, Landroid/media/SoundPool;->play(IFFIIF)I
-
-    return-void
-.end method

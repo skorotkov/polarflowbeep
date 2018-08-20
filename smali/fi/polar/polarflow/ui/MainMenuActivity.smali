@@ -966,6 +966,8 @@
 
     invoke-direct {p0, v0}, Lfi/polar/polarflow/ui/MainMenuActivity;->a(Landroid/content/Intent;)V
 
+    invoke-static {p0}, Lfi/polar/polarflow/ui/SoundManager;->init(Landroid/app/Activity;)V
+
     .line 65
     return-void
 .end method
