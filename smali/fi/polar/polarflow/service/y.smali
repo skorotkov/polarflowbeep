@@ -23,7 +23,7 @@
 
 # virtual methods
 .method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
-    .locals 6
+    .locals 7
 
     .prologue
     const/4 v2, 0x2
@@ -89,6 +89,12 @@
 
     move v0, v2
 
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_3
+    invoke-virtual {v6}, Lfi/polar/polarflow/ui/SoundManager;->doBeepAbove()V
+    :cond_3
+
     goto :goto_0
 
     :sswitch_3
@@ -101,6 +107,14 @@
     if-eqz v3, :cond_0
 
     const/4 v0, 0x3
+
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_2
+    invoke-virtual {v6}, Lfi/polar/polarflow/ui/SoundManager;->doBeepBelow()V
+    :cond_2
+
 
     goto :goto_0
 

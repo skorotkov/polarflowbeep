@@ -336,13 +336,10 @@
 
     invoke-virtual {v0, p1, v1}, Landroid/os/Vibrator;->vibrate([JI)V
 
-    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
-
-    move-result-object v0
-
-    if-eqz v0, :cond_0
-
-    invoke-virtual {v0}, Lfi/polar/polarflow/ui/SoundManager;->doBeep3()V
+#    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+#    move-result-object v0
+#    if-eqz v0, :cond_0
+#    invoke-virtual {v0}, Lfi/polar/polarflow/ui/SoundManager;->doBeep3()V
 
     .line 126
     :cond_0

@@ -78,12 +78,12 @@
 
 
 # virtual methods
-.method public doBeep1()V
+.method public doBeepAbove()V
     .locals 9
 
     const-string v0, "SKOR:SoundManager"
 
-    const-string v1, "beep1"
+    const-string v1, "beep above"
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -95,9 +95,9 @@
 
     const/high16 v5, 0x3f800000    # 1.0f
 
-    const/4 v6, 0x0
+    const/4 v6, 0x1
 
-    const/4 v7, 0x0
+    const/4 v7, 0x5
 
     const/high16 v8, 0x3f800000    # 1.0f
 
@@ -106,12 +106,12 @@
     return-void
 .end method
 
-.method public doBeep3()V
+.method public doBeepBelow()V
     .locals 9
 
     const-string v0, "SKOR:SoundManager"
 
-    const-string v1, "beep3"
+    const-string v1, "beep below"
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -123,9 +123,9 @@
 
     const/high16 v5, 0x3f800000    # 1.0f
 
-    const/4 v6, 0x0
+    const/4 v6, 0x1
 
-    const/4 v7, 0x2
+    const/4 v7, 0x3
 
     const/high16 v8, 0x3f000000    # 0.5f
 
