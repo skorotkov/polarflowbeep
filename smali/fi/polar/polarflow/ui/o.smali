@@ -741,13 +741,13 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/os/Vibrator;->vibrate(J)V
 
-    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+#    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
 
-    move-result-object v1
+#    move-result-object v1
 
-    if-eqz v1, :cond_0
+#    if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lfi/polar/polarflow/ui/SoundManager;->doBeep1()V
+#    invoke-virtual {v1}, Lfi/polar/polarflow/ui/SoundManager;->doBeep1()V
 
     :cond_0
     return-void
@@ -797,13 +797,13 @@
 
     invoke-virtual {v0, p1, v1}, Landroid/os/Vibrator;->vibrate([JI)V
 
-    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+#    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
 
-    move-result-object v1
+#    move-result-object v1
 
-    if-eqz v1, :cond_0
+#    if-eqz v1, :cond_0
 
-    invoke-virtual {v1}, Lfi/polar/polarflow/ui/SoundManager;->doBeep3()V
+#    invoke-virtual {v1}, Lfi/polar/polarflow/ui/SoundManager;->doBeep3()V
 
     :cond_0
     return-void
