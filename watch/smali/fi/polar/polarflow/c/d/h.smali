@@ -43,9 +43,9 @@
 .method public onNmeaMessage(Ljava/lang/String;J)V
     .locals 2
 
-    const-string v0, "onNmeaMessage"
+#    const-string v0, "onNmeaMessage"
 
-    invoke-static {v0, p1}, Lfi/polar/polarflow/util/d;->c(Ljava/lang/String;Ljava/lang/String;)V
+#    invoke-static {v0, p1}, Lfi/polar/polarflow/util/d;->c(Ljava/lang/String;Ljava/lang/String;)V
 
     .prologue
     .line 577
