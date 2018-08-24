@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/zone_limits_header_row" android:paddingBottom="@dimen/divider_double_size" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="8.0" />
+        <TextView android:textSize="@dimen/text_small" android:gravity="center_horizontal" android:id="@id/zone_limits_column_1_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="7.0" android:layout_marginStart="@dimen/divider_size" android:layout_marginEnd="@dimen/divider_size" style="@style/TextGray" />
+        <TextView android:textSize="@dimen/text_small" android:gravity="center_horizontal" android:id="@id/zone_limits_column_2_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="7.0" android:layout_marginStart="@dimen/divider_size" android:layout_marginEnd="@dimen/divider_size" style="@style/TextGray" />
+    </LinearLayout>
+    <include android:id="@id/zone_limits_row_maximum" layout="@layout/sport_profile_edit_zone_limits_row" />
+    <include android:id="@id/zone_limits_row_hard" layout="@layout/sport_profile_edit_zone_limits_row" />
+    <include android:id="@id/zone_limits_row_moderate" layout="@layout/sport_profile_edit_zone_limits_row" />
+    <include android:id="@id/zone_limits_row_light" layout="@layout/sport_profile_edit_zone_limits_row" />
+    <include android:id="@id/zone_limits_row_very_light" layout="@layout/sport_profile_edit_zone_limits_row" />
+</merge>

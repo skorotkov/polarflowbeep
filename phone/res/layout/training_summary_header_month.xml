@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/day_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_medium" android:gravity="center_horizontal" android:id="@id/training_summary_header_row_month" android:paddingLeft="@dimen/training_summary_day_header_padding_horizontal" android:paddingTop="@dimen/training_summary_day_header_padding_vertical" android:paddingRight="@dimen/training_summary_day_header_padding_horizontal" android:paddingBottom="@dimen/training_summary_day_header_padding_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/TextDark" />
+</RelativeLayout>

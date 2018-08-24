@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fi.polar.polarflow.view.CenteredGridLayout android:gravity="center" android:orientation="vertical" android:id="@id/week_stats_grid" android:background="@color/brand_red" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <fi.polar.polarflow.activity.main.activity.view.HorizontalBarChart android:id="@id/five_zones_bar_chart" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

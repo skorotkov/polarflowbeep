@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/app_rater_image" android:layout_width="wrap_content" android:layout_height="@dimen/app_rate_image_height" android:src="@drawable/rate_us_dialog_image" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/text_normal" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/app_rater_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_double" android:text="@string/rate_app_query_title" />
+        <TextView android:textSize="@dimen/text_normal" android:textColor="@android:color/black" android:id="@id/app_rater_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:layout_marginBottom="@dimen/margin_normal" android:text="@string/rate_app_query_text" android:layout_marginStart="@dimen/margin_double" android:layout_marginEnd="@dimen/margin_double" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:layout_marginBottom="@dimen/margin_normal" android:layout_marginStart="@dimen/margin_double" android:layout_marginEnd="@dimen/margin_double">
+            <Button android:textColor="@color/polar_red" android:id="@id/app_rater_no_thanks_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_app_query_no_thanks" android:textAllCaps="true" android:layout_marginEnd="@dimen/margin_double" android:layout_toStartOf="@id/app_rater_ok_button" style="?android:borderlessButtonStyle" />
+            <Button android:textColor="@color/polar_red" android:id="@id/app_rater_ok_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_app_query_rate_now" android:textAllCaps="true" android:layout_alignParentEnd="true" style="?android:borderlessButtonStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

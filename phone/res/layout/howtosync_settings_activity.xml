@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_padding" android:paddingRight="@dimen/activity_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/howtosync_device_image" android:layout_width="fill_parent" android:layout_height="@dimen/training_summary_heart_rate_plot_height" android:src="@drawable/settings_image_device" />
+    <TextView android:textSize="@dimen/text_large" android:gravity="center" android:id="@id/howtosync_device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sync_loop" style="@style/TextBlack" />
+    <TextView android:textSize="@dimen/text_medium" android:gravity="center" android:id="@id/howtosync_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding" android:text="@string/how_to_sync_polar_loop" style="@style/TextBlack" />
+</LinearLayout>

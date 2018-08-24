@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="@dimen/activity_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/feature_introduction_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/feature_introduction_next_button" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/feature_introduction_scrollview_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <Button android:id="@id/feature_introduction_next_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/registration_button_next" android:layout_alignParentBottom="true" android:onClick="onFeatureIntroductionNextClick" style="@style/RoundedRedButton" />
+</RelativeLayout>

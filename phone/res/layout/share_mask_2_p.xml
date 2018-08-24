@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/share_mask_2_layout_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <ImageView android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="@dimen/share_mask_layout_alpha" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_normal">
+        <ImageView android:id="@id/share_mask_logo" android:layout_width="@dimen/share_mask_layout_logo_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_mask_layout_logo_margin" android:src="@drawable/polar_logo" />
+        <ImageView android:id="@id/share_mask_lesmills" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/share_mask_sporticon" android:layout_centerHorizontal="true" />
+        <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/share_mask_sporticon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" android:layout_above="@id/share_mask_duration" android:layout_centerHorizontal="true" polar:glyph="" polar:glyphSize="@dimen/share_mask_layout_2_portrait_glyph_size" />
+        <TextView android:textSize="@dimen/share_data_xx_small_font" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/share_mask_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginBottom="@dimen/share_mask_layout_bottom_margin" android:text="123" android:layout_above="@id/share_mask_content" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/share_mask_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

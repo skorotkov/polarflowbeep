@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/seek_bar_icon_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+        <fi.polar.polarflow.view.DiscreteSeekBar android:id="@id/discrete_seek_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/seek_bar_icon_end" android:layout_toEndOf="@id/seek_bar_icon_start" />
+        <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/seek_bar_icon_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/discrete_seek_bar_value" android:layout_width="fill_parent" android:layout_height="@dimen/discrete_seek_bar_layout_value_view_height" />
+</merge>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/text_medium" android:gravity="center" android:id="@id/segmented_selector_item_text_view" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" style="@style/TextBlack"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

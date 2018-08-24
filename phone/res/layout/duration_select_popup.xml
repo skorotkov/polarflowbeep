@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/popup_close_layout" android:background="@color/info_gray_transparent" android:paddingLeft="@dimen/activity_padding" android:paddingTop="@dimen/activity_padding" android:paddingRight="@dimen/activity_padding" android:paddingBottom="@dimen/position_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/popup_content_layout" android:background="@drawable/info_page_bg" android:padding="@dimen/info_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding">
+        <RelativeLayout android:layout_gravity="center" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <NumberPicker android:id="@id/duration_picker_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/text_normal" android:gravity="center_vertical" android:id="@id/duration_separator_hours" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_toRightOf="@id/duration_picker_hours" android:layout_alignTop="@id/duration_picker_hours" android:layout_alignBottom="@id/duration_picker_hours" />
+            <NumberPicker android:id="@id/duration_picker_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/duration_separator_hours" />
+            <TextView android:textSize="@dimen/text_normal" android:gravity="center_vertical" android:id="@id/duration_separator_minutes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:layout_toRightOf="@id/duration_picker_minutes" android:layout_alignTop="@id/duration_picker_minutes" android:layout_alignBottom="@id/duration_picker_minutes" />
+            <NumberPicker android:id="@id/duration_picker_seconds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/duration_separator_minutes" />
+        </RelativeLayout>
+        <Button android:id="@id/duration_select_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_padding" android:text="@string/button_done" style="@style/RoundedRedButton" />
+    </LinearLayout>
+</FrameLayout>

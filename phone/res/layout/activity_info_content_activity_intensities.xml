@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_normal_large" android:textColor="@android:color/black" android:id="@id/activity_info_header_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_normal" android:text="@string/activity_intensities_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/text_medium" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/activity_info_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sitting" android:layout_below="@id/activity_info_header_textview" />
+    <TextView android:textSize="@dimen/text_medium" android:textColor="@android:color/black" android:id="@id/activity_info_description_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sitting and other passive behaviour" android:includeFontPadding="false" android:layout_below="@id/activity_info_title_textview" />
+</merge>

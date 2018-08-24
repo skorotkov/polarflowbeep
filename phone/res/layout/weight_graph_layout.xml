@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_small" android:gravity="center" android:id="@id/weight_header_textview" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/account_weight" app:layout_aspectRatio="1285.9955%" app:layout_widthPercent="100.0%" />
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/weight_graph_y_values" android:paddingRight="@dimen/graph_y_values_right_padding" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_above="@id/weight_graph_x_values" android:layout_below="@id/weight_header_textview" app:layout_heightPercent="100.0%" app:layout_widthPercent="9.500003%" />
+    <android.support.percent.PercentRelativeLayout android:id="@id/weight_graph_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_large" android:layout_toRightOf="@id/weight_graph_y_values" android:layout_above="@id/weight_graph_x_values" android:layout_below="@id/weight_header_textview">
+        <fi.polar.polarflow.activity.main.activity.view.WeightGraphView android:id="@id/weight_graph_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_marginTopPercent="15.999996%" />
+    </android.support.percent.PercentRelativeLayout>
+    <FrameLayout android:id="@id/weight_graph_x_values" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignLeft="@id/weight_graph_view_layout" android:layout_alignRight="@id/weight_graph_view_layout" android:layout_alignParentBottom="true" app:layout_heightPercent="15.999996%" app:layout_widthPercent="100.0%" />
+</android.support.percent.PercentRelativeLayout>

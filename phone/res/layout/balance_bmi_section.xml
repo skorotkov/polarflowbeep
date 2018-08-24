@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_28" android:textColor="@android:color/black" android:gravity="center" android:id="@id/balance_bmi_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance_body_mass_index_bmi" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/balance_bmi_weight_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/balance_bmi_weight_row_margin_top" android:baselineAligned="false" android:layout_below="@id/balance_bmi_title_text">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance_underweight" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance_normal" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:textColor="@android:color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance_overweight" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/balance_bmi_image_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/balance_bmi_weight_row">
+        <ImageView android:id="@id/balance_bmi_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bmi_graph" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="@dimen/balance_bmi_image_start_end_margin" android:layout_marginEnd="@dimen/balance_bmi_image_start_end_margin" />
+        <ImageView android:id="@id/balance_bmi_value_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bmi_value" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignTop="@id/balance_bmi_image" android:layout_alignBottom="@id/balance_bmi_image" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/text_small_big" android:textColor="@android:color/black" android:gravity="center" android:id="@id/balance_bmi_value_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <fi.polar.polarflow.balance.BalanceBMILinesImageView android:id="@id/balance_bmi_graph_lines" android:layout_width="fill_parent" android:layout_height="@dimen/balance_bmi_lines_height" android:adjustViewBounds="true" android:layout_below="@id/balance_bmi_image_row" android:layout_marginStart="@dimen/balance_bmi_image_start_end_margin" android:layout_marginEnd="@dimen/balance_bmi_image_start_end_margin" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/balance_bmi_values" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/balance_bmi_graph_lines" android:alpha="0.25">
+        <RelativeLayout android:id="@id/balance_bmi_column_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:gravity="center" android:id="@id/balance_bmi_value_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/text_extra_small" android:gravity="center" android:id="@id/balance_bmi_kg_value_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/balance_bmi_value_1" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/balance_bmi_column_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:gravity="center" android:id="@id/balance_bmi_value_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/text_extra_small" android:gravity="center" android:id="@id/balance_bmi_kg_value_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/balance_bmi_value_2" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/balance_bmi_column_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:gravity="center" android:id="@id/balance_bmi_value_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/text_extra_small" android:gravity="center" android:id="@id/balance_bmi_kg_value_3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/balance_bmi_value_3" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/balance_bmi_column_4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_small_big" android:gravity="center" android:id="@id/balance_bmi_value_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/text_extra_small" android:gravity="center" android:id="@id/balance_bmi_kg_value_4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/balance_bmi_value_4" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/balance_bmi_week_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/balance_bmi_weeks_top_margin" android:baselineAligned="false" android:layout_below="@id/balance_bmi_values">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0" android:layout_marginStart="@dimen/balance_bmi_weeks_image_start_margin">
+            <fi.polar.polarflow.balance.BMIWeeksImageView android:id="@id/balance_bmi_week_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" android:contentDescription="@null" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="6.0">
+            <TextView android:textSize="@dimen/text_normal" android:gravity="center" android:id="@id/balance_bmi_current_speed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/balance_bmi_current_weight_loss_margin_start_stop" android:layout_marginEnd="@dimen/balance_bmi_current_weight_loss_margin_start_stop" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

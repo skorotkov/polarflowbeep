@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sp_edit_device_selection_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/settings_row_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sp_edit_device_image" android:layout_width="120.0dip" android:layout_height="120.0dip" android:src="@drawable/settings_image_device" android:scaleType="fitCenter" android:layout_alignParentStart="true" />
+        <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/sp_edit_sport_icon" android:background="@drawable/navigation_diary_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="40.0dip" android:layout_marginStart="75.0dip" polar:glyphColor="@android:color/white" polar:glyphSize="@dimen/navigation_menu_icon_font_size" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/margin_half" android:paddingBottom="@dimen/margin_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/margin_normal" android:paddingEnd="@dimen/margin_normal" android:layout_toEndOf="@id/sp_edit_sport_icon">
+            <TextView android:textSize="@dimen/text_normal" android:textStyle="bold" android:id="@id/sp_edit_sport_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Running" style="@style/TextDark" />
+            <TextView android:textSize="@dimen/text_normal" android:id="@id/sp_edit_sport_name_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="with polar A360" style="@style/TextDark" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

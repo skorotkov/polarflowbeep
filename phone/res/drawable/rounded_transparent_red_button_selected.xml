@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:width="@dimen/divider_double_size" android:color="@color/red_button_press_down" />
+            <solid android:color="@color/polar_red_very_transparent" />
+            <corners android:radius="@dimen/rounded_button_radius" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/join_now_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/activity_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/registration_error_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_normal" android:text="@string/registration_accept_terms_and_conditions" android:minLines="3" style="@style/TextBlack" />
+        <LinearLayout android:gravity="center" android:id="@id/registration_consents_phys_warning_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half">
+            <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/registration_consent_warning_glyph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_normal" polar:glyph="@string/glyph_alert" polar:glyphColorList="@color/error_text_color" polar:glyphSize="@dimen/profile_privacy_glyph_size" />
+            <TextView android:textSize="@dimen/text_small_big" android:textColor="@color/error_text_color" android:id="@id/registration_consent_warning_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/registration_fill_all" android:layout_marginStart="@dimen/margin_normal" style="@style/TextBlack" />
+        </LinearLayout>
+        <TextView android:id="@id/registration_email_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_hint" style="@style/TextBlack" />
+        <EditText android:textSize="@dimen/text_normal_big" android:id="@id/registration_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" android:hint="@string/login_email_hint" android:inputType="textEmailAddress" style="@style/BaseEditText" />
+        <TextView android:id="@id/registration_email_hint2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_retype_title" style="@style/TextBlack" />
+        <EditText android:textSize="@dimen/text_normal_big" android:id="@id/registration_email2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" android:hint="@string/login_email_hint" android:inputType="textEmailAddress" style="@style/BaseEditText" />
+        <TextView android:id="@id/registration_password_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_password_hint" style="@style/TextBlack" />
+        <EditText android:textSize="@dimen/text_normal_big" android:id="@id/registration_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" android:hint="@string/login_password_hint" android:inputType="textPassword" style="@style/BaseEditText" />
+        <TextView android:id="@id/registration_password_hint2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_password_retype" style="@style/TextBlack" />
+        <EditText android:textSize="@dimen/text_normal_big" android:id="@id/registration_password2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_password_hint" android:inputType="textPassword" style="@style/BaseEditText" />
+        <include android:id="@id/registration_consent_terms_of_use" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/consent_layout" />
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_marginTop="@dimen/margin_half" />
+        <include android:id="@id/registration_consent_marketing" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/consent_layout" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double">
+            <Button android:id="@id/registration_join_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/registration_join_button_text" android:onClick="onJoinNowClick" style="@style/RoundedRedButton" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/registration_join_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/WhiteSpinner" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

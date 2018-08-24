@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/balance_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fi.polar.polarflow.balance.BalanceScrollView android:id="@id/balance_fragment_scrollView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/balance_program_row" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_row_height">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/balance_program_weight_target_info_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/topbar_weighttarget" android:layout_marginStart="@dimen/balance_program_row_separator_margin" />
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/text_extra_small" android:textStyle="bold" android:gravity="bottom|center" android:id="@id/balance_program_weight_target_info" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_textView_height" android:layout_alignParentTop="true" />
+                        <TextView android:textSize="@dimen/text_extra_small" android:textStyle="normal" android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_textView_height" android:text="@string/balance_program_weight_target" android:layout_alignParentBottom="true" android:alpha="0.5" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <View android:background="@color/balance_separator_line_color" android:layout_width="@dimen/balance_program_row_separator_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/balance_program_row_separator_margin" android:layout_marginBottom="@dimen/balance_program_row_separator_margin" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/balance_program_weight_change_info_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/topbar_weightchange2" android:layout_marginStart="@dimen/balance_program_row_separator_margin" />
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/text_extra_small" android:textStyle="bold" android:gravity="bottom|center" android:id="@id/balance_program_weight_change_info" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_textView_height" android:layout_alignParentTop="true" />
+                        <TextView android:textSize="@dimen/text_extra_small" android:textStyle="normal" android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_textView_height" android:text="@string/balance_program_weight_change" android:layout_alignParentBottom="true" android:alpha="0.5" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <View android:background="@color/balance_separator_line_color" android:layout_width="@dimen/balance_program_row_separator_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/balance_program_row_separator_margin" android:layout_marginBottom="@dimen/balance_program_row_separator_margin" />
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/balance_program_weight_target_weeks_left_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/topbar_timeleft2" android:layout_marginStart="@dimen/balance_program_row_separator_margin" />
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="@dimen/text_extra_small" android:textStyle="bold" android:gravity="bottom|center" android:id="@id/balance_program_weight_target_weeks_left_info" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_textView_height" android:layout_alignParentTop="true" />
+                        <TextView android:textSize="@dimen/text_extra_small" android:gravity="center|top" android:layout_width="fill_parent" android:layout_height="@dimen/balance_program_textView_height" android:text="@string/balance_program_time_left" android:layout_alignParentBottom="true" android:alpha="0.5" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/bg_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/balance_background_bottom_margin" android:scaleType="fitCenter" android:layout_alignBottom="@id/balance_scale_view" android:layout_alignParentTop="true" android:contentDescription="@null" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/balance_action_button_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/balance_action_row_top_margin" android:layout_alignParentTop="true">
+                    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+                    <Button android:id="@id/balance_reminder_button" android:background="@drawable/balance_reminder_button" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+                    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+                    <Button android:id="@id/balance_measure_button" android:background="@drawable/balance_measure_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="center" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+                    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+                </LinearLayout>
+                <fi.polar.polarflow.balance.BalanceScaleImageView android:id="@id/balance_scale_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/balance_scale_margin_start" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+                <RelativeLayout android:id="@id/balance_info_grid_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/balance_scale_view">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/balance_status_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/balance_status_textView_margin_top" android:baselineAligned="true">
+                        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                        <ImageView android:id="@id/balance_status_left_image" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/overweight_mark" android:layout_weight="1.0" />
+                        <TextView android:textSize="@dimen/text_small_big" android:gravity="center" android:id="@id/balance_info_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/balance_you_have_been_in_target" android:layout_weight="4.0" />
+                        <ImageView android:id="@id/balance_status_right_image" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/overweight_mark" android:layout_weight="1.0" />
+                        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    </LinearLayout>
+                    <fi.polar.polarflow.balance.BalanceInfoGridImageView android:id="@id/balance_info_grid_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/balance_activity_food_grid_padding" android:layout_alignParentTop="true" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/balance_food_activity_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentTop="true">
+                        <RelativeLayout android:id="@id/balance_food_row" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:id="@id/balance_icon_food" android:layout_width="@dimen/balance_food_activity_size" android:layout_height="@dimen/balance_food_activity_size" android:layout_marginTop="@dimen/balance_food_activity_margin_top" android:src="@drawable/icon_food" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+                            <TextView android:textSize="@dimen/text_medium" android:textStyle="normal" android:gravity="center" android:id="@id/balance_food_textView" android:layout_width="fill_parent" android:layout_height="@dimen/balance_food_activity_title_row_height" android:layout_marginTop="@dimen/balance_food_activity_status_textView_margin_top" android:text="@string/balance_you_are_in_balance" android:layout_below="@id/balance_icon_food" android:layout_marginStart="@dimen/balance_food_activity_action_row_margin" android:layout_marginEnd="@dimen/balance_food_activity_action_row_margin" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@id/balance_activity_row" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:id="@id/balance_icon_activity" android:layout_width="@dimen/balance_food_activity_size" android:layout_height="@dimen/balance_food_activity_size" android:layout_marginTop="@dimen/balance_food_activity_margin_top" android:src="@drawable/icon_activity" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+                            <TextView android:textSize="@dimen/text_medium" android:textStyle="normal" android:gravity="center" android:id="@id/balance_activity_textView" android:layout_width="fill_parent" android:layout_height="@dimen/balance_food_activity_title_row_height" android:layout_marginTop="@dimen/balance_food_activity_status_textView_margin_top" android:text="@string/balance_focus_on_activity" android:layout_below="@id/balance_icon_activity" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/balance_food_activity_info_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/balance_food_activity_grid_padding" android:baselineAligned="false" android:layout_below="@id/balance_food_activity_row">
+                        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/text_small" android:textStyle="normal" android:gravity="center" android:id="@id/balance_eat_textView" android:layout_width="fill_parent" android:layout_height="@dimen/balance_food_activity_action_row_height" android:text="@string/balance_eat_kcal_less" android:layout_marginStart="@dimen/balance_food_activity_action_row_margin" android:layout_marginEnd="@dimen/balance_food_activity_action_row_margin" />
+                        </FrameLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <TextView android:textSize="@dimen/text_small" android:textStyle="normal" android:gravity="center" android:id="@id/balance_daily_activity_textView" android:layout_width="fill_parent" android:layout_height="@dimen/balance_food_activity_action_row_height" android:text="@string/balance_burn_kcal_more_daily" android:layout_marginStart="@dimen/balance_food_activity_action_row_margin" android:layout_marginEnd="@dimen/balance_food_activity_action_row_margin" />
+                            <Button android:textSize="@dimen/text_small" android:textStyle="normal" android:textColor="@drawable/balance_scale_blue_text_button_text_color" android:gravity="center" android:id="@id/balance_view_goal_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance_view_goal" android:textAlignment="gravity" android:layout_marginStart="@dimen/balance_more_food_start_end_margin" android:layout_marginEnd="@dimen/balance_more_food_start_end_margin" style="?android:borderlessButtonStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/balance_activity_info_button_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/balance_food_activity_info_row" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/balance_food_activity_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/balance_activity_info_button_row">
+                        <include layout="@layout/balance_food_activity_section" />
+                    </LinearLayout>
+                    <View android:id="@id/balance_activity_food_grid_padding" android:background="@color/balance_separator_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/balance_separator_height" android:layout_below="@id/balance_food_activity_grid" />
+                    <View android:id="@id/balance_activity_food_separator" android:background="@color/balance_separator_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/balance_separator_height" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/balance_weight_trend_top_margin" android:layout_marginBottom="@dimen/balance_weight_trend_bottom_margin">
+                <include layout="@layout/balance_trendview_section" />
+            </RelativeLayout>
+            <View android:background="@color/balance_separator_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/balance_separator_height" android:layout_marginTop="@dimen/balance_bmi_separator_margin_top" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/balance_bmi_margin_top" android:layout_marginBottom="@dimen/balance_bmi_margin_bottom">
+                <include layout="@layout/balance_bmi_section" />
+            </RelativeLayout>
+        </LinearLayout>
+    </fi.polar.polarflow.balance.BalanceScrollView>
+    <LinearLayout android:id="@id/balance_notification_layout" android:background="@android:color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/balance_last_sync_info" />
+    </LinearLayout>
+</RelativeLayout>

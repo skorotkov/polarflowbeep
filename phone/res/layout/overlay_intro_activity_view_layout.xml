@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fi.polar.polarflow.view.VisibilityViewPager android:id="@id/activity_intro_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fi.polar.polarflow.activity.main.overlayintroduction.activityviewintroduction.PressAndSlideIntroLayout android:orientation="vertical" android:id="@id/slider_intro_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <fi.polar.polarflow.activity.main.overlayintroduction.activityviewintroduction.HrPointerLayout android:layout_gravity="center" android:id="@id/timeline_hr_pointer_layout" android:layout_width="fill_parent" android:layout_height="0.0dip">
+                <View android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/hr_pointer_seek_view" android:visibility="invisible" android:layout_width="@dimen/timeline_info_down_arrow_width" android:layout_height="0.0dip" android:layout_alignParentBottom="true" />
+            </fi.polar.polarflow.activity.main.overlayintroduction.activityviewintroduction.HrPointerLayout>
+            <fi.polar.polarflow.activity.main.activity.timelinesummary.TimelineSummaryHrGraphView android:layout_gravity="center" android:id="@id/timeline_summary_hr_graph_view" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+            <TextView android:textSize="@dimen/text_normal" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/slider_intro_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/continuous_hr_tooltip_activity_long_press_text" style="@style/TextBlack" />
+            <TextView android:textSize="@dimen/text_small" android:textStyle="bold" android:gravity="center" android:id="@id/slider_intro_day_max_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/continuous_hr_highest_hr_daytime" style="@style/TextBlack" />
+            <TextView android:textSize="@dimen/text_small" android:textStyle="bold" android:gravity="center" android:id="@id/slider_intro_day_min_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/continuous_hr_lowest_hr_daytime" style="@style/TextBlack" />
+            <TextView android:textSize="@dimen/text_small" android:textStyle="bold" android:gravity="center" android:id="@id/slider_intro_night_min_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/continuous_hr_lowest_hr_sleep" style="@style/TextBlack" />
+        </fi.polar.polarflow.activity.main.overlayintroduction.activityviewintroduction.PressAndSlideIntroLayout>
+        <fi.polar.polarflow.activity.main.overlayintroduction.activityviewintroduction.TapToChangeModeIntroLayout android:id="@id/detail_mode_intro_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/detail_mode_intro_toggle" android:layout_width="wrap_content" android:layout_height="wrap_content" app:glyphColor="@android:color/black" app:glyphSize="@dimen/timeline_detail_mode_glyph_size_intro" />
+            <TextView android:textSize="@dimen/text_normal" android:textStyle="bold" android:layout_gravity="center" android:id="@id/detail_mode_intro_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continuous_hr_tooltip_activity_view_selection_type_text" style="@style/TextBlack" />
+        </fi.polar.polarflow.activity.main.overlayintroduction.activityviewintroduction.TapToChangeModeIntroLayout>
+    </fi.polar.polarflow.view.VisibilityViewPager>
+    <fi.polar.polarflow.view.PageIndicatorLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/activity_intro_page_indicator" android:padding="@dimen/margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/notifications_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip">
+        <TextView android:textSize="@dimen/text_normal_big" android:gravity="center" android:paddingLeft="@dimen/margin_double" android:paddingRight="@dimen/margin_double" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/notifications_empty" android:textAlignment="center" style="@style/TextGray" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/notifications_scrollView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/notifications_scroll_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ScrollView>
+</LinearLayout>

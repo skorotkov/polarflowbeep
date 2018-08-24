@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp package="fi.polar.polarflow">
+    <versionCode>34009</versionCode>
+    <versionName>1.4.3.28</versionName>
+    <rawPathResId>android_wear_micro_apk</rawPathResId>
+</wearableApp>

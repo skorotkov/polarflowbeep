@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/strava_segment_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+    <Switch android:id="@id/strava_state_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strava_segments" style="@style/BaseProfileText" />
+</LinearLayout>

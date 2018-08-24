@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/gps_view_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_gps_and_altitude_title" style="@style/SportProfileEditHeader" />
+    <fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout android:id="@id/gps_recording_rate_switch" app:header="@string/gps_setting" app:onCheckedChangedView="onGpsRecordingRateSwitchCheckedChanged" style="@style/SportProfileEditSwitch">
+        <TextView android:id="@id/gps_recording_rate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_gps_recording_rate_title" style="@style/SportProfileEditSubHeader" />
+        <fi.polar.polarflow.view.SegmentedSelector android:id="@id/gps_recording_rate_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sport_profile_edit_padding" android:layout_marginRight="@dimen/sport_profile_edit_padding" android:layout_marginBottom="@dimen/sport_profile_edit_padding_medium" />
+    </fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout>
+    <fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout android:gravity="top" android:id="@id/gps_altitude_switch" app:header="@string/training_analysis_altitude" app:onCheckedChangedView="onAltitudeSwitchCheckedChanged" style="@style/SportProfileEditSwitch" />
+</LinearLayout>

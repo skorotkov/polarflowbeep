@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/feed_browser_activity_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:orientation="vertical" android:id="@id/feed_web_view" android:visibility="visible" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/feed_webview_loader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:id="@id/timeline_event_bubble_layout" android:background="@drawable/timeline_training_session_circle" android:clickable="true" android:layout_width="@dimen/timeline_bubble_size" android:layout_height="@dimen/timeline_bubble_size" android:layout_marginTop="@dimen/timeline_bubble_margin" android:layout_marginBottom="@dimen/timeline_bubble_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

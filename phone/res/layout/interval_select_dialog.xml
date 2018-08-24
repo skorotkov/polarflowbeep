@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/popup_close_layout" android:background="@color/info_gray_transparent" android:paddingLeft="@dimen/activity_padding" android:paddingTop="@dimen/activity_padding" android:paddingRight="@dimen/activity_padding" android:paddingBottom="@dimen/position_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/popup_content_layout" android:background="@drawable/info_page_bg" android:padding="@dimen/info_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding">
+        <NumberPicker android:layout_gravity="center_horizontal" android:id="@id/interval_select_picker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <Button android:id="@id/interval_select_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_padding" android:text="@string/button_done" style="@style/RoundedRedButton" />
+    </LinearLayout>
+</FrameLayout>

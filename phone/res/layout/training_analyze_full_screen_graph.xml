@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/properties_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:baselineAligned="false" app:layout_heightPercent="16.999996%" app:layout_widthPercent="100.0%">
+        <include android:id="@id/first_property_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_unit_values_layout" />
+        <include android:id="@id/second_property_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_unit_values_layout" />
+        <include android:id="@id/third_property_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_unit_values_layout" />
+        <include android:id="@id/fourth_property_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_unit_values_layout" />
+        <include android:id="@id/fifth_property_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_unit_values_layout" />
+    </LinearLayout>
+    <fi.polar.polarflow.view.TrainingAnalysisGraph android:id="@id/full_screen_training_analysis_graph" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/properties_layout" app:layout_heightPercent="68.00001%" />
+    <fi.polar.polarflow.view.SliderView android:gravity="center_vertical" android:id="@id/seek_bar" android:background="@android:color/transparent" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="false" android:layout_below="@id/full_screen_training_analysis_graph" android:layout_marginStart="@dimen/margin_large" android:layout_marginEnd="@dimen/margin_large" />
+</android.support.percent.PercentRelativeLayout>

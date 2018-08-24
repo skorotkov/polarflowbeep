@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/analyze_summary_linear" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/first_vertical_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/first_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+        <View android:background="@color/divider_dark" android:layout_width="@dimen/divider_size" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_half" />
+        <include android:id="@id/second_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/first_vertical_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_normal" android:layout_marginLeft="@dimen/divider_double_size" android:layout_marginRight="@dimen/divider_double_size">
+        <View android:layout_gravity="center_vertical" android:background="@color/divider_dark" android:layout_width="0.0dip" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/divider_double_size" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/divider_size" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/analyze_summary_empty_margin" />
+        <View android:layout_gravity="center_vertical" android:background="@color/divider_dark" android:layout_width="0.0dip" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/divider_double_size" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/second_vertical_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/third_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+        <View android:background="@color/divider_dark" android:layout_width="@dimen/divider_size" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_half" />
+        <include android:id="@id/fourth_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/second_vertical_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_normal" android:layout_marginLeft="@dimen/divider_double_size" android:layout_marginRight="@dimen/divider_double_size">
+        <View android:layout_gravity="center_vertical" android:background="@color/divider_dark" android:layout_width="0.0dip" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/divider_double_size" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/divider_size" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/analyze_summary_empty_margin" />
+        <View android:layout_gravity="center_vertical" android:background="@color/divider_dark" android:layout_width="0.0dip" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/divider_double_size" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/third_vertical_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/fifth_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+        <View android:background="@color/divider_dark" android:layout_width="@dimen/divider_size" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_half" />
+        <include android:id="@id/sixth_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/third_vertical_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/margin_normal" android:layout_marginLeft="@dimen/divider_double_size" android:layout_marginRight="@dimen/divider_double_size">
+        <View android:layout_gravity="center_vertical" android:background="@color/divider_dark" android:layout_width="0.0dip" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/divider_double_size" android:layout_weight="1.0" />
+        <View android:layout_width="@dimen/divider_size" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/analyze_summary_empty_margin" />
+        <View android:layout_gravity="center_vertical" android:background="@color/divider_dark" android:layout_width="0.0dip" android:layout_height="@dimen/divider_size" android:layout_margin="@dimen/divider_double_size" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/fourth_vertical_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/seventh_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+        <View android:background="@color/divider_dark" android:layout_width="@dimen/divider_size" android:layout_height="fill_parent" android:layout_margin="@dimen/margin_half" />
+        <include android:id="@id/eight_data_layout" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/training_analyze_summary_data" />
+    </LinearLayout>
+</LinearLayout>

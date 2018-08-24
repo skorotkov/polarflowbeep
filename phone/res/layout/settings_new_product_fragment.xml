@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/settings_new_product_main_layout" android:padding="@dimen/activity_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/settings_new_product_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/settings_new_product_image_height" android:layout_marginTop="@dimen/margin_large" android:src="@drawable/a360_black" />
+        <TextView android:textSize="@dimen/text_large" android:gravity="center" android:id="@id/settings_new_product_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding" android:text="@string/new_product_got_product" style="@style/TextBlack" />
+        <TextView android:textSize="@dimen/text_medium" android:gravity="center" android:id="@id/settings_new_product_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding" android:text="@string/new_product_start_using_product_text" android:minLines="2" style="@style/TextBlack" />
+        <TextView android:textSize="@dimen/text_small" android:gravity="center" android:id="@id/settings_new_product_help_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding" android:text="@string/new_product_start_using_product_help_text" android:minLines="3" style="@style/TextBlack" />
+        <TextView android:textSize="@dimen/text_small" android:gravity="center" android:id="@id/settings_new_product_mobile_ftu_dev_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding" android:text="@string/new_product_start_using_product_help_text" android:minLines="3" style="@style/TextBlack" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding">
+            <Button android:id="@id/settings_new_product_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/registration_button_next" android:onClick="onRegistrationStartUsingClick" style="@style/RoundedRedButton" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

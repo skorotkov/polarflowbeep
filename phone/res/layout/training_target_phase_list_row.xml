@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/training_target_phase_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/phase_list_top_divider" android:background="@color/training_target_dark_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/phase_index" android:layout_width="@dimen/training_target_phase_row_index_width" android:layout_height="fill_parent" android:layout_below="@id/phase_list_top_divider" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/text_large" android:textStyle="bold" android:gravity="center" android:id="@id/phase_number" android:background="@color/transparent_white_60" android:layout_width="fill_parent" android:layout_height="@dimen/training_target_phase_row_index_height" style="@style/TextBlack" />
+        <fi.polar.polarflow.view.custom.PolarGlyphView android:gravity="center" android:id="@id/element_icon" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" polar:glyph="@string/glyph_heartrate" polar:glyphColor="@color/training_target_dark_gray" polar:glyphSize="@dimen/training_target_phase_icon_size" />
+    </LinearLayout>
+    <fi.polar.polarflow.activity.main.training.trainingtarget.view.PhaseZonesLayout android:id="@id/phase_zones" android:background="@color/generic_gray_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_below="@id/phase_list_top_divider" android:layout_toEndOf="@id/phase_index" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/text_medium" android:id="@id/phase_name" android:paddingTop="@dimen/training_target_phase_name_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toStartOf="@id/phase_goal" android:layout_alignParentStart="true" style="@style/TextBlack" />
+        <fi.polar.polarflow.view.ValueUnitView android:id="@id/phase_goal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/training_target_phase_info_padding" android:paddingEnd="@dimen/training_target_phase_info_padding" android:layout_alignParentEnd="true" polar:textColor="@android:color/black" polar:textSize="@dimen/text_large" style="@style/TextBlack" />
+    </fi.polar.polarflow.activity.main.training.trainingtarget.view.PhaseZonesLayout>
+</RelativeLayout>

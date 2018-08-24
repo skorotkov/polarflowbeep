@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/sport_profile_edit_unit_of_measure_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_unit_of_measure_header" style="@style/SportProfileEditHeader" />
+    <TextView android:id="@id/sport_profile_edit_unit_of_measure_swimming_units" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_unit_of_measure_swimming_unit" style="@style/SportProfileEditSubHeader" />
+    <fi.polar.polarflow.view.SegmentedSelector android:id="@id/sport_profile_edit_unit_of_measure_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/sport_profile_edit_padding" android:layout_marginEnd="@dimen/sport_profile_edit_padding" />
+</merge>

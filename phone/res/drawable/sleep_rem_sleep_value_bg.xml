@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:padding="@dimen/rounded_button_padding" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sleep_phase_rem" />
+    <corners android:radius="@dimen/sleep_rounded_button_padding" />
+</shape>

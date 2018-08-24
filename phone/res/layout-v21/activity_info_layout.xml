@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/activity_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/activity_info_up_arrow" android:layout_width="@dimen/timeline_info_image_width" android:layout_height="@dimen/activity_info_arrow_size" android:src="@drawable/activity_info_arrow_up" android:scaleType="fitCenter" android:elevation="@dimen/timeline_info_elevation" />
+        <RelativeLayout android:id="@id/activity_info_content_layout" android:background="@color/white_bg" android:padding="@dimen/margin_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_large" android:layout_marginRight="@dimen/margin_large" android:elevation="@dimen/timeline_info_elevation" />
+        <ImageView android:id="@id/activity_info_down_arrow" android:layout_width="@dimen/timeline_info_image_width" android:layout_height="@dimen/activity_info_arrow_size" android:src="@drawable/activity_info_arrow_down" android:scaleType="fitCenter" android:elevation="@dimen/timeline_info_elevation" />
+    </LinearLayout>
+</merge>

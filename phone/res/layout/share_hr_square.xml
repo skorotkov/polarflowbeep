@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@color/share_hr_zone_share_background_light" android:padding="@dimen/margin_normal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.8" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/hr_analyze_relative" android:background="@color/share_background_dark" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/hr_heartrate_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" polar:glyph="" polar:glyphColor="@color/polar_red" polar:glyphSize="@dimen/share_hr_zone_glyph_size" />
+            <TextView android:textSize="@dimen/share_hr_zone_value_size" android:textColor="@android:color/black" android:id="@id/hr_zones_avgHrValue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="@dimen/margin_normal" />
+            <TextView android:textSize="@dimen/share_data_small_font" android:textColor="@android:color/black" android:id="@id/hr_zones_avgHrText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/summary_activity_field_1_type" android:layout_marginStart="@dimen/margin_normal" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/hr_zone_rel" android:background="@color/share_background_dark" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <fi.polar.polarflow.activity.main.share.view.ShareHrZoneDiagram android:id="@id/hr_zone_diagram" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</LinearLayout>

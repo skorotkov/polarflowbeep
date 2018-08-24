@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_medium" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:text="@string/swimming_styles_header" android:layout_marginStart="@dimen/margin_large" style="@style/TextGray" />
+    <fi.polar.polarflow.view.SwimmingCircleProgressView android:gravity="center" android:layout_gravity="center" android:id="@id/swimming_circle_progress_view" android:layout_width="@dimen/circle_size" android:layout_height="@dimen/circle_size" />
+    <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+    <include android:id="@id/style_header_1" layout="@layout/swimming_metrics_style_header" />
+    <include android:id="@id/style_header_2" layout="@layout/swimming_metrics_style_header" />
+    <include android:id="@id/style_header_3" layout="@layout/swimming_metrics_style_header" />
+    <include android:id="@id/style_header_4" layout="@layout/swimming_metrics_style_header" />
+</merge>

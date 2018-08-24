@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="normal" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_date_of_birth" style="@style/TextSettingsDark" />
+        <TextView android:textStyle="normal" android:textColor="@color/red_text_selector" android:gravity="right" android:id="@id/account_date_of_birth_value" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onDateOfBirthClick" style="@style/TextSettingsWhite" />
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <TextView android:textStyle="normal" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_sex" style="@style/TextSettingsDark" />
+        <TextView android:textStyle="normal" android:textColor="@color/red_text_selector" android:gravity="right" android:id="@id/account_sex_value" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_sex_male" android:onClick="onSexClick" style="@style/TextSettingsWhite" />
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <TextView android:textStyle="normal" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_height" style="@style/TextSettingsDark" />
+        <TextView android:textStyle="normal" android:textColor="@color/red_text_selector" android:gravity="right" android:id="@id/account_height_value" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onHeightSelectClick" style="@style/TextSettingsWhite" />
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <TextView android:textStyle="normal" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_weight" style="@style/TextSettingsDark" />
+        <TextView android:textStyle="normal" android:textColor="@color/red_text_selector" android:gravity="right" android:id="@id/account_weight_value" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onWeightSelectClick" style="@style/TextSettingsWhite" />
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <TextView android:textStyle="normal" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_maximum_heart_rate" style="@style/TextSettingsDark" />
+        <TextView android:textStyle="normal" android:textColor="@color/red_text_selector" android:gravity="right" android:id="@id/account_max_heart_rate_value" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:onClick="onHeartRateSelectClick" style="@style/TextSettingsWhite" />
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <TextView android:textStyle="normal" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_training_background" style="@style/TextSettingsDark" />
+        <TextView android:textStyle="normal" android:textColor="@color/red_text_selector" android:gravity="right" android:id="@id/account_training_background_value" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_training_background_occasional" android:onClick="onTrainingBackgroundClick" style="@style/TextSettingsWhite" />
+        <TextView android:textStyle="normal" android:gravity="center" android:background="@color/gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_end_text" style="@style/TextSettingsDark" />
+    </LinearLayout>
+</ScrollView>

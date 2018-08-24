@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/training_analysis_root_linear_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fi.polar.polarflow.view.MultiSportSelectionView android:id="@id/multi_sport_selection_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/training_analysis_header" layout="@layout/training_view_header" />
+    <fi.polar.polarflow.view.MoreLessToggleView android:id="@id/more_less_toggle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <fi.polar.polarflow.view.CenteredGridLayout android:gravity="center" android:orientation="vertical" android:id="@id/training_analysis_summary_grid" android:background="@color/brand_red" android:padding="@dimen/margin_normal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/training_analysis_training_target_vs_result" android:visibility="gone" layout="@layout/training_analysis_info_row" />
+    <include android:id="@id/training_analysis_training_load" android:visibility="gone" layout="@layout/training_analysis_info_row" />
+    <include android:id="@id/training_analysis_running_index" android:visibility="gone" layout="@layout/training_analysis_info_row" />
+    <fi.polar.polarflow.view.MoreLessToggleView android:id="@id/training_analysis_training_benefit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <fi.polar.polarflow.activity.main.training.SwimmingMetricsLayout android:id="@id/training_analysis_swimming_layout" android:background="@color/generic_gray_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/training_analysis_graph" android:visibility="gone" layout="@layout/training_analysis_graph" />
+    <fi.polar.polarflow.activity.main.activity.view.HorizontalBarChart android:id="@id/training_analysis_zones" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/training_analysis_map_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/map_height" />
+    <fi.polar.polarflow.view.TrainingAnalysisLapView android:orientation="vertical" android:id="@id/training_analysis_lap_view" android:background="@color/generic_gray_background" android:paddingTop="@dimen/margin_large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:id="@id/training_analysis_remove_training_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_padding" android:text="@string/training_analysis_remove_training" style="@style/RoundedRedButton" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/training_analysis_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+</LinearLayout>

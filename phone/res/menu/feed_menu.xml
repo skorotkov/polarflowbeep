@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/feed_icon_setting" android:id="@id/menu_feed_scale" android:showAsAction="always" polar:showAsAction="always">
+        <menu>
+            <item android:id="@id/menu_feed_all" android:title="@string/feed_option_show_all" />
+            <item android:id="@id/menu_feed_activity" android:title="@string/feed_option_show_activity" />
+            <item android:id="@id/menu_feed_own_activity" android:title="@string/feed_option_show_own_activity" />
+            <item android:id="@id/menu_feed_followed_activity" android:title="@string/feed_option_show_followed_activity" />
+            <item android:id="@id/menu_feed_training" android:title="@string/feed_option_show_training" />
+            <item android:id="@id/menu_feed_own_training" android:title="@string/feed_option_show_own_training" />
+            <item android:id="@id/menu_feed_followed_training" android:title="@string/feed_option_show_followed_training" />
+        </menu>
+    </item>
+</menu>

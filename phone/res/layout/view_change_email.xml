@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/change_email_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_double" android:layout_marginEnd="@dimen/margin_double">
+            <TextView android:textSize="@dimen/text_small_big" android:gravity="center" android:id="@id/change_email_view_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:layout_marginBottom="@dimen/margin_normal" android:text="@string/change_email_enter_new_email_info" style="@style/TextBlack" />
+            <TextView android:textColor="@color/error_text_color" android:gravity="center" android:id="@id/change_email_address_error_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_hint" style="@style/TextBlack" />
+            <TextView android:id="@id/registration_email_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_hint" style="@style/TextBlack" />
+            <fi.polar.polarflow.view.EmojiFilteringEditText android:textSize="@dimen/text_normal" android:id="@id/change_email_view_username_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" android:hint="@string/login_email_hint" android:inputType="textEmailAddress" style="@style/BaseEditText" />
+            <TextView android:id="@id/registration_email_hint2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_retype_title" style="@style/TextBlack" />
+            <fi.polar.polarflow.view.EmojiFilteringEditText android:textSize="@dimen/text_normal" android:id="@id/change_email_view_username_field2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" android:hint="@string/login_email_retype_title" android:inputType="textEmailAddress" style="@style/BaseEditText" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double">
+                <Button android:id="@id/change_email_view_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/change_email_prompt_button" style="@style/RoundedRedButton" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

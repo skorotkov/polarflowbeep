@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/sleep_hypnogram_activity_times_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" android:baselineAligned="false" app:layout_heightPercent="16.999996%" app:layout_widthPercent="100.0%">
+        <include android:id="@id/sleep_hypnogram_activity_sleep_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/sleep_hypnogram_time_values_layout" />
+        <include android:id="@id/sleep_hypnogram_activity_actual_sleep_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/sleep_hypnogram_time_values_layout" />
+        <include android:id="@id/sleep_hypnogram_activity_interruptions" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/sleep_hypnogram_time_values_layout" />
+        <Button android:textSize="@dimen/text_large" android:textColor="@color/sleep_phase_light_sleep" android:gravity="center" android:background="@color/sleep_graph_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/button_done" android:layout_weight="1.0" android:onClick="onDoneClicked" />
+    </LinearLayout>
+    <fi.polar.polarflow.activity.main.sleep.view.SleepHypnogramView android:id="@id/sleep_hypnogram_activity_graph" android:background="@android:color/white" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_below="@id/sleep_hypnogram_activity_times_layout" android:layout_centerInParent="true" app:layout_heightPercent="64.0%" app:layout_widthPercent="100.0%" />
+    <fi.polar.polarflow.activity.main.sleep.view.SleepEditSliderView android:id="@id/sleep_hypnogram_activity_slider" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_below="@id/sleep_hypnogram_activity_graph" app:layout_widthPercent="100.0%" />
+</android.support.percent.PercentRelativeLayout>

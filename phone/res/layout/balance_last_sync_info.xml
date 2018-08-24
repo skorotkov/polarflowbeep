@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/balance_notification_margin" android:layout_marginBottom="@dimen/balance_notification_margin">
+        <ImageView android:id="@id/balance_notification_not_synced_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/exclamation_mark" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/balance_notification_margin" android:layout_marginEnd="@dimen/balance_notification_margin" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/text_medium" android:gravity="center" android:id="@id/balance_notification_not_synced" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/balance_you_have_not_synced_your_weight_or_activity_since" android:layout_marginStart="@dimen/balance_notification_margin" android:layout_marginEnd="@dimen/balance_notification_margin" android:layout_toEndOf="@id/balance_notification_not_synced_image" />
+    </RelativeLayout>
+    <View android:background="@color/balance_weight_trend_color" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="@dimen/balance_notification_margin" />
+</LinearLayout>

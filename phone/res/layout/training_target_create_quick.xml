@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.TabLayout android:id="@id/training_target_create_quick_tablayout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_marginBottom="@dimen/margin_normal" />
+            <fi.polar.polarflow.view.custom.PolarGlyphView android:layout_gravity="center" android:id="@id/create_quick_target_sport_icon" android:background="@drawable/training_target_sport_icon_bg" android:visibility="visible" android:layout_width="@dimen/training_target_sport_icon_width" android:layout_height="@dimen/training_target_sport_icon_width" />
+            <TextView android:textSize="@dimen/text_normal_big" android:gravity="center" android:id="@id/create_quick_target_sport_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:layout_marginBottom="@dimen/margin_normal" style="@style/TextBlack" />
+            <TextView android:textSize="@dimen/text_normal" android:gravity="center" android:id="@id/create_quick_target_invalid_target_name" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:layout_marginBottom="@dimen/margin_normal" />
+            <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <fi.polar.polarflow.view.EmojiFilteringEditText android:textSize="@dimen/text_medium" android:id="@id/create_target_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_target_name_hint" android:maxLines="1" android:maxLength="@integer/training_target_name_max_len" android:inputType="text" android:imeOptions="actionDone" style="@style/CreateTargetEditText" />
+                <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/create_quick_target_date_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CreateTargetText">
+                    <TextView android:textSize="@dimen/text_medium" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_target_date" android:layout_weight="1.0" style="@style/TextBlack" />
+                    <TextView android:textSize="@dimen/text_medium" android:gravity="end" android:id="@id/create_quick_target_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextBlack" />
+                </LinearLayout>
+                <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/create_quick_target_time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CreateTargetText">
+                    <TextView android:textSize="@dimen/text_medium" android:gravity="start" android:id="@id/create_quick_target_time_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/create_target_time" android:layout_weight="1.0" style="@style/TextBlack" />
+                    <TextView android:textSize="@dimen/text_medium" android:gravity="end" android:id="@id/create_quick_target_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextBlack" />
+                </LinearLayout>
+                <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+                <android.support.v4.view.ViewPager android:id="@id/training_target_create_quick_viewpager" android:layout_width="fill_parent" android:layout_height="@dimen/text_normal_big" style="@style/CreateTargetText" />
+                <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+                <fi.polar.polarflow.view.EmojiFilteringEditText android:textSize="@dimen/text_medium" android:id="@id/create_target_notes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_target_notes_hint" android:maxLength="@integer/training_target_notes_max_len" style="@style/CreateTargetEditText" />
+            </LinearLayout>
+            <Button android:textSize="@dimen/text_medium" android:id="@id/create_quick_target_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_double" android:text="@string/create_target_button" style="@style/RoundedRedButton" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

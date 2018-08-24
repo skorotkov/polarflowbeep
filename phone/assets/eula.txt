@@ -1,0 +1,76 @@
+POLAR ELECTRO END-USER SOFTWARE AGREEMENT FOR APPLICATIONS
+
+This Software Agreement ("Agreement") is between You and Polar Electro ("Polar").  The Agreement authorizes You to use the Software specified in Clause 1 below under the terms and conditions set forth below. This is an agreement on end-user rights and not an agreement for sale. Polar continues to own the copy of the Software and any other copy that You are authorized to make pursuant to this Agreement.
+
+Read this Agreement carefully before installing, downloading, or using the Software.  By clicking on the "I Accept" button while installing, downloading, and/or using the Software, You agree to the terms and conditions of this Agreement.  If You do not agree to all of the terms and conditions of this Agreement, promptly click the "Decline" or "I Do Not Accept" button, cancel the installation or downloading, or destroy or return the Software and accompanying documentation to Polar. YOU AGREE THAT YOUR USE OF THE SOFTWARE ACKNOWLEDGES THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+1. SOFTWARE  
+As used in this Agreement, the term "Software" means, collectively: (i) the software application which is compatible with certain mobile devices, computers, or other terminals (collectively “Device”) (ii) all the contents with which this Agreement is provided (and content which is provided under this Agreement), including the object code form of the software delivered through downloading the Software or any other mean (e.g. electronic mail, or other Web page) (iii) digital images, stock photographs, clip art, or other artistic works ("Stock Files") (iv) related explanatory written materials and any other possible documentation related thereto ("Documentation"); (v) fonts, and (vi) upgrades, modified versions, updates, additions, and copies of the Software (collectively "Updates"), if any, licensed to You by Polar under this Agreement.
+
+2. END-USER RIGHTS AND USE 
+Polar grants to You non-exclusive, personal, non-transferable end-user rights to install one piece of the Software on your personal Device and use the Software on a single Device.  The license is revocable in accordance with the terms of this Agreement. 
+
+3. LIMITATIONS ON END-USER RIGHTS  
+You may not copy, distribute, or make derivative works of the Software, in whole or in parts, except as follows:
+
+i)	You may not use, modify, translate, reproduce, or transfer the right to use the Software or copy the Software except as expressly provided in this Agreement.  
+ii)	This license does not allow You to use the Software on any  Device that You do not own or control, and you may not distribute or make the Software available for anyone else over any network or transfer protocol to enable the use of the Software in multiple devices.
+iii)	You may make a single copy of the Software on magnetic media as an archival backup copy, provided Your archival backup copy is not installed or used on any other Device. Any other copies You make of the Software are in violation of this Agreement. 
+iv)	You may not resell, sublicense, rent, lease, or lend the Software or host online service using the Software.
+v)	You may not reverse engineer, reverse compile, disassemble, or otherwise attempt to discover the source code of the Software (except to the extent that this restriction is expressly prohibited by law) or create derivative works based on the Software.
+vi)	Unless stated otherwise in the Documentation, You shall not display, modify, reproduce, or distribute any of the Stock Files included with the Software or distribute audio output of the Software. In the event that the Documentation allows You to display the Stock Files, You shall not distribute the Stock Files on a stand-alone basis, i.e., in circumstances in which the Stock Files constitute the primary value of the product being distributed. You should review the "Readme" files associated with the Stock Files that You use to ascertain what rights You have with respect to such materials. Stock Files may not be used in the production of libelous, defamatory, fraudulent, infringing, lewd, obscene, or pornographic material or in any otherwise illegal manner. You may not register or claim any rights in the Stock Files or derivative works thereof.
+vii)	You agree that You shall only use the Software in a manner that complies with all applicable laws in the jurisdiction in which You use the Software, including, but not limited to, applicable restrictions concerning copyright and other intellectual property rights.
+viii)	You may not use the Software or other Polar products or services for life critical or medical purposes. 
+ix)	In case that you suffer or suspect suffering from a cardiac condition (e.g. coronary disease) or other medical condition which may affect your physical performance, if you have abnormal feelings during physical performance or if You use a pacemaker or other electronic medical device, you should consult a medical doctor before physical exercise and before using the Software or other Polar products or services.
+
+4. COPYRIGHT  
+The Software and all rights, without limitation including proprietary rights therein, are owned by Polar and/or its licensors and affiliates and are protected by international treaty provisions and all other applicable national laws of the country in which it is being used. The structure, organization, and code of the Software are the valuable trade secrets and confidential information of Polar and/or its licensors and affiliates. You must not copy the Software, except as set forth in clause 3 (Limitations on End-User Rights). Any copies which You are permitted to make pursuant to this Agreement must contain the same copyright and other proprietary notices that appear on the Software.
+
+5. MULTIPLE ENVIRONMENT SOFTWARE / MULTIPLE LANGUAGE SOFTWARE / DUAL MEDIA SOFTWARE / MULTIPLE COPIES / UPDATES 
+If the Software supports multiple platforms or languages, if You receive the Software on multiple media, or if You otherwise receive multiple copies of the Software, the number of Devices on which all versions of the Software are installed shall be one Device. You may not rent, lease, sublicense, lend, or transfer versions or copies of the Software You do not use. 
+
+Polar may, upon its sole discretion, issue Updates of the Software, which will be made available to You as determined by Polar from time to time. The delivery of any Upgrade may be subject to a separate purchase. You must possess valid end-user rights to a previous version of the Software in order to use the Update, and You may use the previous version for ninety (90) days after You receive the Update in order to assist You in the transition to the Update. After such time You no longer have a right to use the previous version, except for the sole purpose of enabling You to install the Update.
+
+6. USE OF DATA
+You agree that Polar may collect and use technical data and related information, including but not limited to technical information about your device, system and application software, and peripherals, that is gathered periodically to facilitate provision of software updates, product support and other services to You related to the Software. Polar may use this information for as long as it is in a form that does not personally identify You, to improve its products and services as well as to provide services and technologies to You.
+
+7. SERVICES AND MATERIALS
+The Software may enable access to Polar’s and third party services and web sites (collectively “Services”). You acknowledge and agree that use of the Services may require internet access and your acceptance of terms of the relevant service.  Use of Services offered by Polar shall be subject to acceptance of Term of Use of Polar Services. Use of third party Services typically requires acceptance of the terms of use of third party service providers. We recommend you to read carefully relevant terms of use before starting to use any Services.
+The Software may be compatible with other Polar services or products.  You specifically acknowledge, that the availability of certain services and products may be limited to certain countries and that use of certain products may be prohibited in some countries (e.g. for lack of required approvals or for export control restrictions).
+
+8. COMMENCEMENT & TERMINATION  
+This Agreement is effective from the moment when You install the Software. You may terminate this Agreement at any time by permanently deleting, destroying, and returning, at Your own costs, the Software, all backup copies, all audio output generated by the Software, and all related materials provided by Polar. Your end-user rights automatically and immediately terminate without notice from Polar if You fail to comply with any provision of this Agreement. In such an event, You must immediately delete, destroy, or return at Your own cost, the Software, all backup copies, all audio output generated by the Software, and all related material to Polar.  
+
+9. NO WARRANTY
+YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF THE SOFTWARE IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU. YOU ACKNOWLEDGE THAT THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, AND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW NEITHER POLAR, ITS LICENSORS OR AFFILIATES, NOR THE COPYRIGHT HOLDERS MAKE ANY REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR THAT THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS, OR OTHER RIGHTS.  THERE IS NO WARRANTY BY POLAR OR BY ANY OTHER PARTY THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE.  YOU ASSUME ALL RESPONSIBILITY AND RISK FOR THE SELECTION OF THE SOFTWARE TO ACHIEVE YOUR INTENDED RESULTS AND FOR THE INSTALLATION, USE, AND RESULTS OBTAINED FROM IT.
+
+10. NO OTHER OBLIGATIONS  
+This Agreement creates no obligations on the part of Polar other than as specifically set forth herein.  
+
+11. LIMITATION OF LIABILITY   
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL POLAR, ITS EMPLOYEES OR LICENSORS OR AFFILIATES BE LIABLE FOR ANY LOST PROFITS, REVENUE, SALES, DATA, OR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, PROPERTY DAMAGE, PERSONAL INJURY, INTERRUPTION OF BUSINESS, LOSS OF BUSINESS INFORMATION, OR FOR ANY SPECIAL, DIRECT, INDIRECT, INCIDENTAL, ECONOMIC, COVER, PUNITIVE, SPECIAL, OR CONSEQUENTIAL DAMAGES, HOWEVER CAUSED AND WHETHER ARISING UNDER CONTRACT, TORT, NEGLIGENCE, OR OTHER THEORY OF LIABILITY ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF POLAR OR ITS LICENSORS OR AFFILIATES ARE ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME COUNTRIES/STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF LIABILITY, BUT MAY ALLOW LIABILITY TO BE LIMITED, IN SUCH CASES, POLAR, ITS EMPLOYEES OR LICENSORS OR AFFILIATES' LIABILITY SHALL BE LIMITED TO U.S. $50. 
+
+Nothing contained in this Agreement shall prejudice the statutory rights of any party dealing as a consumer. Polar is acting on behalf of its employees and licensors or affiliates for the purpose of disclaiming, excluding, and/or restricting obligations, warranties, and liability as provided in this clause 11, but in no other respects and for no other purpose.
+
+12. TECHNICAL SUPPORT  
+Polar has no obligation to furnish You with technical support. 
+
+13. EXPORT CONTROL 
+The Software, including technical data, may include software subject to export controls under the U.S. Export Administration Regulations ("EAR") and may be subject to import or export controls in other countries. In particular, but without limitation, the Software may not be exported or re-exported into any U.S. embargoed countries or to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. department of Commerce Denied Person’s List or Entity List. The EAR prohibits the use of the Software and technical data by a Government End User, as defined hereafter, without a license from the U.S. government. A Government End User is defined in Part 772 of the EAR as "any foreign central, regional, or local government department, agency, or other entity performing governmental functions; including governmental research institutions, governmental corporations, or their separate business units (as defined in part 772 of the EAR) which are engaged in the manufacture or distribution of items or services controlled on the Wassenaar Munitions List, and international governmental organizations. This term does not include: utilities (telecommunications companies and Internet service providers; banks and financial institutions; transportation; broadcast or entertainment; educational organizations; civil health and medical organizations; retail or wholesale firms; and manufacturing or industrial entities not engaged in the manufacture or distribution of items or services controlled on the Wassenaar Munitions List.)" You agree to strictly comply with all applicable import and export regulations and acknowledge that You have the responsibility to obtain licenses to export, re-export, transfer, or import the Software. You further represent that You are not a Government End User as defined above, and You will not transfer the Software to any Government End User without a license.
+
+14. INDEMNITY  
+You shall indemnify and hold Polar and its parents, subsidiaries, affiliates, officers, directors, employees, licensors, attorneys, and agents, harmless from and against any and all claims, costs, damages, losses, liabilities, and expenses (including attorneys' fees and costs) arising out of or in connection with your unlawful, inappropriate or unethical use of the Software and related services or breach of this Agreement.  	
+
+15. NOTICES  
+All notices and return of the Software and Documentation should be delivered to:  
+
+POLAR ELECTRO OY
+Professorintie 5
+90440 Kempele
+FINLAND	
+
+16.  APPLICABLE LAW & GENERAL PROVISIONS
+
+This Agreement and Your use of the Software is governed by the laws of Finland, excluding its conflicts of law rules. Your use of the Software may also be subject to other local, state, national or international laws. All disputes arising from or relating to this Agreement shall be settled by a single arbitrator appointed by the Finland Chamber of Commerce. The arbitration procedure shall take place in Helsinki, Finland in the English language. If any part of this Agreement is found void and unenforceable, it will not affect the validity of the balance of the Agreement, which shall remain valid and enforceable according to its terms. This Agreement may only be modified in writing by Corporate Counsel of Polar.
+
+This is the entire agreement between Polar and You relating to the Software, and it supersedes any prior representations, discussions, undertakings, end-user agreements, communications, or advertising relating to the Software.

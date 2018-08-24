@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/create_interval_target_page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" />
+    <android.support.v4.view.ViewPager android:id="@id/create_interval_target_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+</LinearLayout>

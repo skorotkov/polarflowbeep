@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/test_ui_activity_relative_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/clear_ftu_blacklist" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear Blacklist" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <Button android:id="@id/exportDatabaseButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EXPORT DB" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <Switch android:id="@id/force_fw_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="FORCE FW UPDATE" android:layout_below="@id/clear_ftu_blacklist" android:layout_alignParentRight="true" />
+    <Button android:id="@id/wear_test_ui_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="WEAR" android:layout_toRightOf="@id/clear_ftu_blacklist" android:layout_alignParentTop="true" />
+    <Button android:id="@id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SAVE" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <EditText android:id="@id/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/divider_double_size" android:layout_above="@id/button1" android:inputType="text" />
+    <ListView android:id="@id/remote_urls_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/button1" />
+</RelativeLayout>

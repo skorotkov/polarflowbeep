@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/generic_gray_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+    <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_alignParentTop="true" />
+    <TextView android:textSize="@dimen/text_medium" android:id="@id/note_text" android:paddingTop="@dimen/more_less_text_padding" android:paddingBottom="@dimen/more_less_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/training_note_header" android:layout_centerInParent="true" style="@style/TextBlack" />
+    <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/more_less_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/margin_large" android:layout_alignParentEnd="true" polar:glyphColor="@android:color/black" polar:glyphSize="@dimen/more_less_icon_font_size" />
+    <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_alignParentBottom="true" />
+</RelativeLayout>

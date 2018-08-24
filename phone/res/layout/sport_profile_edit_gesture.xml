@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/gesture_view_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_gesture_title" style="@style/SportProfileEditHeader" />
+    <fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout android:id="@id/gesture_heart_touch_switch" app:header="@string/sport_profile_edit_heart_touch_title" app:infoText="@string/sport_profile_edit_info_heart_touch" app:onCheckedChangedView="onHeartTouchSwitchCheckedChanged" style="@style/SportProfileEditSwitch">
+        <TextView android:id="@id/gesture_heart_touch_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_heart_touch_sub_title" style="@style/SportProfileEditSubHeader" />
+        <fi.polar.polarflow.view.SegmentedSelector android:id="@id/gesture_heart_touch_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sport_profile_edit_padding" android:layout_marginRight="@dimen/sport_profile_edit_padding" android:layout_marginBottom="@dimen/sport_profile_edit_padding_medium" />
+    </fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout>
+    <fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout android:id="@id/gesture_tap_switch" app:header="@string/sport_profile_edit_tap_title" app:onCheckedChangedView="onTapSwitchCheckedChanged" style="@style/SportProfileEditSwitch">
+        <TextView android:id="@id/gesture_tap_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_tap_sub_title" style="@style/SportProfileEditSubHeader" />
+        <fi.polar.polarflow.view.SegmentedSelector android:id="@id/gesture_tap_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sport_profile_edit_padding" android:layout_marginRight="@dimen/sport_profile_edit_padding" android:layout_marginBottom="@dimen/sport_profile_edit_padding_medium" />
+    </fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout>
+    <fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout android:id="@id/gesture_automatic_pause_switch" app:header="@string/sport_profile_edit_automatic_pause_title" app:onCheckedChangedView="onAutoPauseSwitchCheckedChanged" style="@style/SportProfileEditSwitch">
+        <TextView android:id="@id/gesture_automatic_pause_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sport_profile_edit_automatic_pause_sub_title" style="@style/SportProfileEditSubHeader" />
+        <TextView android:id="@id/gesture_automatic_pause_value" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SportProfileEditTextEdit" />
+    </fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout>
+    <fi.polar.polarflow.activity.main.sportprofile.view.SwitchLayout android:id="@id/gesture_vibration_feedback_switch" app:header="@string/sport_profile_edit_vibration_feedback_title" app:onCheckedChangedView="onVibrationFeedbackSwitchCheckedChanged" style="@style/SportProfileEditSwitch" />
+</LinearLayout>

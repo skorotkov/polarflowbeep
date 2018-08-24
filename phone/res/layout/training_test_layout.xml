@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/relativeLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progressBar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+    <ScrollView android:id="@id/training_test_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:id="@id/training_test_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <fi.polar.polarflow.view.custom.PolarGlyphView android:layout_gravity="center" android:id="@id/training_test_glyph" android:background="@drawable/training_test_glyph_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding" polar:glyph="@string/glyph_ortho_test" polar:glyphColor="@android:color/white" polar:glyphSize="@dimen/training_analysis_sport_icon_size" />
+            <TextView android:textSize="@dimen/text_normal_big" android:gravity="center" android:id="@id/training_test_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half" android:text="@string/ort_test" style="@style/TextBlack" />
+            <TextView android:textSize="@dimen/text_small" android:gravity="center" android:id="@id/training_test_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_half" style="@style/TextGray" />
+            <View android:layout_gravity="center_vertical" android:id="@id/training_test_divider" android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_marginTop="@dimen/margin_double" />
+            <LinearLayout android:orientation="vertical" android:id="@id/training_test_data_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <Button android:id="@id/training_test_remove_test_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_padding" android:text="@string/training_analysis_remove_test" style="@style/RoundedRedButton" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

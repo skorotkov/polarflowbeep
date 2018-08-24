@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sleep_introduction_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_normal_large" android:gravity="center" android:id="@id/sleep_introduction_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_double" android:text="@string/sleep_ftu_intro_title" style="@style/TextBlack" />
+    <ImageView android:id="@id/sleep_introduction_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/sleep_intro" android:layout_marginStart="@dimen/margin_quad" android:layout_marginEnd="@dimen/margin_double" />
+    <TextView android:textSize="@dimen/text_medium" android:gravity="center" android:id="@id/sleep_introduction_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_quad" android:text="@string/sleep_ftu_intro_text" style="@style/TextBlack" />
+    <View android:background="@color/divider_light_gray" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+    <TextView android:textSize="@dimen/text_normal" android:gravity="center" android:id="@id/sleep_introduction_preferred_time_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_half" android:text="@string/sleep_preferred_sleep_time" style="@style/TextBlack" />
+    <TextView android:textSize="@dimen/text_normal" android:id="@id/sleep_introduction_preferred_time_value" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextBlack" />
+</LinearLayout>

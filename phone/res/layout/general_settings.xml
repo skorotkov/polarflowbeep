@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/general_settings_activity_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_small" android:id="@id/general_settings_header" android:paddingLeft="@dimen/margin_double" android:paddingTop="@dimen/margin_normal" android:layout_width="wrap_content" android:layout_height="@dimen/profile_header_height" android:text="@string/settings_units_and_format" android:layout_centerVertical="true" style="@style/TextGray" />
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:paddingBottom="@dimen/margin_three_quarters" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_units" style="@style/BaseProfileText" />
+            <fi.polar.polarflow.view.SegmentedSelector android:id="@id/general_settings_units" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_double" android:layout_marginRight="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_half" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_first_day_of_week" style="@style/BaseProfileText" />
+            <fi.polar.polarflow.view.SegmentedSelector android:id="@id/general_settings_first_day" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_double" android:layout_marginRight="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_half" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_keep_local_data_title" style="@style/BaseProfileText" />
+            <fi.polar.polarflow.view.SegmentedSelector android:id="@id/general_settings_keep_local_data" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_double" android:layout_marginRight="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_half" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_small" android:id="@id/general_settings_connect" android:paddingLeft="@dimen/margin_double" android:paddingTop="@dimen/margin_normal" android:layout_width="wrap_content" android:layout_height="@dimen/profile_header_height" android:text="@string/settings_connect_header" android:layout_centerVertical="true" style="@style/TextGray" />
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Switch android:enabled="false" android:id="@id/general_setting_my_fitness_pal_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/my_fitness_pal_header" style="@style/DeviceSettingsBase" />
+            <Switch android:enabled="false" android:id="@id/general_setting_strava_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/strava_header" style="@style/DeviceSettingsBase" />
+            <Switch android:enabled="false" android:id="@id/general_setting_training_peaks_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/training_peaks_header" style="@style/DeviceSettingsBase" />
+            <Switch android:enabled="false" android:id="@id/general_setting_nike_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nike_plus_header" style="@style/DeviceSettingsBase" />
+            <Switch android:id="@id/general_setting_googlefit_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/google_fit_header" style="@style/DeviceSettingsBase" />
+            <TextView android:id="@id/general_settings_google_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/google_fit_connect_popup_info_text" style="@style/DeviceSettingsHintText" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_small" android:id="@id/general_settings_google_calendar_header" android:paddingLeft="@dimen/margin_double" android:paddingTop="@dimen/margin_normal" android:layout_width="wrap_content" android:layout_height="@dimen/profile_header_height" android:text="@string/google_calendar_header" android:layout_centerVertical="true" style="@style/TextGray" />
+        <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Switch android:textSize="@dimen/text_small_big" android:id="@id/general_setting_googlecalendar_ts_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/google_calendar_training_sessions_name" style="@style/DeviceSettingsBase" />
+            <Switch android:textSize="@dimen/text_small_big" android:id="@id/general_setting_googlecalendar_tst_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/google_calendar_training_session_targets_name" style="@style/DeviceSettingsBase" />
+            <TextView android:id="@id/general_settings_googlecalendar_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/google_calendar_info_text" style="@style/DeviceSettingsHintText" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

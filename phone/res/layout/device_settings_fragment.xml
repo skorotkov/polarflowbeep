@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/device_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/activity_padding_half" android:paddingRight="@dimen/activity_padding_half" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_small" android:id="@id/device_device" android:paddingLeft="@dimen/activity_padding_half" android:paddingTop="@dimen/margin_half" android:paddingRight="@dimen/activity_padding_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_devices" style="@style/TextGray" />
+        <RelativeLayout android:orientation="horizontal" android:background="@drawable/settings_row_background" android:padding="@dimen/margin_normal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/setting_device_image" android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/sensor_h10" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/setting_device_ll" android:paddingLeft="@dimen/margin_half" android:paddingTop="@dimen/margin_half" android:paddingBottom="@dimen/margin_half" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/setting_device_button" android:layout_toEndOf="@id/setting_device_image">
+                <TextView android:textSize="@dimen/text_small" android:textStyle="bold" android:id="@id/setting_device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_polar_loop" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:id="@id/setting_device_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/registration_login_paired_device_id_text" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:id="@id/setting_device_sw_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_firmware_version" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:id="@id/setting_device_platform_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_android_version" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:id="@id/setting_device_last_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_idle_text" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:id="@id/setting_device_battery_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_battery_status_text_hour_ago" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:textStyle="italic" android:id="@id/setting_device_user_guide" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextDark" />
+            </LinearLayout>
+            <ImageView android:id="@id/setting_device_button" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radiobutton_normal" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/setting_device_ll">
+                <TextView android:textSize="@dimen/text_small" android:textStyle="bold" android:textColor="@color/polar_red" android:id="@id/setting_device_update" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding_double" android:text="@string/fwupdate_update_button_text" android:textAllCaps="true" style="@style/TextDark" />
+                <TextView android:textSize="@dimen/text_small" android:textStyle="bold" android:textColor="@color/polar_red" android:id="@id/setting_test_device_update" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding_half" android:text="test ui" android:textAllCaps="true" style="@style/TextDark" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <LinearLayout android:orientation="vertical" android:id="@id/settings_optional_field" android:background="@android:color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/setting_device_time_format_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_registration_time_format_label" style="@style/BaseProfileText" />
+            <fi.polar.polarflow.view.SegmentedSelector android:id="@id/setting_device_time_format" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" />
+            <View android:id="@id/setting_device_time_format_divider" android:background="@color/divider_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+            <TextView android:id="@id/setting_device_handedness_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_handedness" style="@style/BaseProfileText" />
+            <fi.polar.polarflow.view.SegmentedSelector android:id="@id/setting_device_handedness" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_half" />
+            <Spinner android:id="@id/settings_device_location_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/WhiteSpinner" />
+            <LinearLayout android:orientation="vertical" android:id="@id/device_language_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+                <TextView android:id="@id/setting_language_select_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/device_registration_device_language" style="@style/BaseProfileText" />
+                <TextView android:gravity="center_vertical" android:id="@id/setting_language_select_value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/device_registration_device_language" style="@style/ProfileEditText" />
+            </LinearLayout>
+            <include layout="@layout/alarm_clock_setting_layout" />
+            <include layout="@layout/notifications_settings_layout" />
+            <include layout="@layout/strava_segment_setting_layout" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
