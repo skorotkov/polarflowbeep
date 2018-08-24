@@ -3360,4 +3360,11 @@
     <public type="integer" name="status_bar_notification_info_maxnum" id="0x7f11000a" />
     <public type="menu" name="main_menu" id="0x7f120000" />
     <public type="raw" name="beep2" id="0x7f130000" />
+    <public type="raw" name="above_target_zone" id="0x7f130001" />
+    <public type="raw" name="auto_lap" id="0x7f130002" />
+    <public type="raw" name="below_target_zone" id="0x7f130003" />
+    <public type="raw" name="manual_lap" id="0x7f130004" />
+    <public type="raw" name="phase_end_countdown" id="0x7f130005" />
+    <public type="raw" name="phase_finished" id="0x7f130006" />
+    <public type="raw" name="target_zone_reached" id="0x7f130007" />
 </resources>

@@ -63,6 +63,14 @@
 
     move v0, v1
 
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_2
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_2
+
+
     goto :goto_0
 
     :sswitch_1
@@ -75,6 +83,14 @@
     if-eqz v3, :cond_0
 
     const/4 v0, 0x1
+
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_3
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_3
+
 
     goto :goto_0
 
@@ -91,9 +107,9 @@
 
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
-    if-eqz v6, :cond_3
-    invoke-virtual {v6}, Lfi/polar/polarflow/ui/SoundManager;->doBeepAbove()V
-    :cond_3
+    if-eqz v6, :cond_4
+    invoke-virtual {v6}, Lfi/polar/polarflow/ui/SoundManager;->beep()V
+    :cond_4
 
     goto :goto_0
 
@@ -111,9 +127,9 @@
 
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
-    if-eqz v6, :cond_2
-    invoke-virtual {v6}, Lfi/polar/polarflow/ui/SoundManager;->doBeepBelow()V
-    :cond_2
+    if-eqz v6, :cond_5
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_5
 
 
     goto :goto_0
@@ -129,6 +145,14 @@
 
     const/4 v0, 0x4
 
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_6
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_6
+
+
     goto :goto_0
 
     :sswitch_5
@@ -141,6 +165,14 @@
     if-eqz v3, :cond_0
 
     const/4 v0, 0x5
+
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_7
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_7
+
 
     goto :goto_0
 
@@ -155,6 +187,14 @@
 
     const/4 v0, 0x6
 
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_8
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_8
+
+
     goto :goto_0
 
     :sswitch_7
@@ -167,6 +207,14 @@
     if-eqz v3, :cond_0
 
     const/4 v0, 0x7
+
+
+    invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
+    move-result-object v6
+    if-eqz v6, :cond_9
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    :cond_9
+
 
     goto :goto_0
 
