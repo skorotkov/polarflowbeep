@@ -67,7 +67,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_2
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_2
 
 
@@ -88,7 +88,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_3
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_3
 
 
@@ -128,7 +128,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_5
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_5
 
 
@@ -149,7 +149,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_6
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_6
 
 
@@ -170,7 +170,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_7
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_7
 
 
@@ -191,7 +191,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_8
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_8
 
 
@@ -212,7 +212,7 @@
     invoke-static {}, Lfi/polar/polarflow/ui/SoundManager;->getInstance()Lfi/polar/polarflow/ui/SoundManager;
     move-result-object v6
     if-eqz v6, :cond_9
-    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/Object;)V
+    invoke-virtual {v6, v4}, Lfi/polar/polarflow/ui/SoundManager;->play(Ljava/lang/String;)V
     :cond_9
 
 
