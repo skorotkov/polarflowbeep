@@ -1,0 +1,7 @@
+1. Install the patched Polar Flow application (Polar Flow Beep) (fi_polar_polarflow_beep_3.7.5.apk) to phone
+2. Open Play Store on watch, in  "App on your phone" section install Polar Flow Beep (It will be shown as Polar Flow B...)
+3. Run installed "Polar Beep" on watch, it will ask to preceed with Polar Flow on phone.  
+4. On phone open (or it may be opened automatically) the patched Polar Flow Beep and sign in to your polar account and proceeed
+with the setting up your M600 the same way as in the unpatched application.
+5. On watch choose  "Polar Beep"  to be opened by fron button (Settings -> Personalization -> Customize hardware buttons -> Front button -> choose Polar Beep)
+
