@@ -67,7 +67,6 @@ Ahora tienes que sincronizar tu dispositivo con la app Polar Flow."</string>
     <string name="alarm_repeat_mon_to_fri">de lun a vie</string>
     <string name="alarm_set_alarm">Configurar alarma</string>
     <string name="anaerobic_threshold">Umbral anaeróbico</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Media de finalización de objetivo diario</string>
     <string name="balance_accept">Aceptar</string>
     <string name="balance_activity">Actividad</string>
@@ -1349,7 +1348,7 @@ Para activar el Bloqueo de zona en tu dispositivo pulsa y mantén pulsado el bot
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Sincronizando datos con %1$s</string>
-    <string name="sync_progress_title">Polar Flow está sincronizándose</string>
+    <string name="sync_progress_title">Polar Flow Beep está sincronizándose</string>
     <string name="sync_progress_with_service_text">Sincronizando datos con el servicio</string>
     <string name="sync_scan_text">Pulsa el botón de Polar Loop</string>
     <string name="sync_scan_text_m400">Pulsa el botón ATRÁS del M400</string>

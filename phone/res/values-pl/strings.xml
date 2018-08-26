@@ -67,7 +67,6 @@ Zsynchronizuj swój produkt z aplikacją Flow."</string>
     <string name="alarm_repeat_mon_to_fri">pn – pt</string>
     <string name="alarm_set_alarm">Ustaw alarm</string>
     <string name="anaerobic_threshold">Próg anaerobowy</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Średni procent realizacji dziennego celu</string>
     <string name="balance_accept">Akceptuj</string>
     <string name="balance_activity">Aktywność</string>
@@ -1352,7 +1351,7 @@ Przykładowo, jeżeli podczas biegu Twoje tętno wynosi 130 uderzeń na min, co
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Synchronizowanie danych z %1$s</string>
-    <string name="sync_progress_title">Trwa synchronizacja Polar Flow</string>
+    <string name="sync_progress_title">Trwa synchronizacja Polar Flow Beep</string>
     <string name="sync_progress_with_service_text">Synchronizowanie danych z serwisem</string>
     <string name="sync_scan_text">Naciśnij przycisk Polar Loop</string>
     <string name="sync_scan_text_m400">Naciśnij przycisk BACK na pulsometrze M400</string>

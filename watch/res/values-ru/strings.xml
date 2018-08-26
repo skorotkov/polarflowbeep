@@ -314,7 +314,7 @@ Polar Flow на
     <string name="main_menu_my_heart_rate_1_row">Моя ЧСС</string>
     <string name="main_menu_settings_1_row">Настройки</string>
     <string name="main_menu_today_1_row">Мой день</string>
-    <string name="main_menu_training_1_row">Тренировка</string>
+    <string name="main_menu_training_1_row">Тренировка beep</string>
     <string name="main_menu_version_1_row">"Версия:
 %1$s"</string>
     <string name="myday_item_HR_max_1_row">Макс.</string>

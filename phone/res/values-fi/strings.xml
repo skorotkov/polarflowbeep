@@ -67,7 +67,6 @@ Synkronoi laitteesi Flow-sovelluksen kanssa."</string>
     <string name="alarm_repeat_mon_to_fri">ma-pe</string>
     <string name="alarm_set_alarm">Aseta herätys</string>
     <string name="anaerobic_threshold">Anaerobinen kynnys</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Päivän tavoitteesta saavutettu keskimäärin</string>
     <string name="balance_accept">Hyväksy</string>
     <string name="balance_activity">Aktiivisuus</string>
@@ -1354,7 +1353,7 @@ näet akun tilan"</string>
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Laitteen %1$s synkronointi käynnissä</string>
-    <string name="sync_progress_title">Polar Flow synkronoituu</string>
+    <string name="sync_progress_title">Polar Flow Beep synkronoituu</string>
     <string name="sync_progress_with_service_text">Synkronoidaan tietoja palveluun</string>
     <string name="sync_scan_text">Paina Polar Loopin painiketta</string>
     <string name="sync_scan_text_m400">Paina M400:n TAKAISIN-painiketta</string>

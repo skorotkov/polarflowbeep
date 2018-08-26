@@ -67,7 +67,6 @@
     <string name="alarm_repeat_mon_to_fri">с пн по пт</string>
     <string name="alarm_set_alarm">Установить будильник</string>
     <string name="anaerobic_threshold">Анаэробный порог</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Среднее выполнение ежедневной цели</string>
     <string name="balance_accept">Принять</string>
     <string name="balance_activity">Физическая активность</string>
@@ -1352,7 +1351,7 @@
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Синхронизация данных с %1$s</string>
-    <string name="sync_progress_title">Polar Flow выполняет синхронизацию</string>
+    <string name="sync_progress_title">Polar Flow Beep выполняет синхронизацию</string>
     <string name="sync_progress_with_service_text">Синхронизация данных с сервисом</string>
     <string name="sync_scan_text">Нажмите кнопку Polar Loop</string>
     <string name="sync_scan_text_m400">Нажмите кнопку M400 НАЗАД</string>

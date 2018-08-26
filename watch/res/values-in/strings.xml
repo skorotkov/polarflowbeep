@@ -311,7 +311,7 @@ seluler Anda."</string>
     <string name="main_menu_my_heart_rate_1_row">Denyut jant. saya</string>
     <string name="main_menu_settings_1_row">Pengaturan</string>
     <string name="main_menu_today_1_row">Hari saya</string>
-    <string name="main_menu_training_1_row">Latihan</string>
+    <string name="main_menu_training_1_row">Latihan beep</string>
     <string name="main_menu_version_1_row">"Versi:
 %1$s"</string>
     <string name="myday_item_HR_max_1_row">Maks.</string>

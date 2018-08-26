@@ -67,7 +67,6 @@
     <string name="alarm_repeat_mon_to_fri">(月)-(金)</string>
     <string name="alarm_set_alarm">アラーム設定</string>
     <string name="anaerobic_threshold">無酸素性作業閾値</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">1日の目標 達成状態（平均）</string>
     <string name="balance_accept">承認</string>
     <string name="balance_activity">アクティビティ</string>
@@ -1351,7 +1350,7 @@ Polar Flowウェブサービスに
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">%1$sとデータを同期中</string>
-    <string name="sync_progress_title">Polar Flowの同期中</string>
+    <string name="sync_progress_title">Polar Flow Beepの同期中</string>
     <string name="sync_progress_with_service_text">サービスとのデータの同期中</string>
     <string name="sync_scan_text">Polar Loop のボタンを押してください</string>
     <string name="sync_scan_text_m400">M400のBACKボタンを押してください</string>

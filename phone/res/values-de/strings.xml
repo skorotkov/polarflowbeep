@@ -67,7 +67,6 @@ Stelle sicher, dass auf deinem Mobilgerät Bluetooth eingeschaltet ist."</string
     <string name="alarm_repeat_mon_to_fri">Mo bis Fr</string>
     <string name="alarm_set_alarm">Alarm einstellen</string>
     <string name="anaerobic_threshold">Anaerobe Schwelle</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Durchschnittliche Erfüllung des täglichen Ziels</string>
     <string name="balance_accept">Akzeptieren</string>
     <string name="balance_activity">Aktivität</string>
@@ -1353,7 +1352,7 @@ Wenn du z. B. mit einer Herzfrequenz von 130 Schlägen pro Minute läufst, was
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Synchronisierung der Daten mit dem %1$s</string>
-    <string name="sync_progress_title">Polar Flow wird synchronisiert</string>
+    <string name="sync_progress_title">Polar Flow Beep wird synchronisiert</string>
     <string name="sync_progress_with_service_text">Synchronisierung der Daten mit dem Service</string>
     <string name="sync_scan_text">Drücke die Polar Loop-Taste.</string>
     <string name="sync_scan_text_m400">Drücke die BACK-Taste am M400.</string>

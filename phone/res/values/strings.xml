@@ -80,7 +80,7 @@ Now you need to sync your device with Flow app."</string>
     <string name="alarm_repeat_mon_to_fri">Mon to Fri</string>
     <string name="alarm_set_alarm">Set alarm</string>
     <string name="anaerobic_threshold">Anaerobic threshold</string>
-    <string name="app_name">Polar Flow</string>
+    <string name="app_name">Polar Flow Beep</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
     <string name="auth_google_play_services_client_google_display_name">Google</string>
@@ -1485,7 +1485,7 @@ If, for example, you are running with a heart rate of 130 bpm which is 75% of yo
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Syncing data with %1$s</string>
-    <string name="sync_progress_title">Polar Flow is syncing</string>
+    <string name="sync_progress_title">Polar Flow Beep is syncing</string>
     <string name="sync_progress_with_service_text">Syncing data with service</string>
     <string name="sync_scan_text">Press the Polar Loop button</string>
     <string name="sync_scan_text_m400">Press the M400 BACK button</string>

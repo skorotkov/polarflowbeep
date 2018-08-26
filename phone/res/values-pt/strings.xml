@@ -67,7 +67,6 @@ Agora tem de sincronizar o seu dispositivo com a aplicação Flow."</string>
     <string name="alarm_repeat_mon_to_fri">Seg a Sex</string>
     <string name="alarm_set_alarm">Definir alarme</string>
     <string name="anaerobic_threshold">Limiar anaeróbico</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Média da conclusão do objetivo diário</string>
     <string name="balance_accept">Aceitar</string>
     <string name="balance_activity">Atividade</string>
@@ -1352,7 +1351,7 @@ Se, por exemplo, estiver a correr com uma frequência cardíaca de 130 bpm, que 
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">A sincronizar dados com o %1$s</string>
-    <string name="sync_progress_title">O Polar Flow está a sincronizar</string>
+    <string name="sync_progress_title">O Polar Flow Beep está a sincronizar</string>
     <string name="sync_progress_with_service_text">A sincronizar os dados com o serviço</string>
     <string name="sync_scan_text">Prima o botão Polar Loop</string>
     <string name="sync_scan_text_m400">Prima o botão BACK no M400</string>

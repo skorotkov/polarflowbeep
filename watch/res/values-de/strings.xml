@@ -303,7 +303,7 @@ der Polar App..."</string>
     <string name="main_menu_my_heart_rate_1_row">Meine Herzfrequenz</string>
     <string name="main_menu_settings_1_row">Eingaben</string>
     <string name="main_menu_today_1_row">Mein Tag</string>
-    <string name="main_menu_training_1_row">Training</string>
+    <string name="main_menu_training_1_row">Training beep</string>
     <string name="main_menu_version_1_row">"Version:
 %1$s"</string>
     <string name="myday_item_HR_max_1_row">Max.</string>

@@ -67,7 +67,6 @@ Je moet je apparaat nu synchroniseren met Flow app."</string>
     <string name="alarm_repeat_mon_to_fri">Ma tot Vr</string>
     <string name="alarm_set_alarm">Alarm instellen</string>
     <string name="anaerobic_threshold">Anaerobe grenswaarde</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Gemiddelde voltooiing dagelijks doel</string>
     <string name="balance_accept">Accepteren</string>
     <string name="balance_activity">Beweging</string>
@@ -1352,7 +1351,7 @@ Als je bijvoorbeeld hardloopt met een hartslag van 130 hsm, gelijk aan 75% van j
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Gegevens synchroniseren met %1$s</string>
-    <string name="sync_progress_title">Polar Flow is bezig met synchroniseren</string>
+    <string name="sync_progress_title">Polar Flow Beep is bezig met synchroniseren</string>
     <string name="sync_progress_with_service_text">Gegevens synchroniseren met service</string>
     <string name="sync_scan_text">Druk op de Polar Loop knop</string>
     <string name="sync_scan_text_m400">Druk op de knop TERUG van de M400</string>

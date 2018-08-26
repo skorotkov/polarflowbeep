@@ -67,7 +67,6 @@ Telefonunuzda Bluetooth'un açık olduğundan emin olun."</string>
     <string name="alarm_repeat_mon_to_fri">Hafta içi</string>
     <string name="alarm_set_alarm">Alarm kur</string>
     <string name="anaerobic_threshold">Anaerobik eşik</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Günlük hedef gerçekleştirme ortalama</string>
     <string name="balance_accept">Kabul et</string>
     <string name="balance_activity">Egzersiz</string>
@@ -1354,7 +1353,7 @@ Cihazınızdaki Alan kilidini etkinleştirmek için içinde bulunduğunuz alanı
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Veriler %1$s ile senkronize ediliyor</string>
-    <string name="sync_progress_title">Polar Flow senkronize ediliyor</string>
+    <string name="sync_progress_title">Polar Flow Beep senkronize ediliyor</string>
     <string name="sync_progress_with_service_text">Veriler servisle senkronize ediliyor</string>
     <string name="sync_scan_text">Polar Loop düğmesine basın</string>
     <string name="sync_scan_text_m400">"M400'ün GERİ düğmesine basın"</string>

@@ -259,7 +259,7 @@ telemóvel."</string>
     <string name="main_menu_my_heart_rate_1_row">A minha FC</string>
     <string name="main_menu_settings_1_row">Definições</string>
     <string name="main_menu_today_1_row">O meu dia</string>
-    <string name="main_menu_training_1_row">Treino</string>
+    <string name="main_menu_training_1_row">Treino beep</string>
     <string name="main_menu_version_1_row">"Versão:
 %1$s"</string>
     <string name="myday_item_HR_max_1_row">Máx</string>

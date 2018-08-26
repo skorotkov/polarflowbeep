@@ -67,7 +67,6 @@
     <string name="alarm_repeat_mon_to_fri">월 - 금</string>
     <string name="alarm_set_alarm">알람 설정</string>
     <string name="anaerobic_threshold">무산소 역치</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">평균 일일 목표 완료치</string>
     <string name="balance_accept">수락</string>
     <string name="balance_activity">활동</string>
@@ -1348,7 +1347,7 @@ Polar가 이 서비스를 제공하려면 개인 데이터가 필요합니다."<
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">데이터를 %1$s와(과) 동기화하는 중</string>
-    <string name="sync_progress_title">Polar Flow가 동기화 중입니다.</string>
+    <string name="sync_progress_title">Polar Flow Beep가 동기화 중입니다.</string>
     <string name="sync_progress_with_service_text">서비스와 데이터를 동기화하는 중</string>
     <string name="sync_scan_text">Polar Loop 버튼을 누르세요.</string>
     <string name="sync_scan_text_m400">"M400 '뒤로' 버튼을 누르세요."</string>

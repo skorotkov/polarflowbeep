@@ -312,7 +312,7 @@ açarak devam edin."</string>
     <string name="main_menu_my_heart_rate_1_row">Kalp atış hızım</string>
     <string name="main_menu_settings_1_row">Ayarlar</string>
     <string name="main_menu_today_1_row">Günüm</string>
-    <string name="main_menu_training_1_row">Egzersiz</string>
+    <string name="main_menu_training_1_row">Egzersiz beep</string>
     <string name="main_menu_version_1_row">"Sürüm:
 %1$s"</string>
     <string name="myday_item_HR_max_1_row">Maks.</string>

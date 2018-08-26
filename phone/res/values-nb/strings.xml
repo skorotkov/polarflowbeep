@@ -67,7 +67,6 @@ Nå må du synkronisere enheten med Flow-appen."</string>
     <string name="alarm_repeat_mon_to_fri">man–fre</string>
     <string name="alarm_set_alarm">Still inn alarm</string>
     <string name="anaerobic_threshold">Anaerob terskel</string>
-    <string name="app_name">Polar Flow</string>
     <string name="average_activity_goal_status">Fullføringsgjennomsnitt for daglig mål</string>
     <string name="balance_accept">Godta</string>
     <string name="balance_activity">Aktivitet</string>
@@ -1352,7 +1351,7 @@ Hvis du for eksempel løper med en hjertefrekvens på 130 bpm, som er 75 % av di
     <string name="sync_m450">M450</string>
     <string name="sync_m460">M460</string>
     <string name="sync_progress_text">Synkroniserer data med %1$s</string>
-    <string name="sync_progress_title">Polar Flow synkroniserer</string>
+    <string name="sync_progress_title">Polar Flow Beep synkroniserer</string>
     <string name="sync_progress_with_service_text">Synkroniserer data med tjenesten</string>
     <string name="sync_scan_text">Trykk på Polar Loop-knappen</string>
     <string name="sync_scan_text_m400">Trykk på TILBAKE-knappen på M400</string>
