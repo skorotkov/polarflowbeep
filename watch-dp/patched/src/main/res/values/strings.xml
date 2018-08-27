@@ -3,7 +3,8 @@
     <!--Source and patched resources are merged according to standard build rules:
         http://tools.android.com/tech-docs/new-build-system/resource-merging -->
 
-    <!--Override app name.-->
+    <!--Override -->
     <string name="app_name">Polar Beep</string>
+    <string name="main_menu_training_1_row">Training beep</string>
 
 </resources>
