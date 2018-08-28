@@ -1,0 +1,32 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fi.polar.polarflowbeep"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--Source and patched manifests are merged according to standard build rules:
+        http://tools.android.com/tech-docs/new-build-system/user-guide/manifest-merger -->
+
+    <!--We let the application tag inherit its attributes from the source app.-->
+    <application>
+
+        <!--As a convenience, due to this bug in Android Studio:
+            https://code.google.com/p/android/issues/detail?id=168306
+            We surface part of the default activity to the main manifest
+            so that Studio will not complain when launching the app.-->
+<!--
+        <activity android:name="fi.polar.polarflow.ui.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+-->
+
+        <provider tools:node="remove" android:authorities="fi.polar.polarflow.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/providerpaths"/>
+        </provider>
+
+        <provider android:authorities="fi.polar.polarflowbeep.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/providerpaths"/>
+        </provider>
+    </application>
+
+</manifest>

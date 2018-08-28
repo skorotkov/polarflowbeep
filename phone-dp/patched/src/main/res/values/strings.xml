@@ -1,0 +1,9 @@
+<resources>
+
+    <!--Source and patched resources are merged according to standard build rules:
+        http://tools.android.com/tech-docs/new-build-system/resource-merging -->
+
+    <!--Override -->
+    <string name="app_name">Polar Beep</string>
+
+</resources>
