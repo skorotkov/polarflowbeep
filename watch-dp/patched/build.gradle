@@ -96,8 +96,8 @@ android {
         // of the source app. (Data is displayed when the source apk library is built.)
         minSdkVersion 25
         targetSdkVersion 25
-        versionCode 2502300
-        versionName '2.3.0-beep'
+        versionCode 2502301
+        versionName '2.3.1-beep'
     }
 
     signingConfigs {
