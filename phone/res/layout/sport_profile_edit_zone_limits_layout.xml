@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/white_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/margin_double" style="@style/AppTheme" />
-    <View android:background="@color/title_bottom_divider" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <fi.polar.polarflow.activity.main.sportprofile.trainingzones.ZoneLimitsLayout android:orientation="vertical" android:id="@id/edit_training_zones_limits_table" android:paddingTop="@dimen/sport_profile_edit_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" app:editable="true"
-      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
-    <TextView android:textSize="@dimen/text_small" android:textColor="@color/error_text_color" android:id="@id/edit_training_zones_warning_message" android:padding="@dimen/activity_padding_half" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/BaseTextStyle" />
-</LinearLayout>

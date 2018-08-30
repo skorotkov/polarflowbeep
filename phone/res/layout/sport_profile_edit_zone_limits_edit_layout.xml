@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/text_normal" android:id="@id/zone_limits_value_1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextGray" />
-    <TextView android:textSize="@dimen/text_normal" android:id="@id/zone_limits_separator" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/sport_profile_edit_padding_small" android:paddingEnd="@dimen/sport_profile_edit_padding_small" style="@style/TextGray" />
-    <EditText android:textSize="@dimen/text_normal" android:id="@id/zone_limits_value_2" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:imeOptions="actionNext" style="@style/TextGray" />
-</merge>

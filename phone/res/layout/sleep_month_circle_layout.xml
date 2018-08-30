@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout android:id="@id/sleep_month_circle_root_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fi.polar.polarflow.activity.main.sleep.view.SleepMonthCircleSummaryView android:id="@id/sleep_month_circle_summary_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_double" android:layout_alignParentTop="true" />
-    <fi.polar.polarflow.activity.main.sleep.view.SleepCircleView android:id="@id/sleep_month_circle_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_double" android:layout_below="@id/sleep_month_circle_summary_view" />
-</android.support.percent.PercentRelativeLayout>

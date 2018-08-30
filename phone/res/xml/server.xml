@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<service type="primary" uuid="PFTP_SERV">
-    <characteristic permission="WRITE" property="WRITE_NO_RESPONSE|NOTIFY" uuid="PFTP_MTU">
-        <descriptor permission="READ|WRITE" uuid="CCC" value="0x00000000" />
-    </characteristic>
-</service>

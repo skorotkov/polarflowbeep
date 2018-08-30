@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/sleep_introduction_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/text_normal_large" android:gravity="center" android:id="@id/simple_feature_intro_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_double" android:text="@string/mobile_gps_intro_title" style="@style/TextBlack" />
-    <ImageView android:id="@id/simple_feature_intro_image" android:layout_width="fill_parent" android:layout_height="@dimen/feature_intro_gps_image_height" android:src="@drawable/a370_mobile_gps" android:layout_marginStart="@dimen/margin_quad" android:layout_marginEnd="@dimen/margin_double" />
-    <TextView android:textSize="@dimen/text_medium" android:gravity="center" android:id="@id/simple_feature_intro_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_double" android:layout_marginBottom="@dimen/margin_quad" android:text="@string/mobile_gps_intro_text" style="@style/TextBlack" />
-</LinearLayout>

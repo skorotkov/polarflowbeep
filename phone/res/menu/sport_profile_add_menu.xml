@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <item android:icon="@drawable/icon_add_black" android:id="@id/menu_sport_profile_add" android:title="@string/sport_profile_add" polar:showAsAction="always" />
-</menu>

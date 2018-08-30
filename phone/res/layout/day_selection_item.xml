@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/day_rel" android:background="@color/empty_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/divider_size" android:layout_marginTop="@dimen/divider_double_size" android:layout_marginRight="@dimen/divider_size" android:layout_marginBottom="@dimen/divider_double_size" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:gravity="center|top" android:id="@id/day_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mon" />
-    <TextView android:textSize="@dimen/day_selection_day_text_size" android:gravity="center" android:id="@id/day_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/day_selection_day_padding" android:layout_centerInParent="true" />
-    <View android:id="@id/day_dot" android:background="@drawable/day_selector_circle" android:visibility="gone" android:layout_width="@dimen/day_selection_circle_size" android:layout_height="@dimen/day_selection_circle_size" android:layout_below="@id/day_field" android:layout_centerHorizontal="true" />
-</RelativeLayout>

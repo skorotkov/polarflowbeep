@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@drawable/spinner_text_background_selector" android:padding="@dimen/margin_double" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_normal">
-        <RadioButton android:gravity="center" android:id="@id/spinner_radio_button" android:background="@drawable/radio_button_selector" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/margin_normal" android:button="@android:color/transparent" />
-        <TextView android:textSize="@dimen/text_normal_big" android:id="@id/spinner_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_normal" android:text="@string/daily_activity_goal_level1" android:singleLine="true" style="@style/TextBlack" />
-    </LinearLayout>
-    <TextView android:ellipsize="marquee" android:id="@id/spinner_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/daily_activity_goal_level_text1" style="@style/TextGray" />
-</LinearLayout>

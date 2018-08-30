@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/inner_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" android:overScrollMode="never" />
-    <TextView android:textSize="@dimen/text_large" android:gravity="start|center" android:layout_gravity="start|center|top" android:id="@id/sticky_id_view" android:layout_width="@dimen/toolbar_title_left_margin" android:layout_height="@dimen/selection_list_item_height" android:paddingStart="@dimen/margin_double" style="@style/TextGray" />
-</merge>

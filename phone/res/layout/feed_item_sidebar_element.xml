@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="center" android:background="@color/feed_sidebar_element_bg" android:padding="@dimen/margin_half" android:layout_width="@dimen/feed_sidebar_grid_element_width" android:layout_height="@dimen/feed_sidebar_grid_element_width" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/sidebar_element_icon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" polar:glyphColor="@android:color/black" polar:glyphSize="@dimen/feed_grid_element_icon_font_size" />
-    <TextView android:textSize="@dimen/text_small_big" android:textColor="@color/feed_sidebar_text_color" android:id="@id/sidebar_element_number" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/TextBlack" />
-</RelativeLayout>

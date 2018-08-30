@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<wearableApp package="fi.polar.polarflowbeep">
-    <versionCode>2502300</versionCode>
-    <versionName>2.0.3-beep</versionName>
-    <rawPathResId>android_wear_micro_apk</rawPathResId>
-</wearableApp>

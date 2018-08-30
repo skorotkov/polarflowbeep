@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:background="@color/generic_gray_background_dark" android:layout_width="fill_parent" android:layout_height="@dimen/swimming_metrics_style_header_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/swimming_row_start" android:layout_width="@dimen/swimming_metrics_row_start_width" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
-    <TextView android:textSize="@dimen/text_normal_large" android:id="@id/swimming_row_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/margin_normal" android:layout_toEndOf="@id/swimming_row_start" style="@style/TextBlack" />
-    <TextView android:textSize="@dimen/text_medium" android:gravity="end" android:id="@id/swimming_row_value" android:layout_width="@dimen/swimming_metrics_style_header_value_width" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/margin_large" android:layout_alignParentEnd="true" style="@style/TextBlack" />
-    <View android:background="@android:color/white" android:layout_width="@dimen/divider_size" android:layout_height="fill_parent" android:layout_toStartOf="@id/swimming_row_value" />
-    <View android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" android:layout_alignParentBottom="true" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/edit_training_displays_view_pager_padding" android:paddingEnd="@dimen/edit_training_displays_view_pager_padding"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <android.support.v7.widget.RecyclerView android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/edit_training_display_recycler_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/edit_training_displays_layout_size" />
-    <android.support.percent.PercentRelativeLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/edit_training_display_empty" android:background="@color/default_black" android:visibility="gone" android:layout_width="@dimen/edit_training_displays_layout_size" android:layout_height="@dimen/edit_training_displays_layout_size">
-        <fi.polar.polarflow.view.custom.PolarGlyphView android:gravity="bottom|center" android:id="@id/training_display_item_remove_glyph" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentTop="true" app:glyph="@string/glyph_plus" app:glyphColor="@color/text_gray" app:glyphSize="@dimen/edit_training_displays_plus_glyph_size" app:layout_heightPercent="50.0%" app:layout_widthPercent="100.0%" />
-        <TextView android:textSize="@dimen/text_medium" android:textStyle="bold" android:gravity="center|top" android:paddingTop="@dimen/margin_normal" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/sport_profile_edit_training_displays_add_items" android:layout_alignParentBottom="true" app:layout_heightPercent="50.0%" app:layout_widthPercent="100.0%" style="@style/TextWhite" />
-    </android.support.percent.PercentRelativeLayout>
-</FrameLayout>

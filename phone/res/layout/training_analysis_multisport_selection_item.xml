@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/generic_gray_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/activity_padding_half" android:paddingEnd="@dimen/activity_padding_half"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/text_medium" android:textStyle="bold" android:id="@id/duration_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" style="@style/TextBlack" />
-    <fi.polar.polarflow.view.custom.PolarGlyphView android:id="@id/sport_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_normal" polar:glyphColor="@color/training_duration" polar:glyphSize="@dimen/training_analysis_multisport_selection_sport_icon_size" />
-</LinearLayout>

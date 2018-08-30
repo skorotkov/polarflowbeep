@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/summary_data_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_normal" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <TextView android:id="@id/summary_data_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_normal" android:layout_marginRight="@dimen/margin_normal" android:layout_toRightOf="@id/summary_data_icon" style="@style/FourFieldValue" />
-    <TextView android:textSize="@dimen/text_small" android:id="@id/summary_data_text" android:paddingBottom="@dimen/margin_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_half" android:maxLines="3" android:minLines="2" android:layout_toLeftOf="@id/summary_data_triangle" android:layout_toRightOf="@id/summary_data_icon" android:layout_below="@id/summary_data_value" style="@style/TextWhite" />
-    <ImageView android:id="@id/summary_data_triangle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/margin_half" android:src="@drawable/icon_info_redcorner" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-</RelativeLayout>

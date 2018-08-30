@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/text_normal" android:id="@android:id/text1" android:paddingLeft="@dimen/edit_text_padding_left_right" android:paddingTop="@dimen/edit_text_padding_top_bottom" android:paddingRight="@dimen/edit_text_padding_left_right" android:paddingBottom="@dimen/edit_text_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextBlack"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
