@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/myDayIncludableSleepDuration" style="@style/MyDayItemStyle.HorizontalContainer.SleepDuration"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/sleepDurationHours" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MyDayItemTextStyle.Medium" />
-    <TextView android:id="@id/sleepDurationHoursUnits" android:text="@string/myday_sleep_duration_unit_hours_1_row" style="@style/MyDayItemTextStyle.Small.Units.SleepDuration" />
-    <TextView android:id="@id/sleepDurationMinutes" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MyDayItemTextStyle.Medium" />
-    <TextView android:id="@id/sleepDurationMinutesUnits" android:text="@string/myday_sleep_duration_unit_minutes_1_row" style="@style/MyDayItemTextStyle.Small.Units.SleepDuration" />
-</LinearLayout>

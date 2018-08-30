@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/registration_taking_in_use_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <fi.polar.polarflow.ftu.GridAnimationLayout android:id="@id/registration_grid_animation" android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="4" android:columnCount="4" />
-        <TextView android:gravity="center" android:id="@id/grid_animation_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/FlowTextStyle.FtuSetup" />
-    </RelativeLayout>
-</merge>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/DisplayStyle.DisplayContainer"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/item1" style="@style/DisplayStyle.ItemContainer.Half" />
-    <FrameLayout android:id="@id/item2" style="@style/DisplayStyle.ItemContainer.Quarter" />
-    <FrameLayout android:id="@id/item3" style="@style/DisplayStyle.ItemContainer.Quarter" />
-</LinearLayout>

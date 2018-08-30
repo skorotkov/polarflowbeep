@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/itemCadenceFull" style="@style/DisplayItemStyle.Layout.Vertical.Full"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/textCadenceTitle" android:text="@string/exe_view_running_cadence_1_row" style="@style/ItemTextStyle.Title.Full.WithMargins" />
-    <TextView android:id="@id/textCadenceUnits" style="@style/ItemTextStyle.Units.Full" />
-    <TextView android:textSize="@dimen/item_full_integer_primary_text_size_large" android:id="@id/textCadence" android:text="@string/exe_view_one_digit_default" style="@style/ItemTextStyle.Primary.Full" />
-</LinearLayout>

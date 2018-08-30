@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<fi.polar.polarflow.ui.custom.RoundButtonListItemLayout android:layout_width="fill_parent" android:layout_height="@dimen/exe_wait_round_button_container_height" polar:containerHeight="@dimen/exe_wait_round_button_container_height" polar:nonCentralYUpper="2.0dip" polar:nonCentralYLower="37.0dip" polar:centeredTopYTarget="16.699982dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/viewRoundButton" android:background="@drawable/round_button" android:onClick="exeWaitOnClick" android:layout_marginStart="@dimen/exe_wait_round_button_start_margin" polar:glyphSize="@dimen/exe_wait_round_button_text_size" style="@style/ExeWaitStyle.Button" />
-</fi.polar.polarflow.ui.custom.RoundButtonListItemLayout>

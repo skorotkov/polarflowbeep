@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/itemRunningIndex" style="@style/DisplayItemStyle.Layout.Vertical"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/textRunningIndexGrade" style="@style/ItemTextStyle.RunningIndexGrade" />
-    <TextView android:id="@id/textRunningIndexValue" android:text="@string/exe_view_one_digit_default" style="@style/ItemTextStyle.RunningIndexValue" />
-</LinearLayout>

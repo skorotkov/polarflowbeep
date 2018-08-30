@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/zonesContainer" android:layout_width="fill_parent" android:layout_height="@dimen/hr_zone_level_height" android:layout_marginBottom="@dimen/hr_zone_pointer_levels_bottom_margin" android:weightSum="1.0" android:layout_marginStart="@dimen/hr_zone_side_margin" android:layout_marginEnd="@dimen/hr_zone_side_margin"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/zone1" android:background="?colorHrZone1" style="@style/DisplayItemStyle.HrZonePointerLevel" />
-    <View android:id="@id/zone2" android:background="?colorHrZone2" style="@style/DisplayItemStyle.HrZonePointerLevel" />
-    <View android:id="@id/zone3" android:background="?colorHrZone3" style="@style/DisplayItemStyle.HrZonePointerLevel" />
-    <View android:id="@id/zone4" android:background="?colorHrZone4" style="@style/DisplayItemStyle.HrZonePointerLevel" />
-    <View android:id="@id/zone5" android:background="?colorHrZone5" style="@style/DisplayItemStyle.HrZonePointerLevel" />
-</LinearLayout>

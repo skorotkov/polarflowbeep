@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/mydayItemActivity" style="@style/MyDayItemStyle.CardContainerLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/myday_item_includable_timestamp" />
-    <View android:background="@color/myday_item_activity_card_color" style="@style/MyDayItemStyle.HandleView" />
-    <FrameLayout android:id="@id/dailyActivityContainer" android:backgroundTint="@color/myday_item_activity_card_color" style="@style/MyDayItemStyle.CardLayout">
-        <ViewFlipper android:id="@id/dailyActivityViewFlipper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
-</FrameLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center|top" android:layout_marginTop="@dimen/sleep_item_breakdown_container_marginTop" style="@style/SleepItemStyle.Container.Full"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:text="@string/myday_sleep_breakdown_1_row" style="@style/SleepItemTextStyle.Label" />
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sleepPieView" android:layout_width="@dimen/sleep_item_breakdown_pie_width" android:layout_height="@dimen/sleep_item_breakdown_pie_height">
-        <TextView android:id="@id/sleepDuration" style="@style/SleepItemTextStyle.BreakdownSleepDuration" />
-        <TextView android:id="@id/sleepGoal" style="@style/SleepItemTextStyle.BreakdownSleepGoal" />
-    </LinearLayout>
-</LinearLayout>

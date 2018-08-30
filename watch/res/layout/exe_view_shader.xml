@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<fi.polar.polarflow.ui.exeview.shader.ShaderContainerView android:id="@id/shader_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fi.polar.polarflow.ui.exeview.shader.ShaderGridPager android:id="@id/shader_pager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <android.support.wearable.view.DotsPageIndicator android:layout_gravity="bottom|center" android:id="@id/shader_page_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</fi.polar.polarflow.ui.exeview.shader.ShaderContainerView>

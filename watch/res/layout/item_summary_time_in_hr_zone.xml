@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/itemSummaryTimeInHrZone" android:paddingTop="@dimen/hr_zone_top_margin" android:paddingBottom="@dimen/hr_zone_bottom_margin" android:paddingStart="@dimen/hr_zone_side_margin" android:paddingEnd="@dimen/hr_zone_side_margin" style="@style/DisplayItemStyle.Layout.Vertical"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/zone5Container" android:layout_width="fill_parent" android:layout_height="@dimen/time_in_zone_level_indicator_width" android:layout_marginTop="0.0dip" layout="@layout/summary_zone_level" />
-    <include android:id="@id/zone4Container" layout="@layout/summary_zone_level" />
-    <include android:id="@id/zone3Container" layout="@layout/summary_zone_level" />
-    <include android:id="@id/zone2Container" layout="@layout/summary_zone_level" />
-    <include android:id="@id/zone1Container" layout="@layout/summary_zone_level" />
-</LinearLayout>

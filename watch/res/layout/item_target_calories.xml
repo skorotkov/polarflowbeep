@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center_horizontal" android:id="@id/caloriesTarget" android:layout_width="fill_parent" android:layout_height="@dimen/quick_training_target_text_bar_size"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/unitText" android:text="@string/exe_view_unit_kcal_1_row" android:layout_alignParentEnd="true" style="@style/ItemTextStyle.TrainingTargetUnitText" />
-    <TextView android:id="@id/targetText" android:layout_alignParentBottom="true" android:layout_toStartOf="@id/unitText" style="@style/ItemTextStyle.TrainingTargetTargetText" />
-    <TextView android:id="@id/progressText" android:layout_alignBaseline="@id/targetText" android:layout_toStartOf="@id/targetText" style="@style/ItemTextStyle.TrainingTargetProgressText" />
-</RelativeLayout>
