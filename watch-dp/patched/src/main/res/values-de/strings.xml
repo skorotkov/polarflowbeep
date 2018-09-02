@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Polar Beep</string>
+    <string name="main_menu_training_1_row">Training beep</string>
+    <string name="ftu_finish_installation">Fahre mit Polar Beep auf deinem Mobil­gerät fort.</string>
+    <string name="ftu_login_message">Fahre mit Polar Beep auf deinem Mobil­gerät fort.</string>
+</resources>

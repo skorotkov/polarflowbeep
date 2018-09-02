@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/frame_layout" style="@style/DisplayStyle.Layout.Lap"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fi.polar.polarflow.ui.custom.BetterWearableListView android:id="@id/better_wearable_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/auto_lap_list_view_marginTop" />
-</LinearLayout>

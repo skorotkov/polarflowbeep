@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/text_normal_big" android:gravity="center" android:id="@id/feed_empty_layout_text" android:paddingLeft="@dimen/margin_double" android:paddingRight="@dimen/margin_double" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feed_empty_state_margin_top" android:text="@string/feed_empty_text" style="@style/TextGray"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

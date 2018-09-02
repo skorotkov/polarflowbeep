@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Polar Beep</string>
+    <string name="main_menu_training_1_row">훈련 beep</string>
+    <string name="ftu_finish_installation">"모바일 기기에서
+Polar Beep를
+계속 진행합니다."</string>
+    <string name="ftu_login_message">"모바일 기기에서
+Polar Beep를
+계속 진행합니다."</string>
+</resources>

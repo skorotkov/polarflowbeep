@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/itemSummaryTitle" android:layout_width="fill_parent" android:layout_height="@dimen/summary_item_title_height"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:layout_gravity="center" android:id="@id/sportGlyph" android:background="@drawable/summary_sport_glyph_background" android:layout_width="@dimen/summary_item_title_sport_glyph_background_size" android:layout_height="@dimen/summary_item_title_sport_glyph_background_size" polar:glyph="@string/glyph_running" polar:glyphSize="@dimen/summary_item_title_sport_glyph_size" />
-</FrameLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="20.0dip" android:ellipsize="end" android:gravity="center" android:layout_gravity="bottom" android:id="@id/textViewButtonName" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="6.5dip" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingMultiplier="0.72" style="@style/FlowTextStyle" />
-</merge>

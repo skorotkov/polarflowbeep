@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_gravity="start" android:id="@id/targetsView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/round_button_diameter" android:layout_marginTop="@dimen/exe_wait_target_indicators_margin_top">
-        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/viewTargetIndicator" android:background="@color/myday_item_planned_training_card_color" android:layout_width="@dimen/exe_wait_indicator_diameter" android:layout_height="@dimen/exe_wait_indicator_diameter" android:layout_alignParentTop="true" polar:glyph="@string/glyph_favorites" polar:glyphSize="@dimen/exe_wait_indicator_icon_size" />
-    </RelativeLayout>
-</merge>

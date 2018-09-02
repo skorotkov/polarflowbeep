@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/MyDayItemStyle.HorizontalContainer"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.ui.custom.PolarGlyphView polar:glyph="@string/glyph_calories" style="@style/MyDayItemTextStyle.Glyph.Small" />
-    <TextView android:id="@id/myDayItemIncludableCalories" style="@style/MyDayItemTextStyle.Small" />
-    <TextView android:id="@id/myDayItemIncludableCaloriesUnits" android:text="@string/myday_item_unit_kcal_1_row" style="@style/MyDayItemTextStyle.Small.Units" />
-</LinearLayout>

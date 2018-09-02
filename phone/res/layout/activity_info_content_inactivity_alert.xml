@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/activity_info_inactivity_alert_imageview" android:layout_width="@dimen/activity_info_inactivity_icon_size" android:layout_height="@dimen/activity_info_inactivity_icon_size" android:layout_marginBottom="@dimen/margin_double" android:src="@drawable/notifications_icon_inactivity_new" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="@dimen/text_large" android:textColor="@android:color/black" android:id="@id/activity_info_header_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_large" android:text="@string/inactivity_stamp" android:layout_below="@id/activity_info_inactivity_alert_imageview" android:layout_alignParentLeft="true" />
-    <TextView android:textSize="@dimen/text_normal" android:textColor="@android:color/black" android:id="@id/activity_info_content_textview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_normal" android:text="@string/inactivity_popup_text" android:layout_below="@id/activity_info_header_textview" android:layout_alignParentLeft="true" />
-</merge>

@@ -1,0 +1,16 @@
+<resources>
+
+    <!--Source and patched resources are merged according to standard build rules:
+        http://tools.android.com/tech-docs/new-build-system/resource-merging -->
+
+    <!--Override -->
+    <string name="app_name">Polar Beep</string>
+    <string name="main_menu_training_1_row">Training beep</string>
+    <string name="ftu_finish_installation">"Continue with
+Polar Beep on
+your mobile."</string>
+    <string name="ftu_login_message">"Continue with
+Polar Beep on
+your mobile."</string>
+
+</resources>

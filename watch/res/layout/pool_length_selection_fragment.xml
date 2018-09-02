@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/polar_dialog_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/topBar" android:background="@color/drop_down_list_top_bar_color" android:layout_width="fill_parent" android:layout_height="@dimen/exe_wait_pool_length_selection_top_bar_height">
-        <TextView android:textSize="@dimen/exe_wait_pool_length_selection_text_view_text_size" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/poolLengthSelectionTextView" android:layout_width="@dimen/exe_wait_pool_length_selection_text_view_width" android:layout_height="@dimen/exe_wait_pool_length_selection_text_view_height" android:text="@string/exe_wait_pool_length_heading_1_row" android:maxLines="1" />
-    </FrameLayout>
-    <fi.polar.polarflow.ui.custom.RadioButtonWearableListView android:id="@id/poolLengthSelectionListView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="oval"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@android:color/black" />
-    <size android:height="@dimen/map_route_point_size_big" android:width="@dimen/map_route_point_size_big" />
-    <stroke android:width="@dimen/map_route_stroke_size_big" android:color="@android:color/white" />
-</shape>

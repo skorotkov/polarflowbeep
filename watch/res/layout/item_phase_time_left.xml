@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/itemDurationQuarter" style="@style/DisplayItemStyle.Layout.Horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.ui.custom.ImageOrGlyphView android:id="@id/imgDuration" polar:drawable="?exeIconTimeLeft" polar:glyph="@string/glyph_time_left" style="@style/DisplayItemStyle.Image.WithMargin" />
-    <FrameLayout style="@style/DisplayItemStyle.PrimaryTextContainer">
-        <TextView android:id="@id/textHoursMinutes" style="@style/ItemTextStyle.Primary.Quarter" />
-    </FrameLayout>
-    <TextView android:id="@id/textSeconds" style="@style/ItemTextStyle.Secondary.Quarter" />
-</LinearLayout>

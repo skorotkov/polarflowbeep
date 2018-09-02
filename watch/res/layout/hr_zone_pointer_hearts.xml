@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/heartsContainer" android:layout_width="fill_parent" android:layout_height="@dimen/hr_zone_indicator_font_size" android:layout_marginBottom="@dimen/hr_zone_pointer_hearts_bottom_margin" android:weightSum="1.0" android:layout_marginStart="@dimen/hr_zone_side_margin" android:layout_marginEnd="@dimen/hr_zone_side_margin"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/pointer1" polar:glyph="@string/glyph_heartrate" polar:glyphColor="?colorHrZone1" polar:glyphSize="@dimen/hr_zone_indicator_font_size" style="@style/DisplayItemStyle.HrZonePointerHeart" />
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/pointer2" polar:glyph="@string/glyph_heartrate" polar:glyphColor="?colorHrZone2" polar:glyphSize="@dimen/hr_zone_indicator_font_size" style="@style/DisplayItemStyle.HrZonePointerHeart" />
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/pointer3" polar:glyph="@string/glyph_heartrate" polar:glyphColor="?colorHrZone3" polar:glyphSize="@dimen/hr_zone_indicator_font_size" style="@style/DisplayItemStyle.HrZonePointerHeart" />
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/pointer4" polar:glyph="@string/glyph_heartrate" polar:glyphColor="?colorHrZone4" polar:glyphSize="@dimen/hr_zone_indicator_font_size" style="@style/DisplayItemStyle.HrZonePointerHeart" />
-    <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/pointer5" polar:glyph="@string/glyph_heartrate" polar:glyphColor="?colorHrZone5" polar:glyphSize="@dimen/hr_zone_indicator_font_size" style="@style/DisplayItemStyle.HrZonePointerHeart" />
-</LinearLayout>

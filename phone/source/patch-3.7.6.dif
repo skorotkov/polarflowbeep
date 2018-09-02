@@ -1,0 +1,421 @@
+diff -ru old/AndroidManifest.xml new/AndroidManifest.xml
+--- old/AndroidManifest.xml	2018-08-30 10:59:32.000000000 +0700
++++ new/AndroidManifest.xml	2018-08-30 12:13:13.059913900 +0700
+@@ -1,4 +1,4 @@
+-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fi.polar.polarflow">
++<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" package="fi.polar.polarflowbeep">
+     <uses-permission android:name="android.permission.INTERNET"/>
+     <uses-permission android:name="android.permission.BLUETOOTH"/>
+     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+@@ -111,7 +111,7 @@
+                 <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+             </intent-filter>
+         </receiver>
+-        <provider android:authorities="fi.polar.polarflow.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
++        <provider android:authorities="fi.polar.polarflowbeep.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/providerpaths"/>
+         </provider>
+         <meta-data android:name="DATABASE" android:value="mva2.db"/>
+diff -ru old/apktool.yml new/apktool.yml
+--- old/apktool.yml	2018-08-30 11:01:00.000000000 +0700
++++ new/apktool.yml	2018-08-30 12:13:56.958309600 +0700
+@@ -826,4 +826,4 @@
+ version: 2.3.3
+ versionInfo:
+   versionCode: '37601'
+-  versionName: 3.7.6
++  versionName: 3.7.6-beep
+diff -ru old/res/values/strings.xml new/res/values/strings.xml
+--- old/res/values/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values/strings.xml	2018-08-30 12:10:21.773760800 +0700
+@@ -80,7 +80,7 @@
+     <string name="alarm_repeat_mon_to_fri">Mon to Fri</string>
+     <string name="alarm_set_alarm">Set alarm</string>
+     <string name="anaerobic_threshold">Anaerobic threshold</string>
+-    <string name="app_name">Polar Flow</string>
++    <string name="app_name">Polar Beep</string>
+     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+     <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+     <string name="auth_google_play_services_client_google_display_name">Google</string>
+@@ -1485,7 +1485,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Syncing data with %1$s</string>
+-    <string name="sync_progress_title">Polar Flow is syncing</string>
++    <string name="sync_progress_title">Polar Flow Beep is syncing</string>
+     <string name="sync_progress_with_service_text">Syncing data with service</string>
+     <string name="sync_scan_text">Press the Polar Loop button</string>
+     <string name="sync_scan_text_m400">Press the M400 BACK button</string>
+diff -ru old/res/values-cs/strings.xml new/res/values-cs/strings.xml
+--- old/res/values-cs/strings.xml	2018-08-30 10:59:46.000000000 +0700
++++ new/res/values-cs/strings.xml	2018-08-30 12:10:21.561739600 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">Po až pá</string>
+     <string name="alarm_set_alarm">Nastavit budík</string>
+     <string name="anaerobic_threshold">Anaerobní práh</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Průměrné plnění denního cíle</string>
+     <string name="balance_accept">Přijmout</string>
+     <string name="balance_activity">Aktivita</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Probíhá synchronizace dat s %1$s.</string>
+-    <string name="sync_progress_title">Probíhá synchronizace se službou Polar Flow.</string>
++    <string name="sync_progress_title">Probíhá synchronizace se službou Polar Flow Beep.</string>
+     <string name="sync_progress_with_service_text">Probíhá synchronizace dat se službou</string>
+     <string name="sync_scan_text">Stiskněte tlačítko na sporttesteru Polar Loop.</string>
+     <string name="sync_scan_text_m400">Stiskněte tlačítko ZPĚT na sporttesteru M400.</string>
+diff -ru old/res/values-da/strings.xml new/res/values-da/strings.xml
+--- old/res/values-da/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-da/strings.xml	2018-08-30 12:10:21.573740800 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">man til fre</string>
+     <string name="alarm_set_alarm">Indstil alarm</string>
+     <string name="anaerobic_threshold">Anaerob tærskel</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Gennemsnitlig udførelse af dagligt mål</string>
+     <string name="balance_accept">Acceptér</string>
+     <string name="balance_activity">Aktivitet</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Synkroniserer data med %1$s</string>
+-    <string name="sync_progress_title">Polar Flow synkroniseres</string>
++    <string name="sync_progress_title">Polar Flow Beep synkroniseres</string>
+     <string name="sync_progress_with_service_text">Synkroniserer data med servicen</string>
+     <string name="sync_scan_text">Tryk på Polar Loop-knappen</string>
+     <string name="sync_scan_text_m400">Tryk på M400 TILBAGE-knappen</string>
+diff -ru old/res/values-de/strings.xml new/res/values-de/strings.xml
+--- old/res/values-de/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-de/strings.xml	2018-08-30 12:10:21.584741900 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">Mo bis Fr</string>
+     <string name="alarm_set_alarm">Alarm einstellen</string>
+     <string name="anaerobic_threshold">Anaerobe Schwelle</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Durchschnittliche Erfüllung des täglichen Ziels</string>
+     <string name="balance_accept">Akzeptieren</string>
+     <string name="balance_activity">Aktivität</string>
+@@ -1353,7 +1352,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Synchronisierung der Daten mit dem %1$s</string>
+-    <string name="sync_progress_title">Polar Flow wird synchronisiert</string>
++    <string name="sync_progress_title">Polar Flow Beep wird synchronisiert</string>
+     <string name="sync_progress_with_service_text">Synchronisierung der Daten mit dem Service</string>
+     <string name="sync_scan_text">Drücke die Polar Loop-Taste.</string>
+     <string name="sync_scan_text_m400">Drücke die BACK-Taste am M400.</string>
+diff -ru old/res/values-es/strings.xml new/res/values-es/strings.xml
+--- old/res/values-es/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-es/strings.xml	2018-08-30 12:10:21.597743200 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">de lun a vie</string>
+     <string name="alarm_set_alarm">Configurar alarma</string>
+     <string name="anaerobic_threshold">Umbral anaeróbico</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Media de finalización de objetivo diario</string>
+     <string name="balance_accept">Aceptar</string>
+     <string name="balance_activity">Actividad</string>
+@@ -1349,7 +1348,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Sincronizando datos con %1$s</string>
+-    <string name="sync_progress_title">Polar Flow está sincronizándose</string>
++    <string name="sync_progress_title">Polar Flow Beep está sincronizándose</string>
+     <string name="sync_progress_with_service_text">Sincronizando datos con el servicio</string>
+     <string name="sync_scan_text">Pulsa el botón de Polar Loop</string>
+     <string name="sync_scan_text_m400">Pulsa el botón ATRÁS del M400</string>
+diff -ru old/res/values-fi/strings.xml new/res/values-fi/strings.xml
+--- old/res/values-fi/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-fi/strings.xml	2018-08-30 12:10:21.608744300 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">ma-pe</string>
+     <string name="alarm_set_alarm">Aseta herätys</string>
+     <string name="anaerobic_threshold">Anaerobinen kynnys</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Päivän tavoitteesta saavutettu keskimäärin</string>
+     <string name="balance_accept">Hyväksy</string>
+     <string name="balance_activity">Aktiivisuus</string>
+@@ -1354,7 +1353,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Laitteen %1$s synkronointi käynnissä</string>
+-    <string name="sync_progress_title">Polar Flow synkronoituu</string>
++    <string name="sync_progress_title">Polar Flow Beep synkronoituu</string>
+     <string name="sync_progress_with_service_text">Synkronoidaan tietoja palveluun</string>
+     <string name="sync_scan_text">Paina Polar Loopin painiketta</string>
+     <string name="sync_scan_text_m400">Paina M400:n TAKAISIN-painiketta</string>
+diff -ru old/res/values-fr/strings.xml new/res/values-fr/strings.xml
+--- old/res/values-fr/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-fr/strings.xml	2018-08-30 12:10:21.620745500 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">lun au ven</string>
+     <string name="alarm_set_alarm">Paramétrer une alarme</string>
+     <string name="anaerobic_threshold">Seuil anaérobie</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">"Moyenne d'achèvement de l'objectif quotidien"</string>
+     <string name="balance_accept">Accepter</string>
+     <string name="balance_activity">Activité</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Synchronisation des données avec le %1$s</string>
+-    <string name="sync_progress_title">Polar Flow est en cours de synchronisation</string>
++    <string name="sync_progress_title">Polar Flow Beep est en cours de synchronisation</string>
+     <string name="sync_progress_with_service_text">Synchronisation des données avec le service en cours</string>
+     <string name="sync_scan_text">Appuyez sur le bouton du Polar Loop</string>
+     <string name="sync_scan_text_m400">Appuyez sur le bouton RETOUR du M400</string>
+diff -ru old/res/values-in/strings.xml new/res/values-in/strings.xml
+--- old/res/values-in/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-in/strings.xml	2018-08-30 12:10:21.632746700 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">Sen hingga Jum</string>
+     <string name="alarm_set_alarm">Atur alarm</string>
+     <string name="anaerobic_threshold">Ambang anaerobik</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Rata-rata penyelesaian target harian</string>
+     <string name="balance_accept">Terima</string>
+     <string name="balance_activity">Aktivitas</string>
+@@ -1351,7 +1350,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Menyinkronkan data dengan %1$s</string>
+-    <string name="sync_progress_title">Polar Flow sedang menyinkronkan</string>
++    <string name="sync_progress_title">Polar Flow Beep sedang menyinkronkan</string>
+     <string name="sync_progress_with_service_text">Menyinkronkan data dengan layanan</string>
+     <string name="sync_scan_text">Tekan tombol Polar Loop</string>
+     <string name="sync_scan_text_m400">Tekan tombol KEMBALI M400</string>
+diff -ru old/res/values-it/strings.xml new/res/values-it/strings.xml
+--- old/res/values-it/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-it/strings.xml	2018-08-30 12:10:21.644747900 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">lun-ven</string>
+     <string name="alarm_set_alarm">Imposta sveglia</string>
+     <string name="anaerobic_threshold">Soglia anaerobica</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Media completamento obiettivo quotidiano</string>
+     <string name="balance_accept">Accetta</string>
+     <string name="balance_activity">Attività</string>
+@@ -1350,7 +1349,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Sincronizzazione dei dati con %1$s</string>
+-    <string name="sync_progress_title">Polar Flow in fase di sincronizzazione</string>
++    <string name="sync_progress_title">Polar Flow Beep in fase di sincronizzazione</string>
+     <string name="sync_progress_with_service_text">Sincronizzazione dei dati con il servizio</string>
+     <string name="sync_scan_text">Premi il pulsante di Polar Loop</string>
+     <string name="sync_scan_text_m400">"Premi il pulsante INDIETRO dell'M400"</string>
+diff -ru old/res/values-ja/strings.xml new/res/values-ja/strings.xml
+--- old/res/values-ja/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-ja/strings.xml	2018-08-30 12:10:21.656749100 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">(月)-(金)</string>
+     <string name="alarm_set_alarm">アラーム設定</string>
+     <string name="anaerobic_threshold">無酸素性作業閾値</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">1日の目標 達成状態（平均）</string>
+     <string name="balance_accept">承認</string>
+     <string name="balance_activity">アクティビティ</string>
+@@ -1351,7 +1350,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">%1$sとデータを同期中</string>
+-    <string name="sync_progress_title">Polar Flowの同期中</string>
++    <string name="sync_progress_title">Polar Flow Beepの同期中</string>
+     <string name="sync_progress_with_service_text">サービスとのデータの同期中</string>
+     <string name="sync_scan_text">Polar Loop のボタンを押してください</string>
+     <string name="sync_scan_text_m400">M400のBACKボタンを押してください</string>
+diff -ru old/res/values-ko/strings.xml new/res/values-ko/strings.xml
+--- old/res/values-ko/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-ko/strings.xml	2018-08-30 12:10:21.667750200 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">월 - 금</string>
+     <string name="alarm_set_alarm">알람 설정</string>
+     <string name="anaerobic_threshold">무산소 역치</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">평균 일일 목표 완료치</string>
+     <string name="balance_accept">수락</string>
+     <string name="balance_activity">활동</string>
+@@ -1348,7 +1347,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">데이터를 %1$s와(과) 동기화하는 중</string>
+-    <string name="sync_progress_title">Polar Flow가 동기화 중입니다.</string>
++    <string name="sync_progress_title">Polar Flow Beep가 동기화 중입니다.</string>
+     <string name="sync_progress_with_service_text">서비스와 데이터를 동기화하는 중</string>
+     <string name="sync_scan_text">Polar Loop 버튼을 누르세요.</string>
+     <string name="sync_scan_text_m400">"M400 '뒤로' 버튼을 누르세요."</string>
+diff -ru old/res/values-nb/strings.xml new/res/values-nb/strings.xml
+--- old/res/values-nb/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-nb/strings.xml	2018-08-30 12:10:21.679751400 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">man–fre</string>
+     <string name="alarm_set_alarm">Still inn alarm</string>
+     <string name="anaerobic_threshold">Anaerob terskel</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Fullføringsgjennomsnitt for daglig mål</string>
+     <string name="balance_accept">Godta</string>
+     <string name="balance_activity">Aktivitet</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Synkroniserer data med %1$s</string>
+-    <string name="sync_progress_title">Polar Flow synkroniserer</string>
++    <string name="sync_progress_title">Polar Flow Beep synkroniserer</string>
+     <string name="sync_progress_with_service_text">Synkroniserer data med tjenesten</string>
+     <string name="sync_scan_text">Trykk på Polar Loop-knappen</string>
+     <string name="sync_scan_text_m400">Trykk på TILBAKE-knappen på M400</string>
+diff -ru old/res/values-nl/strings.xml new/res/values-nl/strings.xml
+--- old/res/values-nl/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-nl/strings.xml	2018-08-30 12:10:21.691752600 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">Ma tot Vr</string>
+     <string name="alarm_set_alarm">Alarm instellen</string>
+     <string name="anaerobic_threshold">Anaerobe grenswaarde</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Gemiddelde voltooiing dagelijks doel</string>
+     <string name="balance_accept">Accepteren</string>
+     <string name="balance_activity">Beweging</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Gegevens synchroniseren met %1$s</string>
+-    <string name="sync_progress_title">Polar Flow is bezig met synchroniseren</string>
++    <string name="sync_progress_title">Polar Flow Beep is bezig met synchroniseren</string>
+     <string name="sync_progress_with_service_text">Gegevens synchroniseren met service</string>
+     <string name="sync_scan_text">Druk op de Polar Loop knop</string>
+     <string name="sync_scan_text_m400">Druk op de knop TERUG van de M400</string>
+diff -ru old/res/values-pl/strings.xml new/res/values-pl/strings.xml
+--- old/res/values-pl/strings.xml	2018-08-30 10:59:46.000000000 +0700
++++ new/res/values-pl/strings.xml	2018-08-30 12:10:21.703753800 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">pn – pt</string>
+     <string name="alarm_set_alarm">Ustaw alarm</string>
+     <string name="anaerobic_threshold">Próg anaerobowy</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Średni procent realizacji dziennego celu</string>
+     <string name="balance_accept">Akceptuj</string>
+     <string name="balance_activity">Aktywność</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Synchronizowanie danych z %1$s</string>
+-    <string name="sync_progress_title">Trwa synchronizacja Polar Flow</string>
++    <string name="sync_progress_title">Trwa synchronizacja Polar Flow Beep</string>
+     <string name="sync_progress_with_service_text">Synchronizowanie danych z serwisem</string>
+     <string name="sync_scan_text">Naciśnij przycisk Polar Loop</string>
+     <string name="sync_scan_text_m400">Naciśnij przycisk BACK na pulsometrze M400</string>
+diff -ru old/res/values-pt/strings.xml new/res/values-pt/strings.xml
+--- old/res/values-pt/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-pt/strings.xml	2018-08-30 12:10:21.714754900 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">Seg a Sex</string>
+     <string name="alarm_set_alarm">Definir alarme</string>
+     <string name="anaerobic_threshold">Limiar anaeróbico</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Média da conclusão do objetivo diário</string>
+     <string name="balance_accept">Aceitar</string>
+     <string name="balance_activity">Atividade</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">A sincronizar dados com o %1$s</string>
+-    <string name="sync_progress_title">O Polar Flow está a sincronizar</string>
++    <string name="sync_progress_title">O Polar Flow Beep está a sincronizar</string>
+     <string name="sync_progress_with_service_text">A sincronizar os dados com o serviço</string>
+     <string name="sync_scan_text">Prima o botão Polar Loop</string>
+     <string name="sync_scan_text_m400">Prima o botão BACK no M400</string>
+diff -ru old/res/values-ru/strings.xml new/res/values-ru/strings.xml
+--- old/res/values-ru/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-ru/strings.xml	2018-08-30 12:10:21.726756100 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">с пн по пт</string>
+     <string name="alarm_set_alarm">Установить будильник</string>
+     <string name="anaerobic_threshold">Анаэробный порог</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Среднее выполнение ежедневной цели</string>
+     <string name="balance_accept">Принять</string>
+     <string name="balance_activity">Физическая активность</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Синхронизация данных с %1$s</string>
+-    <string name="sync_progress_title">Polar Flow выполняет синхронизацию</string>
++    <string name="sync_progress_title">Polar Flow Beep выполняет синхронизацию</string>
+     <string name="sync_progress_with_service_text">Синхронизация данных с сервисом</string>
+     <string name="sync_scan_text">Нажмите кнопку Polar Loop</string>
+     <string name="sync_scan_text_m400">Нажмите кнопку M400 НАЗАД</string>
+diff -ru old/res/values-sv/strings.xml new/res/values-sv/strings.xml
+--- old/res/values-sv/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-sv/strings.xml	2018-08-30 12:10:21.738757300 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">mån - fre</string>
+     <string name="alarm_set_alarm">Ställ in alarm</string>
+     <string name="anaerobic_threshold">Anaerob tröskel</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Dagligt mål uppfyllande i genomsnitt</string>
+     <string name="balance_accept">Godkänn</string>
+     <string name="balance_activity">Aktivitet</string>
+@@ -1352,7 +1351,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Synkroniserar data med %1$s</string>
+-    <string name="sync_progress_title">Polar Flow synkroniseras</string>
++    <string name="sync_progress_title">Polar Flow Beep synkroniseras</string>
+     <string name="sync_progress_with_service_text">Synkroniserar data med tjänsten</string>
+     <string name="sync_scan_text">Tryck på knappen på Polar Loop</string>
+     <string name="sync_scan_text_m400">Tryck på TILLBAKA-knappen på M400</string>
+diff -ru old/res/values-tr/strings.xml new/res/values-tr/strings.xml
+--- old/res/values-tr/strings.xml	2018-08-30 10:59:48.000000000 +0700
++++ new/res/values-tr/strings.xml	2018-08-30 12:10:21.750758500 +0700
+@@ -67,7 +67,6 @@
+     <string name="alarm_repeat_mon_to_fri">Hafta içi</string>
+     <string name="alarm_set_alarm">Alarm kur</string>
+     <string name="anaerobic_threshold">Anaerobik eşik</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">Günlük hedef gerçekleştirme ortalama</string>
+     <string name="balance_accept">Kabul et</string>
+     <string name="balance_activity">Egzersiz</string>
+@@ -1354,7 +1353,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">Veriler %1$s ile senkronize ediliyor</string>
+-    <string name="sync_progress_title">Polar Flow senkronize ediliyor</string>
++    <string name="sync_progress_title">Polar Flow Beep senkronize ediliyor</string>
+     <string name="sync_progress_with_service_text">Veriler servisle senkronize ediliyor</string>
+     <string name="sync_scan_text">Polar Loop düğmesine basın</string>
+     <string name="sync_scan_text_m400">"M400'ün GERİ düğmesine basın"</string>
+diff -ru old/res/values-zh/strings.xml new/res/values-zh/strings.xml
+--- old/res/values-zh/strings.xml	2018-08-30 10:59:46.000000000 +0700
++++ new/res/values-zh/strings.xml	2018-08-30 12:10:21.761759600 +0700
+@@ -48,7 +48,6 @@
+     <string name="alarm_repeat_mon_to_fri">周一到周五</string>
+     <string name="alarm_set_alarm">设置闹聆</string>
+     <string name="anaerobic_threshold">无氧阈值</string>
+-    <string name="app_name">Polar Flow</string>
+     <string name="average_activity_goal_status">每日目标的平均完成情况</string>
+     <string name="balance_accept">接受</string>
+     <string name="balance_activity">活动</string>
+@@ -1291,7 +1290,7 @@
+     <string name="sync_m450">M450</string>
+     <string name="sync_m460">M460</string>
+     <string name="sync_progress_text">与　%1$s　同步数据</string>
+-    <string name="sync_progress_title">Polar Flow　正在同步</string>
++    <string name="sync_progress_title">Polar Flow Beep　正在同步</string>
+     <string name="sync_progress_with_service_text">正在与服务同步数据</string>
+     <string name="sync_scan_text">按压 Polar Loop　按钮</string>
+     <string name="sync_scan_text_m400">按下 M400 “返回” 按钮</string>
+diff -ru old/res/xml/wearable_app_desc.xml new/res/xml/wearable_app_desc.xml
+--- old/res/xml/wearable_app_desc.xml	2018-08-30 10:59:36.000000000 +0700
++++ new/res/xml/wearable_app_desc.xml	2018-08-30 12:10:21.782761700 +0700
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<wearableApp package="fi.polar.polarflow">
+-    <versionCode>34009</versionCode>
+-    <versionName>1.4.3.28</versionName>
++<wearableApp package="fi.polar.polarflowbeep">
++    <versionCode>2502301</versionCode>
++    <versionName>2.3.1-beep</versionName>
+     <rawPathResId>android_wear_micro_apk</rawPathResId>
+ </wearableApp>

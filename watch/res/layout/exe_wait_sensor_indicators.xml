@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:layout_gravity="end|center|top" android:id="@id/sensorsView" android:layout_width="wrap_content" android:layout_height="@dimen/exe_wait_sensor_indicators_container_height" android:layout_marginTop="@dimen/exe_wait_sensor_indicators_margin_top">
-        <fi.polar.polarflow.ui.custom.HrSensorView android:id="@id/viewSensorHR" android:layout_width="@dimen/exe_wait_indicator_diameter" android:layout_height="@dimen/exe_wait_indicator_diameter" android:layout_alignParentTop="true" polar:glyph="@string/glyph_heartrate" polar:glyphSize="@dimen/exe_wait_indicator_icon_size" />
-        <fi.polar.polarflow.ui.custom.GpsSensorView android:id="@id/viewSensorGps" android:layout_width="@dimen/exe_wait_indicator_diameter" android:layout_height="@dimen/exe_wait_indicator_diameter" android:layout_alignParentBottom="true" polar:glyph="@string/glyph_gps_on" polar:glyphSize="@dimen/exe_wait_indicator_icon_size" />
-    </RelativeLayout>
-</merge>

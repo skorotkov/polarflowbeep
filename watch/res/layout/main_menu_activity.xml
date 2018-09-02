@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <fi.polar.polarflow.ui.custom.BetterWearableListView android:layout_gravity="center" android:id="@id/better_wearable_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <include layout="@layout/button_name_2row_includable" />
-</merge>

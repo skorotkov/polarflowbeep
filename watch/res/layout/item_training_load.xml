@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:id="@id/itemTrainingLoad" style="@style/DisplayItemStyle.Layout.Vertical"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/textTrainingLoad" android:text="@string/exe_view_training_load_05_1_row" style="@style/ItemTextStyle.TrainingLoad" />
-</LinearLayout>

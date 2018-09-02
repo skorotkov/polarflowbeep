@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Polar Beep</string>
+    <string name="main_menu_training_1_row">Тренировка beep</string>
+    <string name="ftu_finish_installation">"Перейти к 
+Polar Beep на
+мобильном телефоне."</string>
+    <string name="ftu_login_message">"Перейти к 
+Polar Beep на
+мобильном телефоне."</string>
+</resources>

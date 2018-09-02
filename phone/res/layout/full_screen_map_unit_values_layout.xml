@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout android:orientation="horizontal" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/text_normal_big" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="bottom|center" android:id="@id/map_data_panel_property_value_and_units" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="false" app:layout_heightPercent="55.000008%" app:layout_widthPercent="100.0%" />
-    <TextView android:textSize="@dimen/text_small" android:textColor="@android:color/black" android:gravity="center" android:id="@id/map_data_panel_property_type" android:paddingBottom="@dimen/full_screen_map_property_type_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/map_data_panel_property_value_and_units" android:textAllCaps="false" app:layout_heightPercent="45.000004%" app:layout_widthPercent="100.0%" />
-</android.support.percent.PercentRelativeLayout>

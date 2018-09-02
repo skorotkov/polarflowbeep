@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Polar Beep</string>
+    <string name="main_menu_training_1_row">Egzersiz beep</string>
+    <string name="ftu_finish_installation">"Mbl chzda
+Polar Beep’u
+açarak devam edin."</string>
+    <string name="ftu_login_message">"Mbl chzda
+Polar Beep’u
+açarak devam edin."</string>
+</resources>

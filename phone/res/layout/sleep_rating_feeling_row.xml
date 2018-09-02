@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/sleep_rating_feeling_layout" android:background="@android:color/transparent" android:paddingTop="@dimen/margin_half" android:paddingBottom="@dimen/margin_half" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <fi.polar.polarflow.view.custom.PolarGlyphView android:gravity="center" android:id="@id/sleep_rating_feeling_glyph" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sleep_rating_feeling_margin_left" android:layout_marginEnd="@dimen/margin_half" polar:glyph="@string/glyph_sleep_feeling5" polar:glyphColor="@android:color/white" polar:glyphSize="@dimen/sleep_feedback_add_rating_glyph_size" />
-    <TextView android:textSize="@dimen/sleep_rating_feeling_row_font" android:gravity="center" android:id="@id/sleep_rating_feeling_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/sleep_user_rating_short__04" android:layout_marginStart="@dimen/margin_normal" style="@style/TextWhite" />
-</LinearLayout>

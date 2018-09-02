@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<fi.polar.polarflow.ui.custom.ScrollGravityListItemLayout android:id="@id/mydayInActivityAlert" polar:forwardScrollGravity="end" polar:backwardScrollGravity="start" style="@style/MyDayItemStyle.CardContainerLayout"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:polar="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/myDayInactivityAlertContainer" android:layout_width="@dimen/myday_item_card_width" android:backgroundTint="@color/myday_item_inactivity_alert_card_color" style="@style/MyDayItemStyle.CardLayout.Inactivity">
-        <fi.polar.polarflow.ui.custom.PolarGlyphView android:id="@id/myDayInactivityAlertGlyph" android:layout_marginLeft="@dimen/myday_item_inactivity_card_paddingLeft" android:layout_centerVertical="true" android:layout_alignParentStart="true" polar:glyph="@string/glyph_inactivity_alert" polar:glyphColor="@color/myday_item_inactivity_alert_glyph_color" style="@style/MyDayItemTextStyle.Glyph.Inactivity" />
-        <TextView android:gravity="right" android:id="@id/myDayInactivityAlerts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/myday_item_inactivity_text_marginTop" android:layout_toRightOf="@id/myDayInactivityAlertGlyph" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/myday_item_inactivity_card_paddingRight" android:layout_alignParentEnd="true" style="@style/MyDayItemTextStyle.Big" />
-    </RelativeLayout>
-</fi.polar.polarflow.ui.custom.ScrollGravityListItemLayout>

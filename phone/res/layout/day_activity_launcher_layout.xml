@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/day_activity_launcher_activity_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/tool_bar" />
-    <View android:id="@id/divider" android:background="@color/title_bottom_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/tool_bar" />
-    <ViewStub android:id="@id/base_activity_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider" />
-</RelativeLayout>

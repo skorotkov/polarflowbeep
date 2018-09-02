@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<fi.polar.polarflow.activity.main.sportprofile.view.BasicsLayout android:orientation="vertical" android:background="@color/white_bg" android:paddingBottom="@dimen/sport_profile_edit_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

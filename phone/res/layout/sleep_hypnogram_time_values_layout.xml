@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.percent.PercentRelativeLayout android:orientation="horizontal" android:background="@color/sleep_phase_deep_sleep" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/text_normal_big" android:gravity="bottom|center" android:id="@id/property_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_heightPercent="65.0%" app:layout_widthPercent="100.0%" style="@style/TextWhite" />
-    <TextView android:textSize="@dimen/text_small" android:gravity="center|top" android:id="@id/property_string" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sleep_time" android:maxLines="1" android:layout_below="@id/property_value" app:layout_heightPercent="35.000004%" app:layout_widthPercent="100.0%" style="@style/TextWhite" />
-</android.support.percent.PercentRelativeLayout>

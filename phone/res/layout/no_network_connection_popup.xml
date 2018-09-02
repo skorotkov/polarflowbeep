@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/popup_close_layout" android:background="@color/info_gray_transparent" android:paddingLeft="@dimen/activity_padding" android:paddingTop="@dimen/activity_padding" android:paddingRight="@dimen/activity_padding" android:paddingBottom="@dimen/position_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onCloseClick"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/popup_content_layout" android:background="@drawable/info_page_bg" android:padding="@dimen/info_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_padding">
-        <TextView android:textSize="@dimen/text_large" android:gravity="center" android:id="@id/no_network_connection_info_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_padding" android:layout_marginTop="@dimen/activity_padding" android:layout_marginRight="@dimen/activity_padding" android:layout_marginBottom="@dimen/activity_padding" android:text="@string/login_fail_because_no_connection" style="@style/TextDark" />
-        <include layout="@layout/popup_ok_button" />
-    </LinearLayout>
-</FrameLayout>

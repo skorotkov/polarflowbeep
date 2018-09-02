@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:background="@color/white" android:padding="@dimen/battery_saver_gps_off_dialog_text_container_padding" android:paddingTop="@dimen/battery_saver_gps_off_dialog_text_container_paddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="@dimen/battery_saver_gps_off_dialog_text_size" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/battery_saver_on_card_3_rows" style="@style/FlowTextStyle" />
-    </FrameLayout>
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/battery_saver_gps_off_dialog_image_marginTop" android:src="@drawable/card_battery_01" android:layout_alignParentEnd="true" />
-</RelativeLayout>
