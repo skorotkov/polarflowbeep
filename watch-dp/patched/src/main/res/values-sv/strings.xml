@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">Polar Beep</string>
     <string name="main_menu_training_1_row">Träning beep</string>
+    <string name="ftu_finish_installation">"Fortsätt med
+Polar Beep på
+din mobil."</string>
+    <string name="ftu_login_message">"Fortsätt med
+Polar Beep på
+din mobil."</string>
 </resources>
