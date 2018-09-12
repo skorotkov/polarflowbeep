@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/fusedgps/fusedgps.iml" filepath="$PROJECT_DIR$/fusedgps/fusedgps.iml" />
       <module fileurl="file://$PROJECT_DIR$/patched/patched.iml" filepath="$PROJECT_DIR$/patched/patched.iml" />
       <module fileurl="file://$PROJECT_DIR$/source/source.iml" filepath="$PROJECT_DIR$/source/source.iml" />
       <module fileurl="file://$PROJECT_DIR$/watch-dp.iml" filepath="$PROJECT_DIR$/watch-dp.iml" />

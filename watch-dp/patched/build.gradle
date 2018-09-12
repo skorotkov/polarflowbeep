@@ -133,4 +133,5 @@ dependencies {
     // subproject. But the library could be produced by an independent project and imported
     // manually in Android Studio just like any other android library (aar) file.
     compile project(':source')
+    compile project(':fusedgps')
 }

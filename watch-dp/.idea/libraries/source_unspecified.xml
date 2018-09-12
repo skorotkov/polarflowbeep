@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="source-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/patched/build/intermediates/exploded-aar/watch-dp/source/unspecified/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/patched/build/intermediates/exploded-aar/watch-dp/source/unspecified/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

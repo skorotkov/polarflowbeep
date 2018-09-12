@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/android.jar')
+    compile files('libs/source_classes.zip')
+    compile files('libs/play-services-location-15.0.1.jar')
+    compile files('libs/play-services-base-15.0.1.jar')
+    compile files('libs/play-services-wearable-15.0.1.jar')
+    compile files('libs/support-annotations-27.1.1.jar')
+    compile files('libs/play-services-tasks-15.0.1.jar')
+    compile files('libs/play-services-basement-15.0.1.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

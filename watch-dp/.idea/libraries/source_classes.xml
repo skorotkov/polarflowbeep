@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="source_classes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fusedgps/libs/source_classes.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
