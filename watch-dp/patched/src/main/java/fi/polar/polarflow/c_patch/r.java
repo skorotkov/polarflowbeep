@@ -9,7 +9,7 @@ import lanchon.dexpatcher.annotation.DexEdit;
 import lanchon.dexpatcher.annotation.DexIgnore;
 import lanchon.dexpatcher.annotation.DexPrepend;
 
-import fi.polar.polarflow.c.a;
+import fi.polar.polarflow.c.a_Class;
 
 @DexEdit(target = "fi.polar.polarflow.c.r", contentOnly = true)
 public class r { // SessionSensorsThread
@@ -26,7 +26,7 @@ public class r { // SessionSensorsThread
             Object gpsProvider = new FusedGpsLocationProvider(this.b);
             if (gpsProvider != null) {
                 this.e.put(4, gpsProvider);
-                ((a)gpsProvider).b(); // ((a_Sensor)gpsProvider).b_start();
+                ((a_Class)gpsProvider).b(); // ((a_Sensor)gpsProvider).b_start();
             }
         }
     }

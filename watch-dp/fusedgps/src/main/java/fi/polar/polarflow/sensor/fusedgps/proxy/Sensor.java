@@ -7,7 +7,7 @@ import fi.polar.polarflow.c.i;
 import fi.polar.polarflow.c.l;
 import fi.polar.polarflow.data.ExerciseSensor;
 
-public abstract class Sensor extends fi.polar.polarflow.c.a implements i {
+public abstract class Sensor extends fi.polar.polarflow.c.a_Class implements i {
     protected Sensor(Context var1, SENSOR_TYPE var2) {
         super(var1, SENSOR_TYPE.toPolar(var2));
     }
