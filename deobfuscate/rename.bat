@@ -25,3 +25,10 @@ mv smali\fi\polar\polarflow\ui\myday\item\a.smali               smali\fi\polar\p
 mv smali\fi\polar\polarflow\ui\myday\sleep\a.smali              smali\fi\polar\polarflow\ui\myday\sleep\a_Class.smali
 mv smali\fi\polar\polarflow\util\a.smali                        smali\fi\polar\polarflow\util\a_Class.smali
 mv smali\fi\polar\polarflow\util\b.smali                        smali\fi\polar\polarflow\util\b_Class.smali
+
+mv smali\android\support\v4\view\ViewPager.smali                smali\android\support\v4\view\ViewPager_Class.smali
+mv smali\android\support\v4\widget\NestedScrollView.smali       smali\android\support\v4\widget\NestedScrollView_Class.smali
+mv smali\android\support\v4\widget\Space.smali                  smali\android\support\v4\widget\Space_Class.smali
+mv smali\android\support\annotation\Keep.smali                  smali\android\support\annotation\Keep_Class.smali
+
+

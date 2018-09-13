@@ -52,3 +52,17 @@ smali\fi\polar\polarflow\util\a.smali
 Lfi/polar/polarflow/util/a;
 smali\fi\polar\polarflow\util\b.smali
 Lfi/polar/polarflow/util/b;
+
+smali\android\support\v4\view\ViewPager.smali
+Landroid/support/v4/view/ViewPager;
+smali\android\support\v4\widget\NestedScrollView.smali
+Landroid/support/v4/widget/NestedScrollView;
+smali\android\support\v4\widget\Space.smali
+Landroid/support/v4/widget/Space;
+smali\android\support\annotation\Keep.smali
+Landroid/support/annotation/Keep;
+
+remove 
+smali\smali\com\google\firebase\FirebaseApiNotAvailableException.smali
+smali\smali\com\google\firebase\FirebaseException.smali 
+smali\smali\com\google\gms  +  удалить ресурсы 

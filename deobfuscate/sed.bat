@@ -26,4 +26,8 @@ c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/
 c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/Lfi\/polar\/polarflow\/util\/a;/Lfi\/polar\/polarflow\/util\/a_Class;/g'
 c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/Lfi\/polar\/polarflow\/util\/b;/Lfi\/polar\/polarflow\/util\/b_Class;/g'
 
+c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/Landroid\/support\/v4\/view\/ViewPager;/Landroid\/support\/v4\/view\/ViewPager_Class;/g'
+c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/Landroid\/support\/v4\/widget\/NestedScrollView;/Landroid\/support\/v4\/widget\/NestedScrollView_Class;/g'
+c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/Landroid\/support\/v4\/widget\/Space;/Landroid\/support\/v4\/widget\/Space_Class;/g'
+c:\cygwin\bin\find . -type f -name "*.smali" -print0 | xargs -0 sed -i '' -e 's/Landroid\/support\/annotation\/Keep;/Landroid\/support\/annotation\/Keep_Class;/g'
 

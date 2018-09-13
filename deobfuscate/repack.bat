@@ -1,4 +1,4 @@
-java -jar ..\tools\apktool\apktool_2.3.3.jar d -r -f base.apk -o smali 
+java -jar ..\tools\apktool\apktool_2.3.3.jar d -f base.apk -o smali 
 cd smali
 call ..\rename.bat
 cd smali
