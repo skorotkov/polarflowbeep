@@ -7,8 +7,8 @@ import android.content.IntentFilter;
 import android.location.Location;
 import android.os.Handler;
 import android.os.SystemClock;
+import android.support.v4.util.TimeUtils;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -165,7 +165,7 @@ public class FusedGpsLocationProvider extends Sensor {
 
     @Override
     protected void broadcastStateChanged() {
-        Log.i(TAG, "broadcastStateChanged: " + getType());
+        Log.i(TAG, "broadcastStateChanged: " + getState());
 
         Intent intent = new Intent("fi.polar.polarflow.SENSOR_LOCATION_STATE_CHANGED");
         intent.putExtra("fi.polar.polarflow.SENSOR_STATE", SENSOR_STATE.toPolar(getState()));
@@ -325,19 +325,21 @@ public class FusedGpsLocationProvider extends Sensor {
         StickyLocalBroadcastManager.sendStickyBroadcast(intent);
     }
 
-    private PolarSensorEvent createPolarSensorEvent() {
-        String eventString = PolarSensorEvent.class.getSimpleName() + String.format(Locale.ENGLISH,
-                "[t:%s f:%s D:%f.2 S:%f.2 La:%f.5 Lo:%f.5 n:%d A:%f.2 a:%f.2 u:%f.2 d:%f.2]",
-                new Date(mEventTime), mFix,
+    protected PolarSensorEvent createPolarSensorEvent() {
+        StringBuilder s = new StringBuilder();
+        TimeUtils.formatDuration(mEventTime, s);
+        String eventString = PolarSensorEvent.class.getSimpleName() + String.format(Locale.US,
+                "[t:%s f:%s D:%.2f S:%.2f La:%.6f Lo:%.6f A:%.2f a:%.2f u:%.2f d:%.2f n:%d]",
+                s.toString(), mFix,
                 getPureTotalDistance(),
                 mSpeedInMetersPerSecond,
                 mLatitudeInDecimalDegrees,
                 mLongitudeInDecimalDegrees,
-                mNumberOfSatellites,
                 mAltitudeInMetersChecked,
                 mAltitudeInMeters,
                 getPureAscent(),
-                getPureDescent());
+                getPureDescent(),
+                mNumberOfSatellites);
         Log.i(TAG, "createPolarSensorEvent: " + eventString);
 
         return new PolarSensorEvent(
@@ -356,5 +358,9 @@ public class FusedGpsLocationProvider extends Sensor {
 
     void setFix(boolean fix) {
         mFix = fix;
+    }
+
+    protected float getSpeedInMetersPerSecond() {
+        return mSpeedInMetersPerSecond;
     }
 }
