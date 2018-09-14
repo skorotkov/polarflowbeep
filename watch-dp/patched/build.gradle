@@ -83,7 +83,7 @@ dexpatcherConfig {
 }
 
 android {
-    compileSdkVersion 25
+    compileSdkVersion 26
     buildToolsVersion '23.0.3'
 
     defaultConfig {
@@ -94,8 +94,8 @@ android {
 
         // You must set these fields to match or be compatible with the corresponding data
         // of the source app. (Data is displayed when the source apk library is built.)
-        minSdkVersion 25
-        targetSdkVersion 25
+        minSdkVersion 26
+        targetSdkVersion 26
         versionCode 2502301
         versionName '2.3.1-beep'
     }

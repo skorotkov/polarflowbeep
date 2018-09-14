@@ -4,6 +4,8 @@
     <!--Source and patched manifests are merged according to standard build rules:
         http://tools.android.com/tech-docs/new-build-system/user-guide/manifest-merger -->
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <!--We let the application tag inherit its attributes from the source app.-->
     <application>
 
