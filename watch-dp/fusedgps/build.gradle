@@ -10,6 +10,7 @@ dependencies {
     compile files('libs/support-annotations-27.1.1.jar')
     compile files('libs/play-services-tasks-15.0.1.jar')
     compile files('libs/play-services-basement-15.0.1.jar')
+    compile files('libs/support-compat-27.1.1.jar')
 }
 
 sourceCompatibility = "1.7"
